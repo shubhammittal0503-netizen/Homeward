@@ -112,7 +112,7 @@ def layout(active, title, desc, body, head_extra=""):
     if LOG:
         links.insert(1, '<a href="' + e(LOG) + '">AI build log</a>')
     return "".join([
-        "<!doctype html>\n<html lang=\"en-GB\">\n<head>\n<meta charset=\"utf-8\">\n",
+        "<!doctype html>\n<html lang=\"en-GB\" data-theme=\"light\">\n<head>\n<meta charset=\"utf-8\">\n",
         '<meta name="viewport" content="width=device-width, initial-scale=1">\n',
         "<title>" + e(title) + " | " + e(NAME) + "</title>\n",
         '<meta name="description" content="' + e(desc) + '">\n',
