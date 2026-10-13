@@ -32,4 +32,4 @@ index.html (Today), invoices.html, declarations.html (Export forms), controls.ht
 ## Evidence (desk research, no interviews)
 Public reviews and press verified at source on 12 Oct 2026 (Trustpilot 19 Sep 2026 and 17 Sep 2026 and 29 Apr 2025; Economic Times 25 Feb 2026); Razorpay docs and blogs (21 Sep and 8 Oct 2026); RBI FEMA 23(R)/2026-RB as amended; RBI statement of 7 Oct 2026 on individuals; Skydo survey (vendor, 14 Jul 2026).
 
-Links: live site https://homeward-two.vercel.app · AI build log https://homeward-two.vercel.app/BUILD_LOG.md · agent policy https://homeward-two.vercel.app/policy.md
+Links: live site https://homeward-two.vercel.app · AI build log https://github.com/shubhammittal0503-netizen/Homeward/blob/main/BUILD_LOG.md · code, policy and test sets https://github.com/shubhammittal0503-netizen/Homeward · agent policy https://github.com/shubhammittal0503-netizen/Homeward/blob/main/agent/policy.md

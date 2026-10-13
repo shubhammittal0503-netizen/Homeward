@@ -2,7 +2,7 @@
 
 Homeward is a concept agent, imagined inside Razorpay's Agent Studio, for small Indian services exporters paid through Razorpay. It treats the invoice as the unit of work: each morning it lists the overseas money that is not home, says why, and prepares the fix for the owner to approve. Entry by Shubham Mittal (ISB PGP 2027) for the Razorpay AI x PM Build Challenge, Track 2, October 2026. Every merchant, client, invoice and amount in the prototype is made up; nothing here comes from any employer, and there are no keys or private data in the repository.
 
-Links: prototype https://homeward-two.vercel.app · agent policy https://homeward-two.vercel.app/policy.md · test results https://homeward-two.vercel.app/results.html · this log https://homeward-two.vercel.app/BUILD_LOG.md. The code, the generators, the test sets and the stored outputs are in the project folder and will be published as a public repository; until then the policy and this log are served from the site.
+Links: prototype https://homeward-two.vercel.app · repository (code, policy, generators, test sets and stored outputs) https://github.com/shubhammittal0503-netizen/Homeward · agent policy https://github.com/shubhammittal0503-netizen/Homeward/blob/main/agent/policy.md · test results https://homeward-two.vercel.app/results.html · this log https://github.com/shubhammittal0503-netizen/Homeward/blob/main/BUILD_LOG.md
 
 In one line: AI did the research, the code and the tests; I decided what to build, what to leave out, where the limits sit and what to claim.
 
@@ -33,7 +33,7 @@ In one line: AI did the research, the code and the tests; I decided what to buil
 | Drafted the policy from the regulations and Razorpay's published principles | Set the ask threshold at 0.80, the two-reminder limit, the 30-day no, the never list |
 | Generated the test sets, played the agent blind, scored the results, wrote both baselines | Chose to publish the fair-baseline finding rather than the perfect score |
 | Wrote the generators, the CSS, the pages, the QA script; redesigned the site in the second pass | Chose the design direction from three mockups; chose the demo path; rejected a WhatsApp mock |
-| Proposed menus for the one-page note, the video script and this log | Chose every line that goes out in my name; recorded the video; published the site |
+| Proposed menus for the one-page note, the video script and this log | Chose every line that goes out in my name; recorded the video; published the repository and the site |
 | Kept the notes: reading log, scorecard, holes, plan, change log, fact register, handover | Reviewed the numbers against the fact register before submitting |
 
 ## known limitations, risks, or verification steps
