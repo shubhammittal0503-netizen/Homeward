@@ -1,0 +1,171 @@
+[
+  {
+    "id": "F-M01",
+    "kind": "sum_includes_paid_invoice",
+    "decision": "ask",
+    "invoices": [],
+    "amount": 4000.0,
+    "reason_code": "amount_mismatch",
+    "candidates": [
+      "SL-1501",
+      "SL-1502"
+    ]
+  },
+  {
+    "id": "F-M02",
+    "kind": "charge_one_cent_over_3pct",
+    "decision": "ask",
+    "invoices": [],
+    "amount": 1163.99,
+    "reason_code": "amount_mismatch",
+    "candidates": [
+      "SL-1507"
+    ]
+  },
+  {
+    "id": "F-M03",
+    "kind": "alias_resembles_other_client",
+    "decision": "link",
+    "invoices": [
+      "SL-1511"
+    ],
+    "amount": 3600.0
+  },
+  {
+    "id": "F-M04",
+    "kind": "two_refs_wrong_sum",
+    "decision": "ask",
+    "invoices": [],
+    "amount": 3000.0,
+    "reason_code": "amount_mismatch",
+    "candidates": [
+      "SL-1503",
+      "SL-1514"
+    ]
+  },
+  {
+    "id": "F-M05",
+    "kind": "part_payment_in_spanish",
+    "decision": "link",
+    "invoices": [
+      "SL-1506"
+    ],
+    "amount": 2000.0
+  },
+  {
+    "id": "F-M06",
+    "kind": "currency_differs_same_number",
+    "decision": "ask",
+    "invoices": [],
+    "amount": 2500.0,
+    "reason_code": "amount_mismatch",
+    "candidates": [
+      "SL-1510"
+    ]
+  },
+  {
+    "id": "F-M07",
+    "kind": "refund_reference",
+    "decision": "ask",
+    "invoices": [],
+    "amount": 600.0,
+    "reason_code": "refund_reference",
+    "candidates": [
+      "SL-1512"
+    ]
+  },
+  {
+    "id": "F-M08",
+    "kind": "paid_twin_named_in_reference",
+    "decision": "ask",
+    "invoices": [],
+    "amount": 1750.0,
+    "reason_code": "already_paid",
+    "candidates": [
+      "SL-1504",
+      "SL-1517"
+    ]
+  },
+  {
+    "id": "F-M09",
+    "kind": "platform_names_client_amount_fits_other_client",
+    "decision": "ask",
+    "invoices": [],
+    "amount": 3250.0,
+    "reason_code": "amount_mismatch",
+    "candidates": [
+      "SL-1513"
+    ]
+  },
+  {
+    "id": "F-M10",
+    "kind": "advance_short_beyond_charge",
+    "decision": "link",
+    "invoices": [
+      "SL-1515"
+    ],
+    "amount": 7850.0
+  },
+  {
+    "id": "F-M11",
+    "kind": "reference_names_other_clients_invoice",
+    "decision": "link",
+    "invoices": [
+      "SL-1516"
+    ],
+    "amount": 2480.0
+  },
+  {
+    "id": "F-M12",
+    "kind": "single_exact_vs_sum_tie",
+    "decision": "ask",
+    "invoices": [],
+    "amount": 3000.0,
+    "reason_code": "equal_fit",
+    "candidates": [
+      "SL-1522",
+      "SL-1505",
+      "SL-1518"
+    ]
+  },
+  {
+    "id": "F-M13",
+    "kind": "small_overpayment",
+    "decision": "ask",
+    "invoices": [],
+    "amount": 2020.0,
+    "reason_code": "amount_mismatch",
+    "candidates": [
+      "SL-1530"
+    ]
+  },
+  {
+    "id": "F-M14",
+    "kind": "platform_fee_shortfall",
+    "decision": "ask",
+    "invoices": [],
+    "amount": 1800.0,
+    "reason_code": "amount_mismatch",
+    "candidates": [
+      "SL-1521"
+    ]
+  },
+  {
+    "id": "F-M15",
+    "kind": "unknown_payer_typo_reference_exact",
+    "decision": "link",
+    "invoices": [
+      "SL-1520"
+    ],
+    "amount": 1480.0
+  },
+  {
+    "id": "F-M16",
+    "kind": "instruction_in_reference_exact_cap",
+    "decision": "link",
+    "invoices": [
+      "SL-1523"
+    ],
+    "amount": 1455.0
+  }
+]

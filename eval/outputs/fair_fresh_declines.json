@@ -1,0 +1,42 @@
+[
+ {
+  "id": "F-D01",
+  "route": "stop_dispute"
+ },
+ {
+  "id": "F-D02",
+  "route": "hand_to_owner_limit"
+ },
+ {
+  "id": "F-D03",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "F-D04",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "F-D05",
+  "route": "wait_until_date"
+ },
+ {
+  "id": "F-D06",
+  "route": "stop_dispute"
+ },
+ {
+  "id": "F-D07",
+  "route": "ask_when_to_pay"
+ },
+ {
+  "id": "F-D08",
+  "route": "owner_sends"
+ },
+ {
+  "id": "F-D09",
+  "route": "retry_card_with_fix"
+ },
+ {
+  "id": "F-D10",
+  "route": "wait_until_date"
+ }
+]

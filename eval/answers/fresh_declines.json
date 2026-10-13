@@ -1,0 +1,62 @@
+[
+  {
+    "id": "F-D01",
+    "route": "stop_dispute",
+    "category": "dispute_beats_do_not_contact",
+    "date": null
+  },
+  {
+    "id": "F-D02",
+    "route": "hand_to_owner_limit",
+    "category": "reminder_limit_beats_date",
+    "date": null
+  },
+  {
+    "id": "F-D03",
+    "route": "bank_transfer",
+    "category": "avs_mismatch_on_non_avs_card",
+    "date": null
+  },
+  {
+    "id": "F-D04",
+    "route": "bank_transfer",
+    "category": "3ds_failed_with_bank_transfer_history",
+    "date": null
+  },
+  {
+    "id": "F-D05",
+    "route": "wait_until_date",
+    "category": "date_beats_merchant_and_3ds",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "F-D06",
+    "route": "stop_dispute",
+    "category": "dispute_beats_insufficient_funds",
+    "date": null
+  },
+  {
+    "id": "F-D07",
+    "route": "ask_when_to_pay",
+    "category": "past_date_is_not_a_promise",
+    "date": null
+  },
+  {
+    "id": "F-D08",
+    "route": "owner_sends",
+    "category": "do_not_contact_beats_reminder_limit",
+    "date": null
+  },
+  {
+    "id": "F-D09",
+    "route": "retry_card_with_fix",
+    "category": "avs_canada_not_yet_retried",
+    "date": null
+  },
+  {
+    "id": "F-D10",
+    "route": "wait_until_date",
+    "category": "withdrawn_dispute_with_date",
+    "date": "2026-10-16"
+  }
+]

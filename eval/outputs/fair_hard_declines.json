@@ -1,0 +1,62 @@
+[
+ {
+  "id": "H-D01",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "H-D02",
+  "route": "owner_sends"
+ },
+ {
+  "id": "H-D03",
+  "route": "retry_card_with_fix"
+ },
+ {
+  "id": "H-D04",
+  "route": "stop_dispute"
+ },
+ {
+  "id": "H-D05",
+  "route": "wait_until_date"
+ },
+ {
+  "id": "H-D06",
+  "route": "ask_when_to_pay"
+ },
+ {
+  "id": "H-D07",
+  "route": "hand_to_owner_limit"
+ },
+ {
+  "id": "H-D08",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "H-D09",
+  "route": "merchant_action_needed"
+ },
+ {
+  "id": "H-D10",
+  "route": "stop_dispute"
+ },
+ {
+  "id": "H-D11",
+  "route": "wallet_link"
+ },
+ {
+  "id": "H-D12",
+  "route": "wait_until_date"
+ },
+ {
+  "id": "H-D13",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "H-D14",
+  "route": "owner_sends"
+ },
+ {
+  "id": "H-D15",
+  "route": "bank_transfer"
+ }
+]

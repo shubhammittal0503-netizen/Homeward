@@ -1,0 +1,182 @@
+[
+ {
+  "id": "D01",
+  "route": "owner_sends",
+  "category": "issuer_block",
+  "date": null
+ },
+ {
+  "id": "D02",
+  "route": "wait_until_date",
+  "category": "auth_failed",
+  "date": "2026-10-16"
+ },
+ {
+  "id": "D03",
+  "route": "wallet_link",
+  "category": "auth_failed",
+  "date": null
+ },
+ {
+  "id": "D04",
+  "route": "bank_transfer",
+  "category": "fraud_suspected",
+  "date": null
+ },
+ {
+  "id": "D05",
+  "route": "bank_transfer",
+  "category": "issuer_block",
+  "date": null
+ },
+ {
+  "id": "D06",
+  "route": "bank_transfer",
+  "category": "issuer_block",
+  "date": null
+ },
+ {
+  "id": "D07",
+  "route": "merchant_action_needed",
+  "category": "merchant_not_enabled",
+  "date": null
+ },
+ {
+  "id": "D08",
+  "route": "bank_transfer",
+  "category": "auth_failed",
+  "date": null
+ },
+ {
+  "id": "D09",
+  "route": "bank_transfer",
+  "category": "avs_mismatch",
+  "date": null
+ },
+ {
+  "id": "D10",
+  "route": "hand_to_owner_limit",
+  "category": "avs_mismatch",
+  "date": null
+ },
+ {
+  "id": "D11",
+  "route": "stop_dispute",
+  "category": "issuer_block",
+  "date": null
+ },
+ {
+  "id": "D12",
+  "route": "ask_when_to_pay",
+  "category": "insufficient",
+  "date": null
+ },
+ {
+  "id": "D13",
+  "route": "retry_card_with_fix",
+  "category": "avs_mismatch",
+  "date": null
+ },
+ {
+  "id": "D14",
+  "route": "merchant_action_needed",
+  "category": "merchant_not_enabled",
+  "date": null
+ },
+ {
+  "id": "D15",
+  "route": "bank_transfer",
+  "category": "auth_failed",
+  "date": null
+ },
+ {
+  "id": "D16",
+  "route": "bank_transfer",
+  "category": "issuer_block",
+  "date": null
+ },
+ {
+  "id": "D17",
+  "route": "bank_transfer",
+  "category": "intl_blocked",
+  "date": null
+ },
+ {
+  "id": "D18",
+  "route": "bank_transfer",
+  "category": "fraud_suspected",
+  "date": null
+ },
+ {
+  "id": "D19",
+  "route": "wallet_link",
+  "category": "auth_failed",
+  "date": null
+ },
+ {
+  "id": "D20",
+  "route": "bank_transfer",
+  "category": "issuer_block",
+  "date": null
+ },
+ {
+  "id": "D21",
+  "route": "retry_card_with_fix",
+  "category": "avs_mismatch",
+  "date": null
+ },
+ {
+  "id": "D22",
+  "route": "bank_transfer",
+  "category": "intl_blocked",
+  "date": null
+ },
+ {
+  "id": "D23",
+  "route": "bank_transfer",
+  "category": "issuer_block",
+  "date": null
+ },
+ {
+  "id": "D24",
+  "route": "bank_transfer",
+  "category": "blocked_after_attempts",
+  "date": null
+ },
+ {
+  "id": "D25",
+  "route": "stop_dispute",
+  "category": "auth_failed",
+  "date": null
+ },
+ {
+  "id": "D26",
+  "route": "bank_transfer",
+  "category": "blocked_after_attempts",
+  "date": null
+ },
+ {
+  "id": "D27",
+  "route": "wait_until_date",
+  "category": "insufficient",
+  "date": "2026-10-20"
+ },
+ {
+  "id": "D28",
+  "route": "ask_when_to_pay",
+  "category": "insufficient",
+  "date": null
+ },
+ {
+  "id": "D29",
+  "route": "bank_transfer",
+  "category": "auth_failed",
+  "date": null
+ },
+ {
+  "id": "D30",
+  "route": "wallet_link",
+  "category": "auth_failed",
+  "date": null
+ }
+]

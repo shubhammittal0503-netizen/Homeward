@@ -1,0 +1,456 @@
+[
+ {
+  "id": "M01",
+  "decision": "link",
+  "invoices": [
+   "SL-1445"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M02",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Two or more open invoices of this client fit the amount equally well"
+ },
+ {
+  "id": "M03",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Payer cannot be tied to any client"
+ },
+ {
+  "id": "M04",
+  "decision": "link",
+  "invoices": [
+   "SL-1357"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ },
+ {
+  "id": "M05",
+  "decision": "link",
+  "invoices": [
+   "SL-1211",
+   "SL-1287"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M06",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Two or more open invoices of this client fit the amount equally well"
+ },
+ {
+  "id": "M07",
+  "decision": "link",
+  "invoices": [
+   "SL-1382"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M08",
+  "decision": "link",
+  "invoices": [
+   "SL-1476"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias) and the amount is exact"
+ },
+ {
+  "id": "M09",
+  "decision": "link",
+  "invoices": [
+   "SL-1337"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ },
+ {
+  "id": "M10",
+  "decision": "link",
+  "invoices": [
+   "SL-1424"
+  ],
+  "reason": "Reference names the invoice and states a part payment"
+ },
+ {
+  "id": "M11",
+  "decision": "link",
+  "invoices": [
+   "SL-1124"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M12",
+  "decision": "link",
+  "invoices": [
+   "SL-1234",
+   "SL-1232"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias); amount is the exact sum of open invoices"
+ },
+ {
+  "id": "M13",
+  "decision": "link",
+  "invoices": [
+   "SL-1409"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M14",
+  "decision": "link",
+  "invoices": [
+   "SL-1111"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M15",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Two or more open invoices of this client fit the amount equally well"
+ },
+ {
+  "id": "M16",
+  "decision": "link",
+  "invoices": [
+   "SL-1195"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M17",
+  "decision": "link",
+  "invoices": [
+   "SL-1423"
+  ],
+  "reason": "Reference names the invoice and states a part payment"
+ },
+ {
+  "id": "M18",
+  "decision": "link",
+  "invoices": [
+   "SL-1351",
+   "SL-1405"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M19",
+  "decision": "link",
+  "invoices": [
+   "SL-1148"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias) and the amount is exact"
+ },
+ {
+  "id": "M20",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "The only invoice the reference names is already paid; possible duplicate"
+ },
+ {
+  "id": "M21",
+  "decision": "link",
+  "invoices": [
+   "SL-1214"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M22",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Amount differs from the referenced invoice(s) by more than a bank charge and no part payment is stated"
+ },
+ {
+  "id": "M23",
+  "decision": "link",
+  "invoices": [
+   "SL-1333",
+   "SL-1294"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M24",
+  "decision": "link",
+  "invoices": [
+   "SL-1186"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M25",
+  "decision": "link",
+  "invoices": [
+   "SL-1295"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ },
+ {
+  "id": "M26",
+  "decision": "link",
+  "invoices": [
+   "SL-1350"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M27",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Two or more open invoices of this client fit the amount equally well"
+ },
+ {
+  "id": "M28",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "The only invoice the reference names is already paid; possible duplicate"
+ },
+ {
+  "id": "M29",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Two or more open invoices of this client fit the amount equally well"
+ },
+ {
+  "id": "M30",
+  "decision": "link",
+  "invoices": [
+   "SL-1236"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M31",
+  "decision": "link",
+  "invoices": [
+   "SL-1286"
+  ],
+  "reason": "Reference names the invoice and states a part payment"
+ },
+ {
+  "id": "M32",
+  "decision": "link",
+  "invoices": [
+   "SL-1429"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias) and the amount is exact"
+ },
+ {
+  "id": "M33",
+  "decision": "link",
+  "invoices": [
+   "SL-1181"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M34",
+  "decision": "link",
+  "invoices": [
+   "SL-1131"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ },
+ {
+  "id": "M35",
+  "decision": "link",
+  "invoices": [
+   "SL-1116"
+  ],
+  "reason": "Reference names the invoice and states a part payment"
+ },
+ {
+  "id": "M36",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Amount differs from the referenced invoice(s) by more than a bank charge and no part payment is stated"
+ },
+ {
+  "id": "M37",
+  "decision": "link",
+  "invoices": [
+   "SL-1267"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M38",
+  "decision": "link",
+  "invoices": [
+   "SL-1127"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias) and the amount is exact"
+ },
+ {
+  "id": "M39",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Payer cannot be tied to any client"
+ },
+ {
+  "id": "M40",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Payer cannot be tied to any client"
+ },
+ {
+  "id": "M41",
+  "decision": "link",
+  "invoices": [
+   "SL-1133"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ },
+ {
+  "id": "M42",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "The only invoice the reference names is already paid; possible duplicate"
+ },
+ {
+  "id": "M43",
+  "decision": "link",
+  "invoices": [
+   "SL-1158"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ },
+ {
+  "id": "M44",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "The only invoice the reference names is already paid; possible duplicate"
+ },
+ {
+  "id": "M45",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Two or more open invoices of this client fit the amount equally well"
+ },
+ {
+  "id": "M46",
+  "decision": "link",
+  "invoices": [
+   "SL-1272"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M47",
+  "decision": "link",
+  "invoices": [
+   "SL-1105"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M48",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Payer cannot be tied to any client"
+ },
+ {
+  "id": "M49",
+  "decision": "link",
+  "invoices": [
+   "SL-1348"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ },
+ {
+  "id": "M50",
+  "decision": "link",
+  "invoices": [
+   "SL-1265"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M51",
+  "decision": "link",
+  "invoices": [
+   "SL-1376"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M52",
+  "decision": "link",
+  "invoices": [
+   "SL-1135"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M53",
+  "decision": "link",
+  "invoices": [
+   "SL-1187"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ },
+ {
+  "id": "M54",
+  "decision": "link",
+  "invoices": [
+   "SL-1115"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias) and the amount is exact"
+ },
+ {
+  "id": "M55",
+  "decision": "link",
+  "invoices": [
+   "SL-1406"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M56",
+  "decision": "link",
+  "invoices": [
+   "SL-1469"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias) and the amount is exact"
+ },
+ {
+  "id": "M57",
+  "decision": "link",
+  "invoices": [
+   "SL-1251"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M58",
+  "decision": "link",
+  "invoices": [
+   "SL-1283"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "M59",
+  "decision": "link",
+  "invoices": [
+   "SL-1151",
+   "SL-1403"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias); amount is the exact sum of open invoices"
+ },
+ {
+  "id": "M60",
+  "decision": "link",
+  "invoices": [
+   "SL-1218",
+   "SL-1136"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ }
+]

@@ -1,0 +1,223 @@
+[
+ {
+  "id": "H-M01",
+  "decision": "link",
+  "invoices": [
+   "SL-1047"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "H-M02",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Two or more open invoices of this client fit the amount equally well"
+ },
+ {
+  "id": "H-M03",
+  "decision": "link",
+  "invoices": [
+   "SL-1132"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ },
+ {
+  "id": "H-M04",
+  "decision": "link",
+  "invoices": [
+   "SL-1301",
+   "SL-1305"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias); amount is the exact sum of open invoices"
+ },
+ {
+  "id": "H-M05",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Amount differs from the referenced invoice(s) by more than a bank charge and no part payment is stated"
+ },
+ {
+  "id": "H-M06",
+  "decision": "link",
+  "invoices": [
+   "SL-1352"
+  ],
+  "reason": "Payer tied to the client (client named in the reference) and the amount is exact"
+ },
+ {
+  "id": "H-M07",
+  "decision": "link",
+  "invoices": [
+   "SL-1172"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ },
+ {
+  "id": "H-M08",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "The only invoice the reference names is already paid; possible duplicate"
+ },
+ {
+  "id": "H-M09",
+  "decision": "link",
+  "invoices": [
+   "SL-1371"
+  ],
+  "reason": "Payer tied to the client (client named in the reference) and the amount is exact"
+ },
+ {
+  "id": "H-M10",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Payer cannot be tied to any client"
+ },
+ {
+  "id": "H-M11",
+  "decision": "link",
+  "invoices": [
+   "SL-1402"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias) and the amount is exact"
+ },
+ {
+  "id": "H-M12",
+  "decision": "link",
+  "invoices": [
+   "SL-1462"
+  ],
+  "reason": "Reference names the invoice and states a part payment"
+ },
+ {
+  "id": "H-M13",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Reference names an invoice of a different client from the payer"
+ },
+ {
+  "id": "H-M14",
+  "decision": "link",
+  "invoices": [
+   "SL-1391"
+  ],
+  "reason": "Payer tied to the client (payer shares the client's distinctive name word) and the amount is exact"
+ },
+ {
+  "id": "H-M15",
+  "decision": "link",
+  "invoices": [
+   "SL-1539"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias) and the amount is exact"
+ },
+ {
+  "id": "H-M16",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Part payment stated but it cannot be tied to a single open invoice"
+ },
+ {
+  "id": "H-M17",
+  "decision": "link",
+  "invoices": [
+   "SL-1481"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias); stated part payment of one open invoice"
+ },
+ {
+  "id": "H-M18",
+  "decision": "link",
+  "invoices": [
+   "SL-1519"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias) and the amount is exact"
+ },
+ {
+  "id": "H-M19",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Amount differs from the referenced invoice(s) by more than a bank charge and no part payment is stated"
+ },
+ {
+  "id": "H-M20",
+  "decision": "link",
+  "invoices": [
+   "SL-1529"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "H-M21",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Two or more open invoices of this client fit the amount equally well"
+ },
+ {
+  "id": "H-M22",
+  "decision": "link",
+  "invoices": [
+   "SL-1565"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias) and the amount is exact"
+ },
+ {
+  "id": "H-M23",
+  "decision": "link",
+  "invoices": [
+   "SL-1574"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ },
+ {
+  "id": "H-M24",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "The only matching invoice is already paid; possible duplicate"
+ },
+ {
+  "id": "H-M25",
+  "decision": "link",
+  "invoices": [
+   "SL-1588"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ },
+ {
+  "id": "H-M26",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Referenced invoices belong to different clients; a payment is never split across clients"
+ },
+ {
+  "id": "H-M27",
+  "decision": "link",
+  "invoices": [
+   "SL-1607"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "H-M28",
+  "decision": "link",
+  "invoices": [
+   "SL-1331",
+   "SL-1334",
+   "SL-1336"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "H-M29",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Payer cannot be tied to any client"
+ },
+ {
+  "id": "H-M30",
+  "decision": "link",
+  "invoices": [
+   "SL-1214"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ }
+]

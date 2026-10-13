@@ -1,0 +1,152 @@
+[
+ {
+  "id": "R01",
+  "label": "dispute",
+  "date": null
+ },
+ {
+  "id": "R02",
+  "label": "already_paid",
+  "date": null
+ },
+ {
+  "id": "R03",
+  "label": "dispute",
+  "date": null
+ },
+ {
+  "id": "R04",
+  "label": "already_paid",
+  "date": null
+ },
+ {
+  "id": "R05",
+  "label": "out_of_office",
+  "date": "2026-10-14"
+ },
+ {
+  "id": "R06",
+  "label": "payment_failed_again",
+  "date": null
+ },
+ {
+  "id": "R07",
+  "label": "question_about_invoice",
+  "date": null
+ },
+ {
+  "id": "R08",
+  "label": "will_pay_on_date",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "R09",
+  "label": "dispute",
+  "date": null
+ },
+ {
+  "id": "R10",
+  "label": "payment_failed_again",
+  "date": null
+ },
+ {
+  "id": "R11",
+  "label": "stop_contact",
+  "date": null
+ },
+ {
+  "id": "R12",
+  "label": "out_of_office",
+  "date": "2026-10-19"
+ },
+ {
+  "id": "R13",
+  "label": "will_pay_on_date",
+  "date": "2026-10-12"
+ },
+ {
+  "id": "R14",
+  "label": "will_pay_on_date",
+  "date": "2026-10-15"
+ },
+ {
+  "id": "R15",
+  "label": "will_pay_on_date",
+  "date": "2026-10-13"
+ },
+ {
+  "id": "R16",
+  "label": "asks_bank_details",
+  "date": null
+ },
+ {
+  "id": "R17",
+  "label": "asks_bank_details",
+  "date": null
+ },
+ {
+  "id": "R18",
+  "label": "wrong_contact",
+  "date": null
+ },
+ {
+  "id": "R19",
+  "label": "out_of_office",
+  "date": "2026-10-16"
+ },
+ {
+  "id": "R20",
+  "label": "no_action",
+  "date": null
+ },
+ {
+  "id": "R21",
+  "label": "stop_contact",
+  "date": null
+ },
+ {
+  "id": "R22",
+  "label": "no_action",
+  "date": null
+ },
+ {
+  "id": "R23",
+  "label": "payment_failed_again",
+  "date": null
+ },
+ {
+  "id": "R24",
+  "label": "already_paid",
+  "date": null
+ },
+ {
+  "id": "R25",
+  "label": "wrong_contact",
+  "date": null
+ },
+ {
+  "id": "R26",
+  "label": "question_about_invoice",
+  "date": null
+ },
+ {
+  "id": "R27",
+  "label": "already_paid",
+  "date": null
+ },
+ {
+  "id": "R28",
+  "label": "will_pay_on_date",
+  "date": "2026-11-01"
+ },
+ {
+  "id": "R29",
+  "label": "no_action",
+  "date": null
+ },
+ {
+  "id": "R30",
+  "label": "question_about_invoice",
+  "date": null
+ }
+]

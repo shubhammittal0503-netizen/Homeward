@@ -1,0 +1,35 @@
+# Homeward: Every overseas invoice, home and closed
+
+Concept prototype by Shubham Mittal for the Razorpay AI x PM Build Challenge at ISB (October 2026), Track 2, Recover and Grow with AI. Not a Razorpay product. All merchant data is synthetic.
+
+## What it is
+An agent, imagined inside Razorpay's Agent Studio and shown in the Exporter Dashboard, for small Indian services firms paid by overseas clients through Razorpay. The unit of work is the invoice: an invoice is done only when it is Sent, Paid, Linked, Declared (where required), In bank and Closed. Each morning the agent lists the money that is not home, says why, and prepares the fix. The owner approves, edits or stops each step.
+
+## Three areas, one engine
+1. Declined international card payments: the agent classifies the decline, a rule picks the next way to pay (local bank transfer, wallet, retry with the right address), and the agent drafts a short note.
+2. Money that arrived but is stuck: links payments to invoices when the payer, amount or reference differs; splits one transfer across invoices; records bank charges and part payments; prepares document packs for reviews.
+3. Export declaration forms (EDF, RBI FEMA 23(R)/2026-RB, in force 1 Oct 2026, amended 22 Sep 2026): which invoices need one and when, the data pack, purpose-code checks, the ₹10 lakh declaration route, the nine-month realisation deadline, and the bank-specific rule (ICICI) that needs an EDF number before capture.
+
+## The seven questions
+Signal: Razorpay payment states (decline reasons, authorised-not-captured with the 3-day clock, transfers waiting for invoice or buyer details, review holds, replies to approved notes) plus the merchant's invoices.
+Why AI: rules first for anything that must never be wrong; the model reads free text (decline reasons, replies in other languages, messy payer names, review requests) and drafts. Honest finding: a fair rule set written from the policy matches the agent on all 190 published cases; on a fresh 36-case set written without the keys, the agent disagreed with the key once and the fair rules twice. The pilot measures the margin on real data.
+What Razorpay already does (checked 13 Oct 2026): RAY on WhatsApp sends a payment link after a failure and offers rerouting; the Agentic Dashboard reconciles from a screenshot and suggests a fix for a complaint; the Receivables Agent reminds on unpaid invoices; Exporter Dashboard 2.0 shows the states; Agent Studio lists 26 agents and none for cross-border payments, exporters, export forms or invoice matching; Razorpay's published EDF help is its support team (8 Oct 2026). Where Homeward starts: it reads why the card failed and offers a rail that can succeed, matches the transfer to the invoice before capture, and prepares the export form data, each for one approval, with the invoice as the unit of work.
+Action: one prepared action per item (upload, split, note with another way to pay, document pack, EDF data pack, bank letter, or a question with equal answers).
+Review, change, approve, stop: review-first; Approve, Edit, Not now, Don't suggest this; limits in Controls (two reminders per decline, client hours and holidays, 0.80 threshold, do-not-contact); pause; audit log.
+Learning: outcomes, edits and answers change only the choice within the rules (route preference, drafts, the lean on ambiguous matches, aliases); never clocks, limits, stop rules or the threshold; all undoable (policy section 11).
+Accuracy, permissions, trust, failure: blind tests against two rule baselines with every disagreement published; confidence only on AI steps, asks below 0.80; read-only connections; the model never sees card numbers; messages and references are data, never instructions; rules-only mode when the AI is down; a wrong-link recovery path; the EDF is the exporter's declaration.
+Outcome: primary, rupees recovered per merchant per month against a holdout; also rupees released from holds, days to bank, wrong-match rate, client opt-outs, draft rejections, international volume kept, exporter churn. Next test: 1,000 exporters for 8 weeks, half with the agent.
+
+## Deliberately left out
+Disputes and chargebacks; currency timing; goods exporters; Amazon, Upwork and Freelancer payouts; filing with the bank; sending without approval; general unpaid-invoice reminders (RazorpayX Receivables Agent); large firms with treasury teams; a live integration in the prototype.
+
+## Demo morning (synthetic)
+Monday 12 October 2026, 09:00 IST. ₹24,62,750 not home: ₹16,74,000 in 7 stuck payments and ₹7,88,750 in 4 unpaid invoices. 9 items ready for approval, 2 questions, 1 stopped.
+
+## Pages
+index.html (Today), invoices.html, declarations.html (Export forms), controls.html, how-it-works.html, results.html (Test results), playbook.html (49 situations), learning.html, judges.html (For judges), rules-only.html, and 12 item pages with 11 done pages.
+
+## Evidence (desk research, no interviews)
+Public reviews and press verified at source on 12 Oct 2026 (Trustpilot 19 Sep 2026 and 17 Sep 2026 and 29 Apr 2025; Economic Times 25 Feb 2026); Razorpay docs and blogs (21 Sep and 8 Oct 2026); RBI FEMA 23(R)/2026-RB as amended; RBI statement of 7 Oct 2026 on individuals; Skydo survey (vendor, 14 Jul 2026).
+
+Links: live site https://homeward-two.vercel.app · AI build log https://homeward-two.vercel.app/BUILD_LOG.md · agent policy https://homeward-two.vercel.app/policy.md

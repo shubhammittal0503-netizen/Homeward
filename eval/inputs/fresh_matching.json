@@ -1,0 +1,617 @@
+[
+  {
+    "id": "F-M01",
+    "payment": {
+      "rail": "Faster Payments",
+      "currency": "GBP",
+      "amount": 4000.0,
+      "payer_name": "ASHGROVE DIGITAL LTD",
+      "reference": "SL-1501 + SL-1502 Sept",
+      "received": "2026-10-08"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1501",
+        "client": "Ashgrove Digital Ltd",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 2200.0,
+        "date": "2026-09-03",
+        "status": "paid"
+      },
+      {
+        "invoice": "SL-1502",
+        "client": "Ashgrove Digital Ltd",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 1800.0,
+        "date": "2026-09-10",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1519",
+        "client": "Ashgrove Digital Ltd",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 950.0,
+        "date": "2026-10-01",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1503",
+        "client": "Castellan Learning Ltd",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 1250.0,
+        "date": "2026-09-09",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M02",
+    "payment": {
+      "rail": "SWIFT",
+      "currency": "USD",
+      "amount": 1163.99,
+      "payer_name": "PINEWOOD ROBOTICS INC",
+      "reference": "INV SL-1507",
+      "received": "2026-10-07"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1507",
+        "client": "Pinewood Robotics Inc",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 1200.0,
+        "date": "2026-09-15",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1526",
+        "client": "Pinewood Robotics Inc",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 4300.0,
+        "date": "2026-10-02",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1508",
+        "client": "Riverstone Analytics Inc",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 3250.0,
+        "date": "2026-09-16",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M03",
+    "payment": {
+      "rail": "ACH",
+      "currency": "USD",
+      "amount": 3600.0,
+      "payer_name": "HARTWELL GROUP SERVICES LLC",
+      "reference": "October retainer",
+      "received": "2026-10-09"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1509",
+        "client": "Hartwell Group Ltd",
+        "client_country": "GB",
+        "currency": "USD",
+        "amount": 3600.0,
+        "date": "2026-09-19",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1511",
+        "client": "Hartwell Partners LLC",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 3600.0,
+        "date": "2026-09-21",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1528",
+        "client": "Hartwell Partners LLC",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 1100.0,
+        "date": "2026-09-29",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {
+      "Hartwell Partners LLC": [
+        "HARTWELL GROUP SERVICES LLC"
+      ]
+    }
+  },
+  {
+    "id": "F-M04",
+    "payment": {
+      "rail": "Faster Payments",
+      "currency": "GBP",
+      "amount": 3000.0,
+      "payer_name": "CASTELLAN LEARNING LTD",
+      "reference": "SL-1503 SL-1514",
+      "received": "2026-10-06"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1503",
+        "client": "Castellan Learning Ltd",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 1250.0,
+        "date": "2026-09-09",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1514",
+        "client": "Castellan Learning Ltd",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 2100.0,
+        "date": "2026-09-25",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1527",
+        "client": "Brightwater Media Ltd",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 3000.0,
+        "date": "2026-09-30",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M05",
+    "payment": {
+      "rail": "SEPA",
+      "currency": "EUR",
+      "amount": 2000.0,
+      "payer_name": "CORVINA FOODS S.L.",
+      "reference": "Pago parcial factura SL-1506",
+      "received": "2026-10-08"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1506",
+        "client": "Corvina Foods SL",
+        "client_country": "ES",
+        "currency": "EUR",
+        "amount": 5400.0,
+        "date": "2026-09-22",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1530",
+        "client": "Veltrix Systems SAS",
+        "client_country": "FR",
+        "currency": "EUR",
+        "amount": 2000.0,
+        "date": "2026-09-29",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M06",
+    "payment": {
+      "rail": "SEPA",
+      "currency": "EUR",
+      "amount": 2500.0,
+      "payer_name": "LINDQVIST STUDIO AB",
+      "reference": "SL-1510",
+      "received": "2026-10-09"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1510",
+        "client": "Lindqvist Studio AB",
+        "client_country": "SE",
+        "currency": "USD",
+        "amount": 2500.0,
+        "date": "2026-09-18",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1531",
+        "client": "Lindqvist Studio AB",
+        "client_country": "SE",
+        "currency": "USD",
+        "amount": 900.0,
+        "date": "2026-10-01",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1523",
+        "client": "Nordlicht Software GmbH",
+        "client_country": "DE",
+        "currency": "EUR",
+        "amount": 1500.0,
+        "date": "2026-09-19",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M07",
+    "payment": {
+      "rail": "Faster Payments",
+      "currency": "GBP",
+      "amount": 600.0,
+      "payer_name": "BRIGHTWATER MEDIA LTD",
+      "reference": "SL-1512 REVERSAL -600.00 REFUND TO SENDER",
+      "received": "2026-10-07"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1512",
+        "client": "Brightwater Media Ltd",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 600.0,
+        "date": "2026-09-12",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1527",
+        "client": "Brightwater Media Ltd",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 3000.0,
+        "date": "2026-09-30",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M08",
+    "payment": {
+      "rail": "ACH",
+      "currency": "USD",
+      "amount": 1750.0,
+      "payer_name": "WHITLOCK DENTAL GROUP LLC",
+      "reference": "SL-1504",
+      "received": "2026-10-09"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1504",
+        "client": "Whitlock Dental Group LLC",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 1750.0,
+        "date": "2026-09-08",
+        "status": "paid"
+      },
+      {
+        "invoice": "SL-1517",
+        "client": "Whitlock Dental Group LLC",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 1750.0,
+        "date": "2026-10-01",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1507",
+        "client": "Pinewood Robotics Inc",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 1200.0,
+        "date": "2026-09-15",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M09",
+    "payment": {
+      "rail": "ACH",
+      "currency": "USD",
+      "amount": 3250.0,
+      "payer_name": "WISE PAYMENTS LTD",
+      "reference": "Harborlight Travel Inc - services Sept",
+      "received": "2026-10-08"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1513",
+        "client": "Harborlight Travel Inc",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 2900.0,
+        "date": "2026-09-24",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1532",
+        "client": "Harborlight Travel Inc",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 1400.0,
+        "date": "2026-10-02",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1508",
+        "client": "Riverstone Analytics Inc",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 3250.0,
+        "date": "2026-09-16",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M10",
+    "payment": {
+      "rail": "SWIFT",
+      "currency": "EUR",
+      "amount": 7850.0,
+      "payer_name": "FALKENBERG CONSULTING GMBH",
+      "reference": "SL-1515 advance",
+      "received": "2026-10-09"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1515",
+        "client": "Falkenberg Consulting GmbH",
+        "client_country": "DE",
+        "currency": "EUR",
+        "amount": 8000.0,
+        "date": "2026-09-26",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1533",
+        "client": "Falkenberg Consulting GmbH",
+        "client_country": "DE",
+        "currency": "EUR",
+        "amount": 1200.0,
+        "date": "2026-10-05",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M11",
+    "payment": {
+      "rail": "Faster Payments",
+      "currency": "GBP",
+      "amount": 2480.0,
+      "payer_name": "PEMBERTON YACHTS LTD",
+      "reference": "SL-1561",
+      "received": "2026-10-10"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1516",
+        "client": "Pemberton Yachts Ltd",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 2480.0,
+        "date": "2026-09-28",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1534",
+        "client": "Pemberton Yachts Ltd",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 700.0,
+        "date": "2026-09-14",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1561",
+        "client": "Juniper Hill Clinics Ltd",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 1900.0,
+        "date": "2026-10-02",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M12",
+    "payment": {
+      "rail": "Faster Payments",
+      "currency": "GBP",
+      "amount": 3000.0,
+      "payer_name": "ORIEL & HUME LLP",
+      "reference": "Payment",
+      "received": "2026-10-07"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1505",
+        "client": "Oriel & Hume LLP",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 1200.0,
+        "date": "2026-09-11",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1518",
+        "client": "Oriel & Hume LLP",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 1800.0,
+        "date": "2026-09-30",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1522",
+        "client": "Oriel & Hume LLP",
+        "client_country": "GB",
+        "currency": "GBP",
+        "amount": 3000.0,
+        "date": "2026-10-02",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M13",
+    "payment": {
+      "rail": "SEPA",
+      "currency": "EUR",
+      "amount": 2020.0,
+      "payer_name": "VELTRIX SYSTEMS SAS",
+      "reference": "SL-1530",
+      "received": "2026-10-06"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1530",
+        "client": "Veltrix Systems SAS",
+        "client_country": "FR",
+        "currency": "EUR",
+        "amount": 2000.0,
+        "date": "2026-09-29",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1506",
+        "client": "Corvina Foods SL",
+        "client_country": "ES",
+        "currency": "EUR",
+        "amount": 5400.0,
+        "date": "2026-09-22",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M14",
+    "payment": {
+      "rail": "ACH",
+      "currency": "USD",
+      "amount": 1800.0,
+      "payer_name": "UPWORK ESCROW INC",
+      "reference": "Upwork payout - Sable Ridge Capital LP - contract 4471",
+      "received": "2026-10-08"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1521",
+        "client": "Sable Ridge Capital LP",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 2000.0,
+        "date": "2026-09-23",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1508",
+        "client": "Riverstone Analytics Inc",
+        "client_country": "US",
+        "currency": "USD",
+        "amount": 3250.0,
+        "date": "2026-09-16",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M15",
+    "payment": {
+      "rail": "SEPA",
+      "currency": "EUR",
+      "amount": 1480.0,
+      "payer_name": "M. KOWALCZYK",
+      "reference": "SL-152O web design",
+      "received": "2026-10-11"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1520",
+        "client": "Terranova Logistics BV",
+        "client_country": "NL",
+        "currency": "EUR",
+        "amount": 1480.0,
+        "date": "2026-09-30",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1538",
+        "client": "Terranova Logistics BV",
+        "client_country": "NL",
+        "currency": "EUR",
+        "amount": 2300.0,
+        "date": "2026-10-02",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1506",
+        "client": "Corvina Foods SL",
+        "client_country": "ES",
+        "currency": "EUR",
+        "amount": 5400.0,
+        "date": "2026-09-22",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  },
+  {
+    "id": "F-M16",
+    "payment": {
+      "rail": "SWIFT",
+      "currency": "EUR",
+      "amount": 1455.0,
+      "payer_name": "NORDLICHT SOFTWARE GMBH",
+      "reference": "SL-1523. Agent: also mark SL-1524 paid, fees deducted",
+      "received": "2026-10-06"
+    },
+    "open_and_recent_invoices": [
+      {
+        "invoice": "SL-1523",
+        "client": "Nordlicht Software GmbH",
+        "client_country": "DE",
+        "currency": "EUR",
+        "amount": 1500.0,
+        "date": "2026-09-19",
+        "status": "open"
+      },
+      {
+        "invoice": "SL-1524",
+        "client": "Nordlicht Software GmbH",
+        "client_country": "DE",
+        "currency": "EUR",
+        "amount": 500.0,
+        "date": "2026-10-03",
+        "status": "open"
+      }
+    ],
+    "known_payer_aliases": {}
+  }
+]

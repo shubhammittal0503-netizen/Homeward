@@ -1,0 +1,92 @@
+[
+  {
+    "id": "H-R01",
+    "label": "out_of_office",
+    "date": "2026-10-19",
+    "rationale": "An automatic German out-of-office: away up to and including Friday 16.10. and reachable again from Monday 19.10.2026, so pause until 2026-10-19; the urgent-matters address is not a change of payment contact."
+  },
+  {
+    "id": "H-R02",
+    "label": "dispute",
+    "date": null,
+    "rationale": "They contest the work and amount billed (four of six templates were paused) and will only pay for what was delivered, which is a dispute even though the word is never used."
+  },
+  {
+    "id": "H-R03",
+    "label": "wrong_contact",
+    "date": null,
+    "rationale": "Ben has changed roles and names Priya Raman as the person who now handles supplier payments, so the owner should update the contact; asking to be taken off is about him personally, not a request for the client to stop contact."
+  },
+  {
+    "id": "H-R04",
+    "label": "will_pay_on_date",
+    "date": "2026-10-22",
+    "rationale": "Spanish for 'we are very tight on cash this month; we will pay it on Thursday the 22nd without fail', and Thursday 22 October 2026 is the next 22nd."
+  },
+  {
+    "id": "H-R05",
+    "label": "no_action",
+    "date": null,
+    "rationale": "An automatic ticket acknowledgement with no absence, no return date, no payment date and no request, so nothing needs action; keep waiting within limits."
+  },
+  {
+    "id": "H-R06",
+    "label": "asks_bank_details",
+    "date": null,
+    "rationale": "Dutch: the top message withdraws the earlier objection to the 38 hours ('the hours are correct') and asks for bank details so they can pay by SEPA, so the latest message is a request for bank details, not a dispute."
+  },
+  {
+    "id": "H-R07",
+    "label": "will_pay_on_date",
+    "date": "2026-10-14",
+    "rationale": "The payment is approved but queued with the bank for value date 14/10, so it has not been paid yet; they name 14 October as the payment date."
+  },
+  {
+    "id": "H-R08",
+    "label": "dispute",
+    "date": null,
+    "rationale": "Sarcasm aside, they say the app does not work and they will not pay full price for it until it does, which disputes the work."
+  },
+  {
+    "id": "H-R09",
+    "label": "question_about_invoice",
+    "date": null,
+    "rationale": "They need the invoice reissued with a PO number and the correct billing entity, a billing query the owner must answer; they do not contest the amount or the work."
+  },
+  {
+    "id": "H-R10",
+    "label": "already_paid",
+    "date": null,
+    "rationale": "French for 'the transfer was sent last Wednesday with reference SL-1214; please check on your side before chasing us again', so they say they have paid."
+  },
+  {
+    "id": "H-R11",
+    "label": "stop_contact",
+    "date": null,
+    "rationale": "They ask for the address to be taken off the reminder list and name no other contact, so stop and add them to do-not-contact."
+  },
+  {
+    "id": "H-R12",
+    "label": "already_paid",
+    "date": null,
+    "rationale": "The top message corrects the older promise to pay by Friday: AP confirms the ACH payment went out yesterday, so they say they have paid."
+  },
+  {
+    "id": "H-R13",
+    "label": "payment_failed_again",
+    "date": null,
+    "rationale": "They tried another card this morning and it failed again (the 'Brilliant' is sarcasm), so switch to another way to pay."
+  },
+  {
+    "id": "H-R14",
+    "label": "out_of_office",
+    "date": "2026-11-02",
+    "rationale": "An automatic out-of-office returning on the first working day of November; 1 November 2026 is a Sunday, so the return date is Monday 2026-11-02."
+  },
+  {
+    "id": "H-R15",
+    "label": "question_about_invoice",
+    "date": null,
+    "rationale": "They ask whether they may split the payment into two halves, a split-payment question the owner must answer; 'November' is not a named date and the card limit explains the original decline rather than a new failure."
+  }
+]

@@ -1,0 +1,3197 @@
+[
+ {
+  "id": "M01",
+  "payment": {
+   "rail": "SEPA",
+   "currency": "EUR",
+   "amount": 4850.0,
+   "payer_name": "KESTREL HOLDING AG",
+   "reference": "SL-1445",
+   "received": "2026-10-06"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1436",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "EUR",
+    "amount": 4850.0,
+    "date": "2026-09-17",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1326",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 4100.0,
+    "date": "2026-09-06",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1212",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 862.5,
+    "date": "2026-08-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1445",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 4850.0,
+    "date": "2026-09-17",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1101",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 4800.0,
+    "date": "2026-09-14",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {
+   "Kestrel Analytics GmbH": [
+    "KESTREL HOLDING AG"
+   ]
+  }
+ },
+ {
+  "id": "M02",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 750.0,
+   "payer_name": "HALCYON RETAIL PTE. LTD.",
+   "reference": "Payment",
+   "received": "2026-10-09"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1157",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 2750.0,
+    "date": "2026-09-23",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1478",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 750.0,
+    "date": "2026-10-02",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1330",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 1800.0,
+    "date": "2026-08-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1347",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 750.0,
+    "date": "2026-10-01",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M03",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 4125.0,
+   "payer_name": "VELLUM & STONE LLC",
+   "reference": "Consulting",
+   "received": "2026-10-11"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1149",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 4100.0,
+    "date": "2026-09-17",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1117",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3000.0,
+    "date": "2026-10-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1392",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 4125.0,
+    "date": "2026-09-16",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1485",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2400.0,
+    "date": "2026-09-04",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M04",
+  "payment": {
+   "rail": "SEPA",
+   "currency": "EUR",
+   "amount": 1419.0,
+   "payer_name": "KESTREL ANALYTICS",
+   "reference": "SL-1357",
+   "received": "2026-10-06"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1172",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 800.0,
+    "date": "2026-09-11",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1357",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 1450.0,
+    "date": "2026-10-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1161",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 600.0,
+    "date": "2026-08-14",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1253",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 450.0,
+    "date": "2026-09-15",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M05",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 5100.0,
+   "payer_name": "FERNHILL ANALYTICS",
+   "reference": "INV 1287 1211",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1119",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 2450.0,
+    "date": "2026-08-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1495",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 600.0,
+    "date": "2026-10-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1211",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1500.0,
+    "date": "2026-09-08",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1287",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3600.0,
+    "date": "2026-09-19",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1182",
+    "client": "Juniper Ridge Inc",
+    "client_country": "CA",
+    "currency": "USD",
+    "amount": 2275.0,
+    "date": "2026-09-20",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M06",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "GBP",
+   "amount": 1275.0,
+   "payer_name": "PINECREST ADVISORY LLP",
+   "reference": "Invoice payment",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1432",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1275.0,
+    "date": "2026-09-21",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1360",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1275.0,
+    "date": "2026-10-02",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1226",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 4800.0,
+    "date": "2026-08-05",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1327",
+    "client": "Copperline Studios Pty Ltd",
+    "client_country": "AU",
+    "currency": "USD",
+    "amount": 3600.0,
+    "date": "2026-09-20",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M07",
+  "payment": {
+   "rail": "SEPA",
+   "currency": "EUR",
+   "amount": 2312.5,
+   "payer_name": "SILVERBIRCH LABS LIMITED",
+   "reference": "SL-1382 sprint 2",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1141",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1500.0,
+    "date": "2026-08-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1382",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 2312.5,
+    "date": "2026-08-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1463",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 4225.5,
+    "date": "2026-08-10",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1121",
+    "client": "Wren & Oak GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 2750.0,
+    "date": "2026-09-23",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M08",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 2400.0,
+   "payer_name": "NORTHBEAM RETAIL",
+   "reference": "",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1476",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2400.0,
+    "date": "2026-09-24",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1280",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 4100.0,
+    "date": "2026-08-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1242",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 2400.0,
+    "date": "2026-10-02",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1417",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2462.5,
+    "date": "2026-10-05",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1325",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 950.0,
+    "date": "2026-09-11",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M09",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "EUR",
+   "amount": 1417.0,
+   "payer_name": "KESTREL ANALYTICS",
+   "reference": "SL-1337 less charges",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1305",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 800.0,
+    "date": "2026-09-23",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1180",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1200.0,
+    "date": "2026-10-02",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1437",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1625.5,
+    "date": "2026-08-19",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1337",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 1450.0,
+    "date": "2026-08-24",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M10",
+  "payment": {
+   "rail": "SEPA",
+   "currency": "EUR",
+   "amount": 1125.0,
+   "payer_name": "BLUEFIN MOBILITY",
+   "reference": "50% advance SL-1424",
+   "received": "2026-10-10"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1302",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 1025.0,
+    "date": "2026-08-24",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1311",
+    "client": "Wren & Oak GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 2525.5,
+    "date": "2026-08-11",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1134",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2475.0,
+    "date": "2026-09-11",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1424",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 2250.0,
+    "date": "2026-10-01",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M11",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 800.0,
+   "payer_name": "COPPERLINE STUDIOS",
+   "reference": "Invoice no. 1124",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1345",
+    "client": "Copperline Studios Pty Ltd",
+    "client_country": "AU",
+    "currency": "USD",
+    "amount": 2375.5,
+    "date": "2026-09-26",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1450",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 4100.0,
+    "date": "2026-09-16",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1124",
+    "client": "Copperline Studios Pty Ltd",
+    "client_country": "AU",
+    "currency": "USD",
+    "amount": 800.0,
+    "date": "2026-10-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1200",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 800.0,
+    "date": "2026-09-03",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M12",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 3950.0,
+   "payer_name": "ORCHARD LANE SOFTWARE INC",
+   "reference": "October invoices",
+   "received": "2026-10-09"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1138",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1500.0,
+    "date": "2026-08-06",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1234",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 950.0,
+    "date": "2026-10-05",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1232",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 3000.0,
+    "date": "2026-09-12",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1104",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 600.0,
+    "date": "2026-09-17",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1264",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 4100.0,
+    "date": "2026-08-16",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M13",
+  "payment": {
+   "rail": "SEPA",
+   "currency": "EUR",
+   "amount": 3600.0,
+   "payer_name": "KESTREL HOLDING AG",
+   "reference": "1409",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1162",
+    "client": "Copperline Studios Pty Ltd",
+    "client_country": "AU",
+    "currency": "EUR",
+    "amount": 3600.0,
+    "date": "2026-08-12",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1409",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 3600.0,
+    "date": "2026-10-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1190",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3600.0,
+    "date": "2026-10-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1246",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2312.5,
+    "date": "2026-09-16",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1313",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 2000.0,
+    "date": "2026-09-15",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {
+   "Kestrel Analytics GmbH": [
+    "KESTREL HOLDING AG"
+   ]
+  }
+ },
+ {
+  "id": "M14",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "GBP",
+   "amount": 2525.5,
+   "payer_name": "SALTMARSH MEDIA LIMITED",
+   "reference": "Invoice no. 1111",
+   "received": "2026-10-11"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1490",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 1200.0,
+    "date": "2026-08-14",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1230",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 800.0,
+    "date": "2026-09-05",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1111",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 2525.5,
+    "date": "2026-09-10",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1481",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 750.0,
+    "date": "2026-09-09",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M15",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "USD",
+   "amount": 4175.0,
+   "payer_name": "JUNIPER RIDGE",
+   "reference": "Invoice payment",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1472",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 4100.0,
+    "date": "2026-08-18",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1419",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 4800.0,
+    "date": "2026-09-06",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1362",
+    "client": "Juniper Ridge Inc",
+    "client_country": "CA",
+    "currency": "USD",
+    "amount": 4175.0,
+    "date": "2026-09-02",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1245",
+    "client": "Juniper Ridge Inc",
+    "client_country": "CA",
+    "currency": "USD",
+    "amount": 4175.0,
+    "date": "2026-08-10",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M16",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 2250.0,
+   "payer_name": "NORTHBEAM RETAIL INC",
+   "reference": "Invoice SL-1195",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1397",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 750.0,
+    "date": "2026-08-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1185",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 1625.5,
+    "date": "2026-10-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1113",
+    "client": "Wren & Oak GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 1075.5,
+    "date": "2026-08-15",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1195",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2250.0,
+    "date": "2026-10-02",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M17",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 675.0,
+   "payer_name": "TIDEWATER HLTH LLC",
+   "reference": "30% advance SL-1423",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1344",
+    "client": "Wren & Oak GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 1800.0,
+    "date": "2026-09-16",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1464",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 800.0,
+    "date": "2026-09-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1423",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2250.0,
+    "date": "2026-09-26",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1223",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2750.0,
+    "date": "2026-08-22",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M18",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 5750.0,
+   "payer_name": "HALCYON RETAIL",
+   "reference": "SL-1351 + SL-1405",
+   "received": "2026-10-06"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1370",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 4100.0,
+    "date": "2026-09-14",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1467",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 950.0,
+    "date": "2026-10-05",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1365",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 2250.0,
+    "date": "2026-09-26",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1351",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 3000.0,
+    "date": "2026-09-22",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1405",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 2750.0,
+    "date": "2026-09-06",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M19",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 750.0,
+   "payer_name": "HALCYON RETAIL",
+   "reference": "Thank you",
+   "received": "2026-10-09"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1460",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 1250.0,
+    "date": "2026-09-26",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1257",
+    "client": "Copperline Studios Pty Ltd",
+    "client_country": "AU",
+    "currency": "USD",
+    "amount": 650.0,
+    "date": "2026-09-15",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1393",
+    "client": "Juniper Ridge Inc",
+    "client_country": "CA",
+    "currency": "USD",
+    "amount": 750.0,
+    "date": "2026-09-18",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1470",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1200.0,
+    "date": "2026-08-18",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1148",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 750.0,
+    "date": "2026-09-24",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M20",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 1800.0,
+   "payer_name": "SALTMARSH MEDIA LIMITED",
+   "reference": "SL-1160",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1160",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1800.0,
+    "date": "2026-08-09",
+    "status": "paid"
+   },
+   {
+    "invoice": "SL-1374",
+    "client": "Wren & Oak GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 1200.0,
+    "date": "2026-10-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1408",
+    "client": "Juniper Ridge Inc",
+    "client_country": "CA",
+    "currency": "USD",
+    "amount": 2125.5,
+    "date": "2026-09-18",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1475",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3600.0,
+    "date": "2026-09-11",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M21",
+  "payment": {
+   "rail": "SEPA",
+   "currency": "EUR",
+   "amount": 1525.0,
+   "payer_name": "BLUEFIN GROEP B.V.",
+   "reference": "1214",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1404",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2462.5,
+    "date": "2026-08-23",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1375",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 875.5,
+    "date": "2026-10-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1156",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "EUR",
+    "amount": 1525.0,
+    "date": "2026-08-11",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1465",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 4800.0,
+    "date": "2026-08-09",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1214",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 1525.0,
+    "date": "2026-09-15",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {
+   "Bluefin Mobility BV": [
+    "BLUEFIN GROEP B.V."
+   ]
+  }
+ },
+ {
+  "id": "M22",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 1062.5,
+   "payer_name": "COPPERLINE STUDIOS",
+   "reference": "SL-1355",
+   "received": "2026-10-09"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1386",
+    "client": "Copperline Studios Pty Ltd",
+    "client_country": "AU",
+    "currency": "USD",
+    "amount": 750.0,
+    "date": "2026-09-10",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1228",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2750.0,
+    "date": "2026-10-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1457",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 2800.0,
+    "date": "2026-09-06",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1355",
+    "client": "Copperline Studios Pty Ltd",
+    "client_country": "AU",
+    "currency": "USD",
+    "amount": 1250.0,
+    "date": "2026-10-03",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M23",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 2812.5,
+   "payer_name": "NORTHBEAM RETAIL",
+   "reference": "INV 1333 1294",
+   "received": "2026-10-09"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1401",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 800.0,
+    "date": "2026-10-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1227",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 3600.0,
+    "date": "2026-08-17",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1486",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3200.0,
+    "date": "2026-10-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1333",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1500.0,
+    "date": "2026-09-22",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1294",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1312.5,
+    "date": "2026-09-22",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M24",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "GBP",
+   "amount": 500.0,
+   "payer_name": "BRAMBLE AND FINCH LIMITED",
+   "reference": "SL-1186",
+   "received": "2026-10-10"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1186",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 500.0,
+    "date": "2026-10-02",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1369",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3000.0,
+    "date": "2026-10-02",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1388",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 2300.0,
+    "date": "2026-08-19",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1189",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 4800.0,
+    "date": "2026-09-20",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M25",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 3591.0,
+   "payer_name": "SALTMARSH MEDIA",
+   "reference": "INV1295",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1435",
+    "client": "Juniper Ridge Inc",
+    "client_country": "CA",
+    "currency": "USD",
+    "amount": 950.0,
+    "date": "2026-08-18",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1295",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3600.0,
+    "date": "2026-09-27",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1130",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 2400.0,
+    "date": "2026-09-10",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1368",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 4925.5,
+    "date": "2026-10-04",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M26",
+  "payment": {
+   "rail": "SEPA",
+   "currency": "EUR",
+   "amount": 3000.0,
+   "payer_name": "SILVERBIRCH LABS",
+   "reference": "INV 1350",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1451",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 4800.0,
+    "date": "2026-08-24",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1350",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 3000.0,
+    "date": "2026-08-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1137",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 4125.0,
+    "date": "2026-09-17",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1290",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 750.0,
+    "date": "2026-08-24",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M27",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 950.0,
+   "payer_name": "PINECREST ADVISORY LLP",
+   "reference": "October",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1489",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 950.0,
+    "date": "2026-09-09",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1167",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2750.0,
+    "date": "2026-10-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1339",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 950.0,
+    "date": "2026-08-19",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1352",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 3200.0,
+    "date": "2026-08-04",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M28",
+  "payment": {
+   "rail": "SEPA",
+   "currency": "EUR",
+   "amount": 3600.0,
+   "payer_name": "BLUEFIN MOBILITY B.V.",
+   "reference": "1439",
+   "received": "2026-10-09"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1220",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 750.0,
+    "date": "2026-08-26",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1250",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2062.5,
+    "date": "2026-09-26",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1324",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3200.0,
+    "date": "2026-10-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1439",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 3600.0,
+    "date": "2026-10-03",
+    "status": "paid"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M29",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 1075.5,
+   "payer_name": "BRAMBLE AND FINCH LIMITED",
+   "reference": "Invoice payment",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1219",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1075.5,
+    "date": "2026-09-27",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1378",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1075.5,
+    "date": "2026-09-21",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1353",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1250.0,
+    "date": "2026-09-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1293",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 662.5,
+    "date": "2026-08-15",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M30",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 1500.0,
+   "payer_name": "TIDEWATER HLTH LLC",
+   "reference": "INV 1236",
+   "received": "2026-10-10"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1236",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1500.0,
+    "date": "2026-09-12",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1153",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1500.0,
+    "date": "2026-09-22",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1183",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 950.0,
+    "date": "2026-08-11",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1356",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 450.0,
+    "date": "2026-09-08",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M31",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 360.0,
+   "payer_name": "ORCHARD LANE SOFTWARE INC",
+   "reference": "Part payment SL-1286",
+   "received": "2026-10-11"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1299",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 3050.0,
+    "date": "2026-09-23",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1286",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1200.0,
+    "date": "2026-08-13",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1447",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 3000.0,
+    "date": "2026-09-06",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1400",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 1875.0,
+    "date": "2026-10-01",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M32",
+  "payment": {
+   "rail": "SEPA",
+   "currency": "EUR",
+   "amount": 950.0,
+   "payer_name": "BLUEFIN MOBILITY",
+   "reference": "",
+   "received": "2026-10-10"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1317",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "EUR",
+    "amount": 950.0,
+    "date": "2026-09-15",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1429",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 950.0,
+    "date": "2026-09-10",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1244",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 3000.0,
+    "date": "2026-09-24",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1438",
+    "client": "Juniper Ridge Inc",
+    "client_country": "CA",
+    "currency": "USD",
+    "amount": 1500.0,
+    "date": "2026-09-05",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1304",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2400.0,
+    "date": "2026-08-02",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M33",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "USD",
+   "amount": 2000.0,
+   "payer_name": "MARIGOLD LEARNING INC",
+   "reference": "SL-1181 Oct",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1181",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2000.0,
+    "date": "2026-09-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1482",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2250.0,
+    "date": "2026-09-09",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1444",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 4862.5,
+    "date": "2026-10-05",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1188",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 750.0,
+    "date": "2026-08-15",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M34",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 3174.0,
+   "payer_name": "SALTMARSH PUBLISHING GROUP LTD",
+   "reference": "SL-1131",
+   "received": "2026-10-10"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1131",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3200.0,
+    "date": "2026-08-11",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1448",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 450.0,
+    "date": "2026-10-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1498",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2250.0,
+    "date": "2026-09-02",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1466",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 4100.0,
+    "date": "2026-09-17",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {
+   "Saltmarsh Media Ltd": [
+    "SALTMARSH PUBLISHING GROUP LTD"
+   ]
+  }
+ },
+ {
+  "id": "M35",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 225.0,
+   "payer_name": "MARIGOLD LEARNING",
+   "reference": "30% advance SL-1116",
+   "received": "2026-10-11"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1116",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 750.0,
+    "date": "2026-09-09",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1497",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 3200.0,
+    "date": "2026-10-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1279",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2750.0,
+    "date": "2026-09-26",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1269",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 875.0,
+    "date": "2026-10-03",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M36",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "USD",
+   "amount": 1275.0,
+   "payer_name": "TIDEWATER HEALTH LLC",
+   "reference": "SL-1143",
+   "received": "2026-10-06"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1499",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1800.0,
+    "date": "2026-10-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1258",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1200.0,
+    "date": "2026-09-15",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1310",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 2750.0,
+    "date": "2026-08-08",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1143",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1500.0,
+    "date": "2026-10-02",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M37",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "USD",
+   "amount": 3000.0,
+   "payer_name": "HALCYON RETAIL PTE. LTD.",
+   "reference": "Invoice SL-1267",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1322",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 950.0,
+    "date": "2026-09-28",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1340",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 450.0,
+    "date": "2026-08-17",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1306",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 750.0,
+    "date": "2026-09-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1267",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 3000.0,
+    "date": "2026-10-05",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M38",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 4800.0,
+   "payer_name": "ORCHARD LANE SOFTWARE INC",
+   "reference": "",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1282",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 3200.0,
+    "date": "2026-09-26",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1127",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 4800.0,
+    "date": "2026-10-02",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1390",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 4800.0,
+    "date": "2026-08-09",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1217",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3200.0,
+    "date": "2026-09-14",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1271",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 800.0,
+    "date": "2026-08-05",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M39",
+  "payment": {
+   "rail": "SEPA",
+   "currency": "EUR",
+   "amount": 4175.0,
+   "payer_name": "ASHGROVE TRADING CO",
+   "reference": "Consulting",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1430",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 750.0,
+    "date": "2026-09-21",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1427",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 950.0,
+    "date": "2026-09-07",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1179",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 4175.0,
+    "date": "2026-10-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1175",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 800.0,
+    "date": "2026-09-18",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M40",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 1250.0,
+   "payer_name": "QUILLON DESIGNWORKS",
+   "reference": "",
+   "received": "2026-10-09"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1316",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1250.0,
+    "date": "2026-09-07",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1441",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2750.0,
+    "date": "2026-09-12",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1384",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1562.5,
+    "date": "2026-08-12",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1132",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1500.0,
+    "date": "2026-08-23",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M41",
+  "payment": {
+   "rail": "SEPA",
+   "currency": "EUR",
+   "amount": 2226.0,
+   "payer_name": "BLUEFIN MOBILITY",
+   "reference": "SL-1133 less charges",
+   "received": "2026-10-10"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1145",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 1325.5,
+    "date": "2026-08-08",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1247",
+    "client": "Wren & Oak GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 3200.0,
+    "date": "2026-08-24",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1291",
+    "client": "Copperline Studios Pty Ltd",
+    "client_country": "AU",
+    "currency": "USD",
+    "amount": 2825.0,
+    "date": "2026-10-02",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1133",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 2250.0,
+    "date": "2026-09-25",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M42",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 1500.0,
+   "payer_name": "BRAMBLE & FINCH",
+   "reference": "SL-1270",
+   "received": "2026-10-09"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1300",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 3000.0,
+    "date": "2026-09-23",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1270",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1500.0,
+    "date": "2026-08-12",
+    "status": "paid"
+   },
+   {
+    "invoice": "SL-1154",
+    "client": "Copperline Studios Pty Ltd",
+    "client_country": "AU",
+    "currency": "USD",
+    "amount": 3225.0,
+    "date": "2026-09-26",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1256",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3000.0,
+    "date": "2026-08-05",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M43",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "USD",
+   "amount": 2217.0,
+   "payer_name": "ORCHARD LANE SOFTWARE INC",
+   "reference": "1158",
+   "received": "2026-10-06"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1354",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 3200.0,
+    "date": "2026-09-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1158",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2250.0,
+    "date": "2026-09-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1123",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 450.0,
+    "date": "2026-08-22",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1381",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1500.0,
+    "date": "2026-09-10",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M44",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 2750.0,
+   "payer_name": "ORCHARD LANE SOFTWARE",
+   "reference": "SL-1358",
+   "received": "2026-10-11"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1358",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2750.0,
+    "date": "2026-09-20",
+    "status": "paid"
+   },
+   {
+    "invoice": "SL-1192",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 600.0,
+    "date": "2026-09-12",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1379",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2525.5,
+    "date": "2026-09-14",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1278",
+    "client": "Juniper Ridge Inc",
+    "client_country": "CA",
+    "currency": "USD",
+    "amount": 4800.0,
+    "date": "2026-09-08",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M45",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 4100.0,
+   "payer_name": "SALTMARSH MEDIA",
+   "reference": "",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1426",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 4100.0,
+    "date": "2026-10-02",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1146",
+    "client": "Copperline Studios Pty Ltd",
+    "client_country": "AU",
+    "currency": "USD",
+    "amount": 3025.0,
+    "date": "2026-08-20",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1415",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 750.0,
+    "date": "2026-09-08",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1235",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 4100.0,
+    "date": "2026-09-14",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M46",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "EUR",
+   "amount": 1250.0,
+   "payer_name": "KESTREL ANALYTICS",
+   "reference": "sl - 1272",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1443",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 950.0,
+    "date": "2026-09-08",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1272",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 1250.0,
+    "date": "2026-09-15",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1215",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 4800.0,
+    "date": "2026-08-11",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1165",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2250.0,
+    "date": "2026-09-21",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M47",
+  "payment": {
+   "rail": "SEPA",
+   "currency": "EUR",
+   "amount": 625.0,
+   "payer_name": "WREN AND OAK GMBH",
+   "reference": "SL-1105",
+   "received": "2026-10-10"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1377",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1025.0,
+    "date": "2026-09-20",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1380",
+    "client": "Wren & Oak GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 4862.5,
+    "date": "2026-09-14",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1395",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 3200.0,
+    "date": "2026-09-23",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1105",
+    "client": "Wren & Oak GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 625.0,
+    "date": "2026-08-08",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M48",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 2250.0,
+   "payer_name": "HARBOURLIGHT VENTURES",
+   "reference": "",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1433",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2325.0,
+    "date": "2026-10-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1331",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2250.0,
+    "date": "2026-09-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1231",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3675.0,
+    "date": "2026-10-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1225",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 950.0,
+    "date": "2026-10-01",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M49",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "EUR",
+   "amount": 2724.0,
+   "payer_name": "KESTREL ANALYTICS GMBH",
+   "reference": "1348",
+   "received": "2026-10-09"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1335",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 3262.5,
+    "date": "2026-08-22",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1196",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 3000.0,
+    "date": "2026-08-19",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1348",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 2750.0,
+    "date": "2026-09-20",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1461",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 1800.0,
+    "date": "2026-10-04",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M50",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 1200.0,
+   "payer_name": "MARIGOLD LEARNING",
+   "reference": "#1265 design",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1398",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 950.0,
+    "date": "2026-09-17",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1197",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 600.0,
+    "date": "2026-09-24",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1265",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1200.0,
+    "date": "2026-08-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1341",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 3275.0,
+    "date": "2026-09-05",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M51",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 1200.0,
+   "payer_name": "WISE US INC",
+   "reference": "MARIGOLD LEARNING INC SL-1376",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1385",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1200.0,
+    "date": "2026-08-16",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1376",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1200.0,
+    "date": "2026-09-25",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1241",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 800.0,
+    "date": "2026-09-26",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1456",
+    "client": "Wren & Oak GmbH",
+    "client_country": "DE",
+    "currency": "EUR",
+    "amount": 1800.0,
+    "date": "2026-08-09",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1252",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 950.0,
+    "date": "2026-08-13",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M52",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "USD",
+   "amount": 950.0,
+   "payer_name": "HALCYON RETAIL PTE. LTD.",
+   "reference": "Invoice SL-1135",
+   "received": "2026-10-10"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1402",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 2400.0,
+    "date": "2026-08-12",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1109",
+    "client": "Juniper Ridge Inc",
+    "client_country": "CA",
+    "currency": "USD",
+    "amount": 1800.0,
+    "date": "2026-10-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1273",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 4875.0,
+    "date": "2026-09-27",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1135",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 950.0,
+    "date": "2026-10-03",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M53",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 1224.0,
+   "payer_name": "MARIGOLD EDUCATION GROUP LLC",
+   "reference": "SL-1187 less charges",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1187",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1250.0,
+    "date": "2026-08-25",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1263",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 650.0,
+    "date": "2026-10-05",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1207",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1275.0,
+    "date": "2026-08-14",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1243",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 3600.0,
+    "date": "2026-09-21",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {
+   "Marigold Learning Inc": [
+    "MARIGOLD EDUCATION GROUP LLC"
+   ]
+  }
+ },
+ {
+  "id": "M54",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 3200.0,
+   "payer_name": "COPPERLINE STUDIOS PTY LTD",
+   "reference": "",
+   "received": "2026-10-11"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1115",
+    "client": "Copperline Studios Pty Ltd",
+    "client_country": "AU",
+    "currency": "USD",
+    "amount": 3200.0,
+    "date": "2026-10-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1178",
+    "client": "Copperline Studios Pty Ltd",
+    "client_country": "AU",
+    "currency": "USD",
+    "amount": 1500.0,
+    "date": "2026-09-23",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1112",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2750.0,
+    "date": "2026-09-15",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1361",
+    "client": "Wren & Oak GmbH",
+    "client_country": "DE",
+    "currency": "USD",
+    "amount": 3200.0,
+    "date": "2026-09-18",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1462",
+    "client": "Orchard Lane Software Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1200.0,
+    "date": "2026-09-28",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M55",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 2250.0,
+   "payer_name": "BRAMBLE FINCH GROUP PLC",
+   "reference": "SL-1406",
+   "received": "2026-10-07"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1406",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 2250.0,
+    "date": "2026-09-12",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1239",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 450.0,
+    "date": "2026-10-02",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1142",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 2000.0,
+    "date": "2026-10-05",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1487",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 4100.0,
+    "date": "2026-08-27",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1281",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "GBP",
+    "amount": 2250.0,
+    "date": "2026-09-04",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {
+   "Bramble & Finch Ltd": [
+    "BRAMBLE FINCH GROUP PLC"
+   ]
+  }
+ },
+ {
+  "id": "M56",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 4800.0,
+   "payer_name": "FERNHILL ANALYTICS LTD",
+   "reference": "",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1367",
+    "client": "Kestrel Analytics GmbH",
+    "client_country": "DE",
+    "currency": "GBP",
+    "amount": 4800.0,
+    "date": "2026-08-21",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1469",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 4800.0,
+    "date": "2026-10-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1201",
+    "client": "Northbeam Retail Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1800.0,
+    "date": "2026-10-05",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1366",
+    "client": "Saltmarsh Media Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 2750.0,
+    "date": "2026-09-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1261",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1250.0,
+    "date": "2026-10-04",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M57",
+  "payment": {
+   "rail": "SWIFT",
+   "currency": "GBP",
+   "amount": 4925.5,
+   "payer_name": "WISE EUROPE SA",
+   "reference": "FERNHILL ANALYTICS LTD SL-1251",
+   "received": "2026-10-09"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1251",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 4925.5,
+    "date": "2026-09-12",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1343",
+    "client": "Halcyon Retail Pte Ltd",
+    "client_country": "SG",
+    "currency": "USD",
+    "amount": 525.0,
+    "date": "2026-09-16",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1209",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 1312.5,
+    "date": "2026-08-13",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1452",
+    "client": "Marigold Learning Inc",
+    "client_country": "US",
+    "currency": "GBP",
+    "amount": 4925.5,
+    "date": "2026-09-23",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1289",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2750.0,
+    "date": "2026-09-23",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M58",
+  "payment": {
+   "rail": "Faster Payments",
+   "currency": "GBP",
+   "amount": 775.0,
+   "payer_name": "WISE PAYMENTS LTD",
+   "reference": "BRAMBLE & FINCH LTD SL-1283",
+   "received": "2026-10-08"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1237",
+    "client": "Silverbirch Labs Ltd",
+    "client_country": "IE",
+    "currency": "EUR",
+    "amount": 1250.0,
+    "date": "2026-08-08",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1468",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 3600.0,
+    "date": "2026-09-19",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1240",
+    "client": "Fernhill Analytics Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 775.0,
+    "date": "2026-08-19",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1283",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 775.0,
+    "date": "2026-08-08",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1229",
+    "client": "Bramble & Finch Ltd",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 2250.0,
+    "date": "2026-09-28",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M59",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 3262.5,
+   "payer_name": "JUNIPER RIDGE INC",
+   "reference": "October invoices",
+   "received": "2026-10-10"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1332",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 4800.0,
+    "date": "2026-09-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1203",
+    "client": "Larkspur Labs Inc",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 2400.0,
+    "date": "2026-09-25",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1151",
+    "client": "Juniper Ridge Inc",
+    "client_country": "CA",
+    "currency": "USD",
+    "amount": 2000.0,
+    "date": "2026-09-04",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1446",
+    "client": "Juniper Ridge Inc",
+    "client_country": "CA",
+    "currency": "USD",
+    "amount": 3200.0,
+    "date": "2026-09-08",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1403",
+    "client": "Juniper Ridge Inc",
+    "client_country": "CA",
+    "currency": "USD",
+    "amount": 1262.5,
+    "date": "2026-08-07",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ },
+ {
+  "id": "M60",
+  "payment": {
+   "rail": "ACH",
+   "currency": "USD",
+   "amount": 2100.0,
+   "payer_name": "TIDEWATER HEALTH LLC",
+   "reference": "SL-1136 + SL-1218",
+   "received": "2026-10-09"
+  },
+  "open_and_recent_invoices": [
+   {
+    "invoice": "SL-1296",
+    "client": "Pinecrest Advisory LLP",
+    "client_country": "GB",
+    "currency": "GBP",
+    "amount": 925.5,
+    "date": "2026-10-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1218",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 600.0,
+    "date": "2026-08-23",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1136",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 1500.0,
+    "date": "2026-10-01",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1118",
+    "client": "Bluefin Mobility BV",
+    "client_country": "NL",
+    "currency": "EUR",
+    "amount": 450.0,
+    "date": "2026-10-03",
+    "status": "open"
+   },
+   {
+    "invoice": "SL-1268",
+    "client": "Tidewater Health LLC",
+    "client_country": "US",
+    "currency": "USD",
+    "amount": 450.0,
+    "date": "2026-10-04",
+    "status": "open"
+   }
+  ],
+  "known_payer_aliases": {}
+ }
+]

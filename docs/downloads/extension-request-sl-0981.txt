@@ -1,0 +1,14 @@
+Illustrative prototype letter. All names and amounts are made up.
+
+To: ICICI Bank, trade desk
+Subject: Request to extend the realisation period for export invoice SL-0981
+
+Dear Sir or Madam,
+
+Saffron Loop Studio LLP requests an extension of the period for realising the export value of invoice SL-0981 (USD 1,200, dated 20 January 2026, client Copperline Studios Pty Ltd, Australia).
+
+Reason: the client has confirmed that the payment is scheduled in its November 2026 payment run (email of 30 September 2026, attached).
+
+We request an extension to 31 December 2026.
+
+Priya, Designated Partner, Saffron Loop Studio LLP

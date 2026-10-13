@@ -1,0 +1,92 @@
+[
+  {
+    "id": "H-D01",
+    "route": "bank_transfer",
+    "confidence": 0.86,
+    "reason": "Issuer response 05 do not honour is a bank block, and that rule is checked before the 3-D Secure rule."
+  },
+  {
+    "id": "H-D02",
+    "route": "owner_sends",
+    "confidence": 0.9,
+    "reason": "The client is on the do-not-contact list, which is checked before the payment date in the reply."
+  },
+  {
+    "id": "H-D03",
+    "route": "retry_card_with_fix",
+    "confidence": 0.92,
+    "reason": "Street address mismatch on a Canadian card with no retry yet, so retry once with the address the bank holds."
+  },
+  {
+    "id": "H-D04",
+    "route": "stop_dispute",
+    "confidence": 0.93,
+    "reason": "The latest reply says the API work was never accepted and they will not pay until it is cleared up, which replaces the earlier promise to pay."
+  },
+  {
+    "id": "H-D05",
+    "route": "wait_until_date",
+    "confidence": 0.88,
+    "reason": "The client will transfer on Tuesday 20 October, and the date rule is checked before the merchant card setting."
+  },
+  {
+    "id": "H-D06",
+    "route": "ask_when_to_pay",
+    "confidence": 0.9,
+    "reason": "Insufficient funds with no dispute, no date and one reminder, so ask when they can pay and offer a bank transfer."
+  },
+  {
+    "id": "H-D07",
+    "route": "hand_to_owner_limit",
+    "confidence": 0.9,
+    "reason": "Two reminders have already been sent for this decline, which is checked before the Monday promise and the card block."
+  },
+  {
+    "id": "H-D08",
+    "route": "bank_transfer",
+    "confidence": 0.92,
+    "reason": "The card is not enrolled in 3-D Secure and the client is on a desktop, so a bank transfer rather than a wallet link."
+  },
+  {
+    "id": "H-D09",
+    "route": "merchant_action_needed",
+    "confidence": 0.86,
+    "reason": "The merchant account cannot accept international cards, which is checked before the issuer's international block."
+  },
+  {
+    "id": "H-D10",
+    "route": "stop_dispute",
+    "confidence": 0.94,
+    "reason": "The latest reply disputes 18 hours on the bill, which is checked before the do-not-contact and reminder limits."
+  },
+  {
+    "id": "H-D11",
+    "route": "wallet_link",
+    "confidence": 0.82,
+    "reason": "3-D Secure failed, the device is unknown and they have never paid by transfer, so offer Apple Pay or Google Pay."
+  },
+  {
+    "id": "H-D12",
+    "route": "wait_until_date",
+    "confidence": 0.9,
+    "reason": "The client names Thursday 15 October for the vendor run, which is checked before the do not honour block."
+  },
+  {
+    "id": "H-D13",
+    "route": "bank_transfer",
+    "confidence": 0.92,
+    "reason": "Postcode mismatch on a UK card that has already been retried once, so switch to a bank transfer."
+  },
+  {
+    "id": "H-D14",
+    "route": "owner_sends",
+    "confidence": 0.9,
+    "reason": "The client is on the do-not-contact list, which is checked before the two reminder limit and the fraud block."
+  },
+  {
+    "id": "H-D15",
+    "route": "bank_transfer",
+    "confidence": 0.88,
+    "reason": "3-D Secure failed but Duinwater paid by SEPA in August, so a bank transfer; their breakdown question goes to the owner."
+  }
+]

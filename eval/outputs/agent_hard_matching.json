@@ -1,0 +1,212 @@
+[
+  {
+    "id": "H-M01",
+    "decision": "link",
+    "invoices": ["SL-1047"],
+    "confidence": 0.95,
+    "reason": "Reference SL-1O47 is SL-1047 with an O for a zero, the payer is Kestrel Analytics and the amount matches exactly."
+  },
+  {
+    "id": "H-M02",
+    "decision": "ask",
+    "invoices": ["SL-1101", "SL-1118"],
+    "confidence": 0.9,
+    "reason": "No invoice number in the reference and two open Saltmarsh invoices for USD 1,800, SL-1101 and SL-1118, fit equally well."
+  },
+  {
+    "id": "H-M03",
+    "decision": "link",
+    "invoices": ["SL-1132"],
+    "confidence": 0.88,
+    "reason": "Reference SL1132 from Thornbury, short by USD 50, which is within the USD 50 and 3% bank charge limits."
+  },
+  {
+    "id": "H-M04",
+    "decision": "link",
+    "invoices": ["SL-1301", "SL-1305"],
+    "confidence": 0.9,
+    "reason": "The amount is exactly SL-1301 plus SL-1305, Brightwell's two open September invoices, as the reference says."
+  },
+  {
+    "id": "H-M05",
+    "decision": "ask",
+    "invoices": [],
+    "confidence": 0.85,
+    "reason": "The reference points to SL-1158, but the USD 45.01 shortfall is just over 3% (USD 45) and no part payment is stated."
+  },
+  {
+    "id": "H-M06",
+    "decision": "link",
+    "invoices": ["SL-1352"],
+    "confidence": 0.9,
+    "reason": "Wise names Halcyon Studio in the reference and SL-1352, dated October, is the only open Halcyon invoice for GBP 3,240."
+  },
+  {
+    "id": "H-M07",
+    "decision": "link",
+    "invoices": ["SL-1172"],
+    "confidence": 0.9,
+    "reason": "Reference SL-1172 from Ashgrove, short by GBP 36, exactly 3% and under GBP 40; the Halcyon invoice for GBP 1,164 is another client's."
+  },
+  {
+    "id": "H-M08",
+    "decision": "ask",
+    "invoices": ["SL-1620"],
+    "confidence": 0.92,
+    "reason": "The reference and amount match SL-1620, which is already paid, so this may be a duplicate payment."
+  },
+  {
+    "id": "H-M09",
+    "decision": "link",
+    "invoices": ["SL-1371"],
+    "confidence": 0.85,
+    "reason": "Oakridge Holdings names Oakridge Dental Group and September services in the reference, and SL-1371 is the only open match."
+  },
+  {
+    "id": "H-M10",
+    "decision": "ask",
+    "invoices": [],
+    "confidence": 0.88,
+    "reason": "Payoneer's reference names no client or invoice, so the payer cannot be tied to a client even though SL-1760 has the same amount."
+  },
+  {
+    "id": "H-M11",
+    "decision": "link",
+    "invoices": ["SL-1402"],
+    "confidence": 0.85,
+    "reason": "HLS Creative Group is a known alias of Harbor Lane Studios and SL-1402 matches exactly; HLS Consulting is a different client."
+  },
+  {
+    "id": "H-M12",
+    "decision": "link",
+    "invoices": ["SL-1462"],
+    "confidence": 0.93,
+    "reason": "The reference states a 50% part payment of SL-1462 and EUR 2,340 is exactly half of EUR 4,680."
+  },
+  {
+    "id": "H-M13",
+    "decision": "ask",
+    "invoices": ["SL-1708", "SL-1711"],
+    "confidence": 0.88,
+    "reason": "The reference names SL-1708 of Meridale Systems while the payer Meridian Softworks has SL-1711 open for the same amount."
+  },
+  {
+    "id": "H-M14",
+    "decision": "link",
+    "invoices": ["SL-1391"],
+    "confidence": 0.82,
+    "reason": "Lumen Analytics UK pays on behalf of its group and SL-1391 matches exactly; half of SL-1386 is not a stated part payment."
+  },
+  {
+    "id": "H-M15",
+    "decision": "link",
+    "invoices": ["SL-1539"],
+    "confidence": 0.85,
+    "reason": "The payer is Coyote Ridge and SL-1539 is its only open invoice for USD 2,090; reference SL-1593 looks like swapped digits."
+  },
+  {
+    "id": "H-M16",
+    "decision": "ask",
+    "invoices": ["SL-1741", "SL-1746"],
+    "confidence": 0.88,
+    "reason": "Pinecrest states a part payment but names no invoice, and both SL-1741 and SL-1746 are open."
+  },
+  {
+    "id": "H-M17",
+    "decision": "link",
+    "invoices": ["SL-1481"],
+    "confidence": 0.9,
+    "reason": "Instalment 2 of 3 at USD 3,000 fits Tandem's SL-1481 for USD 9,000; the Brightwell invoice for USD 3,000 is another client's."
+  },
+  {
+    "id": "H-M18",
+    "decision": "link",
+    "invoices": ["SL-1519"],
+    "confidence": 0.9,
+    "reason": "Wren and Lowe's monthly support payment matches SL-1519, its only open invoice for GBP 2,400; September's is already paid."
+  },
+  {
+    "id": "H-M19",
+    "decision": "ask",
+    "invoices": [],
+    "confidence": 0.87,
+    "reason": "The reference points to SL-1688, but the GBP 45 shortfall is over the GBP 40 bank charge limit and no part payment is stated."
+  },
+  {
+    "id": "H-M20",
+    "decision": "link",
+    "invoices": ["SL-1529"],
+    "confidence": 0.84,
+    "reason": "The reference gives SL-1529 and the amount matches exactly, so the link holds even though the payer is a private person."
+  },
+  {
+    "id": "H-M21",
+    "decision": "ask",
+    "invoices": ["SL-1820", "SL-1824"],
+    "confidence": 0.93,
+    "reason": "BLUEFIN MEDI could be Bluefin Media or Bluefin Medical, and each has an open invoice for GBP 2,750."
+  },
+  {
+    "id": "H-M22",
+    "decision": "link",
+    "invoices": ["SL-1565"],
+    "confidence": 0.86,
+    "reason": "Viveros paid EUR 3,000 for September and SL-1565 is the only open EUR invoice for that amount, as SL-1562 is in USD."
+  },
+  {
+    "id": "H-M23",
+    "decision": "link",
+    "invoices": ["SL-1574"],
+    "confidence": 0.92,
+    "reason": "Reference SL-1574 from Brouwer & Smit, short by EUR 45 for bank costs, which is within the EUR 45 limit."
+  },
+  {
+    "id": "H-M24",
+    "decision": "ask",
+    "invoices": ["SL-1652"],
+    "confidence": 0.88,
+    "reason": "Wise names Fernhill and August training, which is SL-1652 and already paid, and no open Fernhill invoice matches, so this may be a duplicate."
+  },
+  {
+    "id": "H-M25",
+    "decision": "link",
+    "invoices": ["SL-1588"],
+    "confidence": 0.92,
+    "reason": "Reference SL 1588 from Cobalt Arc, short by GBP 40, which is within the GBP 40 and 3% limits."
+  },
+  {
+    "id": "H-M26",
+    "decision": "ask",
+    "invoices": ["SL-1802", "SL-1809"],
+    "confidence": 0.87,
+    "reason": "The amount equals SL-1802 plus SL-1809, but SL-1809 belongs to Redwood & Vale and one payment cannot be split across clients."
+  },
+  {
+    "id": "H-M27",
+    "decision": "link",
+    "invoices": ["SL-1607"],
+    "confidence": 0.9,
+    "reason": "Reference SL-16O7 is SL-1607 with an O for a zero and the amount matches; the Meridale invoice for USD 1,640 is another client's."
+  },
+  {
+    "id": "H-M28",
+    "decision": "link",
+    "invoices": ["SL-1331", "SL-1334", "SL-1336"],
+    "confidence": 0.95,
+    "reason": "The reference lists SL-1331, SL-1334 and SL-1336, which add up exactly to EUR 7,410."
+  },
+  {
+    "id": "H-M29",
+    "decision": "ask",
+    "invoices": [],
+    "confidence": 0.9,
+    "reason": "R Tan is not a known client or alias and the reference has no invoice number, so the payer cannot be tied to a client."
+  },
+  {
+    "id": "H-M30",
+    "decision": "link",
+    "invoices": ["SL-1214"],
+    "confidence": 0.92,
+    "reason": "Reference SL 1214 from Atelier Rousseau, short by EUR 42, which is exactly 3% and within the EUR 45 limit."
+  }
+]

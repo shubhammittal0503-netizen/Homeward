@@ -1,0 +1,37 @@
+[
+ {
+  "id": "S-R1",
+  "label": "already_paid",
+  "date": null
+ },
+ {
+  "id": "S-R2",
+  "label": "no_action",
+  "date": null
+ },
+ {
+  "id": "S-R3",
+  "label": "no_action",
+  "date": null
+ },
+ {
+  "id": "S-R4",
+  "label": "wrong_contact",
+  "date": null
+ },
+ {
+  "id": "S-R5",
+  "label": "already_paid",
+  "date": null
+ },
+ {
+  "id": "S-R6",
+  "label": "already_paid",
+  "date": null
+ },
+ {
+  "id": "S-R7",
+  "label": "no_action",
+  "date": null
+ }
+]

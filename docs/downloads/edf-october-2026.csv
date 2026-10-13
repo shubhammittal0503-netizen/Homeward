@@ -1,0 +1,8 @@
+note,invoice_no,client,client_country,service,currency,invoice_amount,payment_status,when_to_file,purpose_code_check
+Illustrative prototype data.,SL-1043,Larkspur Labs Inc,US,Brand system design,USD,2400.00,Card declined; not paid yet,"Monthly EDF, or the pack once paid",Design: confirm code
+,SL-1045,Juniper Ridge Inc,CA,Product design sprint 2,USD,2400.00,Paid 7 Oct; waiting for EDF number,Today's pack,Design: confirm code
+,SL-1047,Larkspur Labs Inc,US,"Website build, sprint 2",USD,2000.00,"Paid 9 Oct ($1,950); waiting for EDF number",Today's pack,P0802 fits
+,SL-1051,Bramble & Finch Ltd,UK,UX research and design,GBP,1800.00,Card authorised 10 Oct,"Monthly EDF, due 30 Nov",Design: confirm code
+,SL-1052,Tidewater Health LLC,US,"Patient app UI, phase 1",USD,1500.00,"Paid 8 Oct, once you confirm the invoice","Pack, after your answer",Design: confirm code
+,SL-1053,Tidewater Health LLC,US,Clinic website refresh,USD,1500.00,Not paid yet,"Monthly EDF, due 30 Nov",P0802 fits
+,SL-1054,Fernhill Analytics Ltd,UK,Data product design: discovery,GBP,3200.00,Paid 9 Oct; under review,Today's pack,Design: confirm code

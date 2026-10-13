@@ -1,0 +1,106 @@
+[
+ {
+  "id": "F-M01",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "F-M02",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "F-M03",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "F-M04",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "F-M05",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "F-M06",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "F-M07",
+  "decision": "link",
+  "invoices": [
+   "SL-1512"
+  ],
+  "reason": "Exact invoice number and amount"
+ },
+ {
+  "id": "F-M08",
+  "decision": "link",
+  "invoices": [
+   "SL-1517"
+  ],
+  "reason": "Exact client name and amount"
+ },
+ {
+  "id": "F-M09",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "F-M10",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "F-M11",
+  "decision": "link",
+  "invoices": [
+   "SL-1516"
+  ],
+  "reason": "Exact client name and amount"
+ },
+ {
+  "id": "F-M12",
+  "decision": "link",
+  "invoices": [
+   "SL-1522"
+  ],
+  "reason": "Exact client name and amount"
+ },
+ {
+  "id": "F-M13",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "F-M14",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "F-M15",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "F-M16",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ }
+]

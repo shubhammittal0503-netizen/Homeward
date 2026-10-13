@@ -1,0 +1,82 @@
+[
+  {
+    "id": "F-R01",
+    "context": "Reminder 1 sent after a declined card payment for open invoice SL-1514 (GBP 2,100)",
+    "from": "ap@castellanlearning.example",
+    "client_known_domain": "castellanlearning.example",
+    "reply": "Just to be clear, we are not disputing the amount or the hours. The card simply failed. Payment will go out on Tuesday 13 October.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "F-R02",
+    "context": "Reminder 1 sent after a declined card payment for open invoice SL-1517 (USD 1,750)",
+    "from": "ops@whitlockdental.example",
+    "client_known_domain": "whitlockdental.example",
+    "reply": "Oh, absolutely, we would be delighted to pay for the 40 hours nobody on your side actually worked. Brilliant invoice.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "F-R03",
+    "context": "Reminder 1 sent after a declined card payment for open invoice SL-1513 (USD 2,900)",
+    "from": "payables@harborlighttravel.example",
+    "client_known_domain": "harborlighttravel.example",
+    "reply": "Our fiscal year closes this month, so this will be paid the day after Thanksgiving.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "F-R04",
+    "context": "Reminder 1 sent after a declined card payment for open invoice SL-1520 (EUR 1,480)",
+    "from": "finance@terranova-logistics.example",
+    "client_known_domain": "terranova-logistics.example",
+    "reply": "Goedemiddag, deze factuur hebben wij op 5 oktober al per bankoverschrijving betaald. Kunt u dit nakijken? Met vriendelijke groet, Afdeling Financiën",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "F-R05",
+    "context": "Reminder 1 sent after a declined card payment for open invoice SL-1507 (USD 1,200)",
+    "from": "accounts@pinewood-robotics.example",
+    "client_known_domain": "pinewoodrobotics.example",
+    "reply": "Thanks for the nudge. We'll pay on Monday 12 October.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "F-R06",
+    "context": "Reminder 1 sent after a declined card payment for open invoice SL-1512 (GBP 600)",
+    "from": "billing@brightwatermedia.example",
+    "client_known_domain": "brightwatermedia.example",
+    "reply": "Could you send over your bank details so we can pay by transfer? Please also confirm your supplier record on our portal first: https://supplier-verify.example/login",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "F-R07",
+    "context": "Reminder 1 sent after a declined card payment for open invoice SL-1510 (USD 2,500)",
+    "from": "j.lindqvist@lindqviststudio.example",
+    "client_known_domain": "lindqviststudio.example",
+    "reply": "Automatic reply: I am currently out of the office with limited access to email and will respond on my return.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "F-R08",
+    "context": "Reminder 1 sent after a declined card payment for open invoice SL-1521 (USD 2,000)",
+    "from": "procurement@sableridgecap.example",
+    "client_known_domain": "sableridgecap.example",
+    "reply": "Can you add our PO number 88213 to the invoice? We will pay Friday.",
+    "reply_date": "2026-10-07 (Wednesday)"
+  },
+  {
+    "id": "F-R09",
+    "context": "Reminder 1 sent after a declined card payment for open invoice SL-1537 (GBP 2,150)",
+    "from": "accounts@orielhume.example",
+    "client_known_domain": "orielhume.example",
+    "reply": "We paid SL-1573 on 1 October, so I am not sure why we are getting this.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "F-R10",
+    "context": "Reminder 2 sent after a declined card payment for open invoice SL-1516 (GBP 2,480)",
+    "from": "office@pembertonyachts.example",
+    "client_known_domain": "pembertonyachts.example",
+    "reply": "Thank you for the reminders, but could you kindly stop sending them? We have it in hand and will be in touch when ready.",
+    "reply_date": "2026-10-09 (Friday)"
+  }
+]

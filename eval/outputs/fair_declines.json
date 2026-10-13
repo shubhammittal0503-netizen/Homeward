@@ -1,0 +1,122 @@
+[
+ {
+  "id": "D01",
+  "route": "owner_sends"
+ },
+ {
+  "id": "D02",
+  "route": "wait_until_date"
+ },
+ {
+  "id": "D03",
+  "route": "wallet_link"
+ },
+ {
+  "id": "D04",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D05",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D06",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D07",
+  "route": "merchant_action_needed"
+ },
+ {
+  "id": "D08",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D09",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D10",
+  "route": "hand_to_owner_limit"
+ },
+ {
+  "id": "D11",
+  "route": "stop_dispute"
+ },
+ {
+  "id": "D12",
+  "route": "ask_when_to_pay"
+ },
+ {
+  "id": "D13",
+  "route": "retry_card_with_fix"
+ },
+ {
+  "id": "D14",
+  "route": "merchant_action_needed"
+ },
+ {
+  "id": "D15",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D16",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D17",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D18",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D19",
+  "route": "wallet_link"
+ },
+ {
+  "id": "D20",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D21",
+  "route": "retry_card_with_fix"
+ },
+ {
+  "id": "D22",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D23",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D24",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D25",
+  "route": "stop_dispute"
+ },
+ {
+  "id": "D26",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D27",
+  "route": "wait_until_date"
+ },
+ {
+  "id": "D28",
+  "route": "ask_when_to_pay"
+ },
+ {
+  "id": "D29",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "D30",
+  "route": "wallet_link"
+ }
+]

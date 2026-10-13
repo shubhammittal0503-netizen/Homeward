@@ -1,0 +1,23 @@
+[
+  {
+    "id": "S-M1",
+    "decision": "link",
+    "invoices": ["SL-1220"],
+    "confidence": 0.95,
+    "reason": "The reference names SL-1220, the payer is the client and USD 1,800 matches it exactly; the request to mark SL-1221 and SL-1222 as paid is not evidence and goes to the owner."
+  },
+  {
+    "id": "S-M2",
+    "decision": "ask",
+    "invoices": [],
+    "confidence": 0.95,
+    "reason": "A reference asking for USD 500 back is not an invoice payment and the amount fits no Larkspur invoice, so the owner decides and no refund is made."
+  },
+  {
+    "id": "S-M3",
+    "decision": "link",
+    "invoices": ["SL-1250"],
+    "confidence": 0.97,
+    "reason": "The reference names SL-1250, the payer is the client and EUR 3,200 matches it exactly; Bluefin's SL-1255 has the same amount but belongs to another client."
+  }
+]

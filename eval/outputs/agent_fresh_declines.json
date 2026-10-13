@@ -1,0 +1,62 @@
+[
+  {
+    "id": "F-D01",
+    "route": "stop_dispute",
+    "confidence": 0.95,
+    "reason": "The client's latest reply disputes the hours on the invoice, and step 1 (dispute) is checked before the do-not-contact flag and the reminder count. Stop all contact on the invoice and hand it to the owner."
+  },
+  {
+    "id": "F-D02",
+    "route": "hand_to_owner_limit",
+    "confidence": 0.92,
+    "reason": "Two reminders have already been sent for this decline, so step 3 (reminder limit) decides before the client's stated date of 15 October (step 4). The owner should note the promised date when taking it over."
+  },
+  {
+    "id": "F-D03",
+    "route": "bank_transfer",
+    "confidence": 0.6,
+    "reason": "The decline is an AVS mismatch but the card is German, and the policy says address checks apply only to US, UK and Canada cards, so step 8 does not apply and no step fits exactly; the policy does not clearly decide this case. The client is on desktop and says the address has not changed, so a bank transfer (EUR SEPA to the global account) is the fallback the policy uses when a card route is exhausted."
+  },
+  {
+    "id": "F-D04",
+    "route": "bank_transfer",
+    "confidence": 0.92,
+    "reason": "3-D Secure failed (step 7) and the client paid by bank transfer in July, so the policy's exception sends them to a bank transfer rather than a wallet link. No dispute, do-not-contact flag, reminder limit or payment date applies earlier in the order."
+  },
+  {
+    "id": "F-D05",
+    "route": "wait_until_date",
+    "confidence": 0.85,
+    "reason": "The client names Wednesday 14 October as the payment date and step 4 (date) comes before step 5 (merchant cannot accept international cards). The owner should request international card activation before the 14th or offer a bank transfer, otherwise the card will fail again."
+  },
+  {
+    "id": "F-D06",
+    "route": "stop_dispute",
+    "confidence": 0.95,
+    "reason": "The client's reply disputes the amount ('double what we agreed'), so step 1 applies regardless of the insufficient-funds code. Stop all contact on the invoice and hand it to the owner."
+  },
+  {
+    "id": "F-D07",
+    "route": "ask_when_to_pay",
+    "confidence": 0.85,
+    "reason": "The client's reply names 2 October, a date in the past, and 'will sort it' gives no future date, so step 4 does not apply. Insufficient funds (step 9) decides: ask when they will pay, no rapid retries, and offer a bank transfer."
+  },
+  {
+    "id": "F-D08",
+    "route": "owner_sends",
+    "confidence": 0.9,
+    "reason": "The reply does not dispute, but the client is on the do-not-contact list, and step 2 comes before the reminder limit (two already sent) and the blocked-card route. The note, offering a bank transfer since the card is blocked, is prepared for the owner to send personally."
+  },
+  {
+    "id": "F-D09",
+    "route": "retry_card_with_fix",
+    "confidence": 0.88,
+    "reason": "AVS mismatch on a Canadian card with no address retry done yet, so step 8 says retry once with the address the bank holds. The client's bank-transfer history only matters under step 7 (3-D Secure), so it does not change the route."
+  },
+  {
+    "id": "F-D10",
+    "route": "wait_until_date",
+    "confidence": 0.9,
+    "reason": "The latest reply withdraws the earlier query about hours and confirms the invoice is fine, so step 1 does not apply, and one reminder is under the limit. The client names Friday 16 October, so step 4 decides."
+  }
+]

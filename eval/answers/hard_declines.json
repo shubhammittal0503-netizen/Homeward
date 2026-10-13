@@ -1,0 +1,107 @@
+[
+  {
+    "id": "H-D01",
+    "route": "bank_transfer",
+    "category": "issuer do-not-honour beats the 3-D Secure wallet route",
+    "date": null,
+    "rationale": "Rule 6 comes before rule 7: do not honour is the client's bank blocking a cross-border payment, so a bank transfer (EUR SEPA), even though the client is on mobile and has paid with Apple Pay before."
+  },
+  {
+    "id": "H-D02",
+    "route": "owner_sends",
+    "category": "do-not-contact beats a named pay date",
+    "date": null,
+    "rationale": "Rule 2 comes before rules 4 and 9: the client is on the do-not-contact list, so the owner sends the note personally even though the reply names the 23rd."
+  },
+  {
+    "id": "H-D03",
+    "route": "retry_card_with_fix",
+    "category": "AVS mismatch on a Canadian card, not yet retried",
+    "date": null,
+    "rationale": "Rule 8: a billing address mismatch on a Canada card that has not been retried gets one retry with the address the bank holds; the desktop exception belongs to rule 7 and does not apply."
+  },
+  {
+    "id": "H-D04",
+    "route": "stop_dispute",
+    "category": "forwarded chain: top message disputes, quoted message promised a date",
+    "date": null,
+    "rationale": "Rule 1: the latest message, on top of the chain, says the API integration was never accepted and they will pay nothing until that is cleared up, which disputes the work; the older quoted promise to pay on 16 October is superseded."
+  },
+  {
+    "id": "H-D05",
+    "route": "wait_until_date",
+    "category": "German pay date beats the merchant card setting",
+    "date": "2026-10-20",
+    "rationale": "Rule 4 comes before rule 5: the reply says they will transfer on Tuesday 20.10.2026, so wait until 2026-10-20 even though the merchant cannot accept international cards."
+  },
+  {
+    "id": "H-D06",
+    "route": "ask_when_to_pay",
+    "category": "insufficient funds, vague delay, desktop and ACH history",
+    "date": null,
+    "rationale": "Rule 9: insufficient funds and the reply names no date, so ask when they can pay (offering a bank transfer); the desktop and bank-transfer-history exception belongs to rule 7 only."
+  },
+  {
+    "id": "H-D07",
+    "route": "hand_to_owner_limit",
+    "category": "two reminders beat a named day and a blocked card",
+    "date": null,
+    "rationale": "Rule 3 comes before rules 4 and 6: two reminders have already been sent for this decline, so hand to the owner even though the reply names Monday; the complaint is about the checkout, not a dispute of the invoice."
+  },
+  {
+    "id": "H-D08",
+    "route": "bank_transfer",
+    "category": "card not enrolled in 3-D Secure, client on desktop",
+    "date": null,
+    "rationale": "Rule 7: the card is not enrolled in 3-D Secure and the client is on a desktop, so bank transfer (GBP Faster Payments) instead of a wallet link."
+  },
+  {
+    "id": "H-D09",
+    "route": "merchant_action_needed",
+    "category": "merchant cannot take international cards, despite issuer-block wording",
+    "date": null,
+    "rationale": "Rule 5 comes before rule 6: the merchant's account cannot accept international cards, so offer a bank transfer and tell the owner how to request activation, whatever the decline wording suggests."
+  },
+  {
+    "id": "H-D10",
+    "route": "stop_dispute",
+    "category": "polite dispute beats do-not-contact and the reminder limit",
+    "date": null,
+    "rationale": "Rule 1 comes first: the reply contests 18 hours of rework as the merchant's fault, a dispute of the hours without the word, so stop all contact even though do-not-contact, the two-reminder limit and a bank block also apply."
+  },
+  {
+    "id": "H-D11",
+    "route": "wallet_link",
+    "category": "3-D Secure failure, device unknown, card-only history",
+    "date": null,
+    "rationale": "Rule 7: authentication failed, the client is not known to be on a desktop and has never paid by bank transfer, so a wallet link (Apple Pay or Google Pay)."
+  },
+  {
+    "id": "H-D12",
+    "route": "wait_until_date",
+    "category": "named pay date beats a bank block",
+    "date": "2026-10-15",
+    "rationale": "Rule 4 comes before rule 6: the reply says the bookkeeper will pay in the vendor run on Thursday the 15th, so wait until 2026-10-15 even though the decline was do not honour."
+  },
+  {
+    "id": "H-D13",
+    "route": "bank_transfer",
+    "category": "UK address mismatch already retried",
+    "date": null,
+    "rationale": "Rule 8: a billing address mismatch on a UK card where the address retry has already been done goes to bank transfer (GBP Faster Payments)."
+  },
+  {
+    "id": "H-D14",
+    "route": "owner_sends",
+    "category": "do-not-contact beats the reminder limit and a fraud block",
+    "date": null,
+    "rationale": "Rule 2 comes before rules 3 and 6: the client is on the do-not-contact list, so the owner sends the note personally, even though two reminders were sent and the issuer flagged suspected fraud."
+  },
+  {
+    "id": "H-D15",
+    "route": "bank_transfer",
+    "category": "3-D Secure failure, earlier SEPA payer, question not dispute",
+    "date": null,
+    "rationale": "Rule 7: authentication failed and the client has paid by bank transfer before, so bank transfer (EUR SEPA); the reply asks for a breakdown, which is a question, not a dispute, so rule 1 does not apply."
+  }
+]

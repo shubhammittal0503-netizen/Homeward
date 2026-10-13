@@ -1,0 +1,110 @@
+[
+ {
+  "id": "F-M01",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Reference includes an invoice that is already paid; possible duplicate"
+ },
+ {
+  "id": "F-M02",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Amount differs from the referenced invoice(s) by more than a bank charge and no part payment is stated"
+ },
+ {
+  "id": "F-M03",
+  "decision": "link",
+  "invoices": [
+   "SL-1511"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias) and the amount is exact"
+ },
+ {
+  "id": "F-M04",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Amount differs from the referenced invoice(s) by more than a bank charge and no part payment is stated"
+ },
+ {
+  "id": "F-M05",
+  "decision": "link",
+  "invoices": [
+   "SL-1506"
+  ],
+  "reason": "Reference names the invoice and states a part payment"
+ },
+ {
+  "id": "F-M06",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Referenced invoice is in a different currency"
+ },
+ {
+  "id": "F-M07",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Reference asks for money back; bank transfers cannot be refunded through Razorpay"
+ },
+ {
+  "id": "F-M08",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "The only invoice the reference names is already paid; possible duplicate"
+ },
+ {
+  "id": "F-M09",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Amount differs from every candidate by more than a bank charge and no part payment is stated"
+ },
+ {
+  "id": "F-M10",
+  "decision": "link",
+  "invoices": [
+   "SL-1515"
+  ],
+  "reason": "Reference names the invoice and states a part payment"
+ },
+ {
+  "id": "F-M11",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Reference names an invoice of a different client from the payer"
+ },
+ {
+  "id": "F-M12",
+  "decision": "link",
+  "invoices": [
+   "SL-1522"
+  ],
+  "reason": "Payer tied to the client (payer name or known alias) and the amount is exact"
+ },
+ {
+  "id": "F-M13",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Amount differs from the referenced invoice(s) by more than a bank charge and no part payment is stated"
+ },
+ {
+  "id": "F-M14",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Amount differs from every candidate by more than a bank charge and no part payment is stated"
+ },
+ {
+  "id": "F-M15",
+  "decision": "link",
+  "invoices": [
+   "SL-1520"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "F-M16",
+  "decision": "link",
+  "invoices": [
+   "SL-1523"
+  ],
+  "reason": "Reference names the invoice(s); short by a typical bank charge"
+ }
+]

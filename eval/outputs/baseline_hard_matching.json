@@ -1,0 +1,190 @@
+[
+ {
+  "id": "H-M01",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M02",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M03",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M04",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M05",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M06",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M07",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M08",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M09",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M10",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M11",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M12",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M13",
+  "decision": "link",
+  "invoices": [
+   "SL-1708"
+  ],
+  "reason": "Exact invoice number and amount"
+ },
+ {
+  "id": "H-M14",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M15",
+  "decision": "link",
+  "invoices": [
+   "SL-1539"
+  ],
+  "reason": "Exact client name and amount"
+ },
+ {
+  "id": "H-M16",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M17",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M18",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M19",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M20",
+  "decision": "link",
+  "invoices": [
+   "SL-1529"
+  ],
+  "reason": "Exact invoice number and amount"
+ },
+ {
+  "id": "H-M21",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M22",
+  "decision": "link",
+  "invoices": [
+   "SL-1565"
+  ],
+  "reason": "Exact client name and amount"
+ },
+ {
+  "id": "H-M23",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M24",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M25",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M26",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M27",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M28",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M29",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "H-M30",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ }
+]

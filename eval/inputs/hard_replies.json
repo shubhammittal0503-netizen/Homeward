@@ -1,0 +1,92 @@
+[
+  {
+    "id": "H-R01",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Vielen Dank für Ihre Nachricht. Ich bin bis einschließlich Freitag, 16.10., nicht im Büro und ab Montag, 19.10.2026, wieder erreichbar. In dringenden Fällen wenden Sie sich bitte an buchhaltung@kestrel-analytics.example. (Automatische Antwort)",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R02",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Hi Meera, thanks for the nudge. Before we try the card again, I wanted to flag something. The invoice bills the full redesign, but we only signed off the homepage and two templates; the other four were paused in August when our budget was cut. So we're not comfortable paying for all six as it stands. Happy to pay for what was delivered. Best, Daniel",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R03",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Hi, I moved across to the operations team last month, so please take me off these. Priya Raman (priya.raman@saltmarsh-outdoor.example) looks after supplier payments now and I've copied her in. Thanks, Ben",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R04",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Hola, este mes vamos muy justos de caja. Lo pagamos el jueves 22 sin falta. Un saludo, Lucía",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R05",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "This is an automated response. Your email has been received by Brightwell Logistics Accounts Payable and logged as ticket AP-88412. Supplier invoices are processed within our standard 30-day payment cycle. Please do not reply to this message.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R06",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Hoi, laat mijn vorige mail maar zitten. Ik heb het intern nagevraagd en de uren kloppen gewoon. Kunnen jullie ons de bankgegevens sturen? Dan maken we het bedrag via SEPA over.\n\nOp wo 7 okt 2026 om 11:02 schreef Sanne de Vries:\n> Wij herkennen ons niet in de 38 uur voor de migratie. Dat was toch afgesproken als vaste prijs?",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R07",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Hi, payment's been approved on our side and is queued with the bank for value date 14/10, so it should reach you then. Regards, Hamish",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R08",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Oh brilliant, a payment reminder for the booking app that crashes every time a customer logs in. Really can't wait to pay full price for that. Let me know when it actually works.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R09",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Our AP system bounced this one because there's no PO number on it. Could you reissue it with PO 4500-22137, and with the billing entity as Tandem Health Systems Inc. rather than Tandem Health? Then I can get it through.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R10",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Bonjour, le virement a été envoyé mercredi dernier avec la référence SL-1214. Merci de vérifier de votre côté avant de nous relancer. Cordialement, Camille Rousseau",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R11",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Please take this address off your reminder list. We don't respond to automated chasers and we'll settle supplier invoices on our own schedule.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R12",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Correction to my note below: AP has just confirmed this went out by ACH yesterday afternoon (trace 0210-4471), so it should land today or Monday. Sorry for the confusion.\n\nOn Tue, 6 Oct 2026 at 10:12, Mark Ellis wrote:\n> Will get this paid by Friday, card or wire.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R13",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Tried again with the company Amex this morning. Same red error. That's the third card your checkout has eaten. Brilliant.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R14",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Thank you for your email. I am travelling for a trade fair and will be back at my desk on the first working day of November. Your message will not be forwarded. For anything urgent, please call the main office.",
+    "reply_date": "2026-10-09 (Friday)"
+  },
+  {
+    "id": "H-R15",
+    "context": "Reminder 1 sent after a declined card payment for an open invoice",
+    "reply": "Is it OK if we pay this in two halves, one now and the other in November? The full amount takes it over my card limit.",
+    "reply_date": "2026-10-09 (Friday)"
+  }
+]

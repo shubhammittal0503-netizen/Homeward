@@ -1,0 +1,107 @@
+[
+  {
+    "id": "H-R01",
+    "label": "out_of_office",
+    "date": "2026-10-19",
+    "confidence": 0.94,
+    "reason": "Automatic out-of-office reply saying they are away until Friday 16 October and back on Monday 19 October."
+  },
+  {
+    "id": "H-R02",
+    "label": "dispute",
+    "date": null,
+    "confidence": 0.93,
+    "reason": "The client says only the homepage and two templates were signed off and will not pay for all six as billed."
+  },
+  {
+    "id": "H-R03",
+    "label": "wrong_contact",
+    "date": null,
+    "confidence": 0.9,
+    "reason": "Ben has moved teams and names Priya Raman as the person who now handles supplier payments."
+  },
+  {
+    "id": "H-R04",
+    "label": "will_pay_on_date",
+    "date": "2026-10-22",
+    "confidence": 0.93,
+    "reason": "The client says they will pay on Thursday 22 October."
+  },
+  {
+    "id": "H-R05",
+    "label": "no_action",
+    "date": null,
+    "confidence": 0.88,
+    "reason": "Automated accounts payable acknowledgement with a ticket number and no return date, so nothing needs doing."
+  },
+  {
+    "id": "H-R06",
+    "label": "asks_bank_details",
+    "date": null,
+    "confidence": 0.9,
+    "reason": "The latest message drops the earlier query on hours and asks for bank details to pay by SEPA."
+  },
+  {
+    "id": "H-R07",
+    "label": "will_pay_on_date",
+    "date": "2026-10-14",
+    "confidence": 0.83,
+    "reason": "The payment is approved but only queued for value date 14 October, so it has not been paid yet."
+  },
+  {
+    "id": "H-R08",
+    "label": "dispute",
+    "date": null,
+    "confidence": 0.88,
+    "reason": "Sarcastic complaint that the booking app crashes and they will not pay full price, which disputes the work."
+  },
+  {
+    "id": "H-R09",
+    "label": "question_about_invoice",
+    "date": null,
+    "confidence": 0.93,
+    "reason": "They need the invoice reissued with a PO number and the full billing entity, which the owner must handle."
+  },
+  {
+    "id": "H-R10",
+    "label": "already_paid",
+    "date": null,
+    "confidence": 0.94,
+    "reason": "The client says the transfer went out last Wednesday with reference SL-1214."
+  },
+  {
+    "id": "H-R11",
+    "label": "stop_contact",
+    "date": null,
+    "confidence": 0.92,
+    "reason": "The client asks to be taken off the reminder list."
+  },
+  {
+    "id": "H-R12",
+    "label": "already_paid",
+    "date": null,
+    "confidence": 0.92,
+    "reason": "The latest note says the ACH went out yesterday with a trace number, replacing the earlier promise to pay by Friday."
+  },
+  {
+    "id": "H-R13",
+    "label": "payment_failed_again",
+    "date": null,
+    "confidence": 0.93,
+    "reason": "The client tried a third card this morning and it failed again."
+  },
+  {
+    "id": "H-R14",
+    "label": "out_of_office",
+    "date": "2026-11-02",
+    "confidence": 0.88,
+    "reason": "Automatic out-of-office reply, and the first working day of November 2026 is Monday 2 November."
+  },
+  {
+    "id": "H-R15",
+    "label": "question_about_invoice",
+    "date": null,
+    "confidence": 0.9,
+    "reason": "The client asks to split the payment into two halves, which the owner must decide."
+  }
+]

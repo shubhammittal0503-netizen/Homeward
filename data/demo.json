@@ -1,0 +1,2310 @@
+{
+ "today": "Monday 12 October 2026",
+ "run_time": "09:00 IST",
+ "fx": {
+  "USD": 88.0,
+  "GBP": 117.0,
+  "EUR": 102.0
+ },
+ "merchant": {
+  "owner": "Priya",
+  "business": "Saffron Loop Studio LLP",
+  "city": "Pune",
+  "what": "A design and product studio with clients in the US, UK, Europe, Singapore, Australia and Canada",
+  "entity": "LLP (a firm, so the export declaration form applies)",
+  "settles_to": "ICICI Bank",
+  "accounts": "Razorpay MoneySaver global accounts in USD, GBP and EUR; international cards switched on",
+  "purpose_code": "P0802, Software consultancy or implementation (chosen when the account was activated)",
+  "billing": "Zoho Books, read-only",
+  "contracts": "Google Drive folder \"Contracts\", read-only, used only when Priya approves a pack"
+ },
+ "stages": [
+  "Sent",
+  "Paid",
+  "Linked",
+  "Declared",
+  "In bank",
+  "Closed"
+ ],
+ "items": [
+  {
+   "slug": "sl-1051",
+   "approved_at": "09:03",
+   "journey_after": [
+    "done",
+    "done",
+    "done",
+    "todo",
+    "wait",
+    "todo"
+   ],
+   "invoices": [
+    "SL-1051"
+   ],
+   "client": "Bramble & Finch Ltd",
+   "country": "UK",
+   "ccy": "GBP",
+   "amount": 1800.0,
+   "bucket": "prepared",
+   "rank": 1,
+   "kind": "Waiting for an invoice",
+   "title": "Capture Bramble & Finch's £1,800 before it refunds",
+   "line": "A card payment is waiting for its invoice. It refunds automatically tomorrow at 10:42.",
+   "why_now": "Razorpay refunds a card payment that is not captured within 3 days. Oliver paid on Saturday 10 October at 10:42.",
+   "urgency": "Refunds in 1 day",
+   "urgency_level": "high",
+   "journey": [
+    "done",
+    "done",
+    "stuck",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "facts": [
+    [
+     "Sat 10 Oct, 10:42 IST: Oliver Grant paid invoice SL-1051 (£1,800) by Mastercard. Status: authorised, waiting for an invoice.",
+     "Razorpay payment record"
+    ],
+    [
+     "Invoice SL-1051, UX research and design, £1,800, dated 7 Oct 2026, is in Zoho Books.",
+     "Zoho Books"
+    ],
+    [
+     "Razorpay captures international payments only with an invoice, and refunds card payments not captured within 3 days.",
+     "Razorpay docs"
+    ]
+   ],
+   "steps": [
+    [
+     "Rule",
+     "Exact match: same client, same amount, and the payment description says SL-1051.",
+     null
+    ],
+    [
+     "Rule",
+     "Clock: 1 day left before the automatic refund (Tue 13 Oct, 10:42).",
+     null
+    ],
+    [
+     "Rule",
+     "Invoice dated 7 Oct and you are an LLP, so it goes in October's export form, due 30 Nov. Razorpay's blog ties the EDF-number-before-capture rule to MoneySaver payments, so this card payment can be captured now.",
+     null
+    ]
+   ],
+   "baseline": "A fixed rule also finds this one. What it lacks is the clock: nothing tells you it refunds tomorrow.",
+   "prepared": [
+    "Upload invoice SL-1051 to the payment, so Razorpay can capture it."
+   ],
+   "limits": [
+    "Nothing goes to the client.",
+    "Only the invoice already in Zoho is uploaded."
+   ],
+   "approve_label": "Approve upload",
+   "after": [
+    [
+     "09:03",
+     "Invoice SL-1051 uploaded to the payment.",
+     false
+    ],
+    [
+     "09:04",
+     "Payment captured. The automatic refund is cancelled.",
+     true
+    ],
+    [
+     "Next cycle",
+     "Settles to ICICI on Razorpay's international card settlement cycle.",
+     true
+    ],
+    [
+     "Within 24 hours of settlement",
+     "FIRA arrives by email (Razorpay issues it free).",
+     true
+    ],
+    [
+     "By 30 Nov",
+     "SL-1051 joins October's export form.",
+     false
+    ]
+   ],
+   "audit": "Uploaded invoice SL-1051 to payment of £1,800. Approved by Priya.",
+   "display": "£1,800",
+   "inr": 210600
+  },
+  {
+   "slug": "sl-0981",
+   "approved_at": "09:05",
+   "journey_after": [
+    "done",
+    "wait",
+    "todo",
+    "na",
+    "todo",
+    "todo"
+   ],
+   "invoices": [
+    "SL-0981"
+   ],
+   "client": "Copperline Studios Pty Ltd",
+   "country": "Australia",
+   "ccy": "USD",
+   "amount": 1200.0,
+   "bucket": "prepared",
+   "rank": 2,
+   "kind": "Deadline",
+   "title": "SL-0981 reaches its nine-month limit on 20 October",
+   "line": "Put the delay on record with ICICI before the limit passes. The letter is ready.",
+   "why_now": "Export money is due within nine months of the invoice date, and an exporter still unpaid a year past that can be restricted to advance payment only. SL-0981 is dated 20 January 2026, so the limit is 20 October 2026.",
+   "urgency": "8 days left",
+   "urgency_level": "high",
+   "journey": [
+    "done",
+    "stuck",
+    "todo",
+    "na",
+    "todo",
+    "todo"
+   ],
+   "facts": [
+    [
+     "Invoice SL-0981, pitch deck design, $1,200, dated 20 Jan 2026, is still unpaid.",
+     "Zoho Books"
+    ],
+    [
+     "On 30 Sep, Copperline's accounts team wrote that it is scheduled for their November payment run.",
+     "Inbox"
+    ],
+    [
+     "RBI: export proceeds are due within nine months; the bank can extend the time when the exporter asks with reasons. Unpaid a year past the due date, the exporter may only export against advance payment or a letter of credit.",
+     "RBI FEMA 23(R)/2026-RB, Regulations 5 and 13"
+    ],
+    [
+     "The invoice predates the 1 October export-form regime, so ICICI holds no declaration for it. The letter asks the bank to record the expected date, so the money can be received and matched without question when it arrives.",
+     "Agent note"
+    ]
+   ],
+   "steps": [
+    [
+     "Rule",
+     "Clock: 8 days to the nine-month limit.",
+     null
+    ],
+    [
+     "Rule",
+     "Reminding Copperline to pay is the RazorpayX Receivables Agent's job, so Homeward does not chase them. Homeward handles the bank side.",
+     null
+    ],
+    [
+     "AI",
+     "Drafted a request to ICICI to record an extension to 31 Dec 2026, using the reason in Copperline's email of 30 Sep.",
+     0.93
+    ]
+   ],
+   "baseline": "A fixed rule can flag the date. It cannot find the reason in the client's email or write the request.",
+   "prepared": [
+    "Extension request letter to ICICI's trade desk, with Copperline's email of 30 Sep attached. You decide whether to send it; some banks will only note it."
+   ],
+   "draft_kind": "Letter to ICICI Bank, trade desk",
+   "draft_subject": "Request to extend the realisation period for export invoice SL-0981",
+   "draft": [
+    "Dear Sir or Madam,",
+    "Saffron Loop Studio LLP requests an extension of the period for realising the export value of invoice SL-0981 (USD 1,200, dated 20 January 2026, client Copperline Studios Pty Ltd, Australia).",
+    "Reason: the client has confirmed that the payment is scheduled in its November 2026 payment run (email of 30 September 2026, attached).",
+    "We request an extension to 31 December 2026.",
+    "Priya, Designated Partner, Saffron Loop Studio LLP"
+   ],
+   "limits": [
+    "You send the letter to ICICI; the agent does not file anything with the bank.",
+    "No message goes to Copperline."
+   ],
+   "approve_label": "Approve and download letter",
+   "after": [
+    [
+     "09:05",
+     "Letter downloaded for you to send to ICICI's trade desk.",
+     false
+    ],
+    [
+     "Thu 15 Oct",
+     "If ICICI has not replied, the agent reminds you.",
+     false
+    ],
+    [
+     "20 Oct",
+     "Deadline. The agent shows the extension status here.",
+     false
+    ]
+   ],
+   "download": "extension-request-sl-0981.txt",
+   "audit": "Prepared an extension request for SL-0981. Downloaded by Priya.",
+   "display": "$1,200",
+   "inr": 105600
+  },
+  {
+   "slug": "edf-pack",
+   "approved_at": "09:20",
+   "journey_after": [
+    "done",
+    "done",
+    "done",
+    "wait",
+    "todo",
+    "todo"
+   ],
+   "invoices": [
+    "SL-1045",
+    "SL-1047",
+    "SL-1054"
+   ],
+   "client": "3 clients",
+   "country": "",
+   "ccy": null,
+   "amount": null,
+   "bucket": "prepared",
+   "rank": 3,
+   "kind": "Export form",
+   "title": "Export forms for 3 invoices, to release ₹10.2 lakh",
+   "line": "Your account settles to ICICI, so Razorpay needs an EDF number before it captures these payments.",
+   "why_now": "Three bank transfers have arrived for invoices dated after 1 October. Razorpay cannot capture them until ICICI gives an EDF number.",
+   "urgency": "Blocks ₹10.2 lakh",
+   "urgency_level": "high",
+   "journey": [
+    "done",
+    "done",
+    "done",
+    "stuck",
+    "todo",
+    "todo"
+   ],
+   "facts": [
+    [
+     "Your firm is an LLP. RBI said on 7 Oct that individuals on personal-nature contracts need not report; firms still file the EDF.",
+     "RBI via Business Today, 7 Oct 2026"
+    ],
+    [
+     "Services invoices dated on or after 1 Oct 2026 need an EDF within 30 days of the month's end; one EDF can cover a month.",
+     "RBI FEMA 23(R)/2026-RB, Regulation 3(2)"
+    ],
+    [
+     "For accounts settling to ICICI: \"you will be required to file for EDF number before capturing any payment with Razorpay Moneysaver.\"",
+     "Razorpay blog, 21 Sep 2026"
+    ],
+    [
+     "Waiting: $5,400 from Juniper Ridge (pays SL-1040 and SL-1045), $1,950 from Larkspur (SL-1047), £3,200 from Fernhill (SL-1054).",
+     "Razorpay MoneySaver"
+    ]
+   ],
+   "steps": [
+    [
+     "Rule",
+     "Which invoices need an EDF now: dated on or after 1 Oct, with money already waiting. SL-1045, SL-1047 and SL-1054. SL-1040 is dated 30 Sep, so it needs none.",
+     null
+    ],
+    [
+     "AI",
+     "Read each invoice and filled the fields the bank asks for: invoice number and date, client and country, service, currency and amount, and the payment received.",
+     0.95
+    ],
+    [
+     "Rule",
+     "Each invoice is under ₹10 lakh, so a self-declaration of the payment can close it with the bank.",
+     null
+    ],
+    [
+     "AI",
+     "Purpose code check: SL-1045 and SL-1054 are design work, and your account's code is P0802, Software consultancy or implementation. Sources disagree on the code for design work, so the agent asks rather than guesses.",
+     0.62
+    ]
+   ],
+   "baseline": "A fixed rule can list invoices by date. It cannot read the service on each invoice, notice that the code may not fit, or know which payments are blocked.",
+   "prepared": [
+    "EDF data for SL-1045, SL-1047 and SL-1054, ready to download for ICICI.",
+    "A question for you: confirm the purpose code for the two design invoices with ICICI or your CA."
+   ],
+   "limits": [
+    "You submit the EDF to ICICI; the agent never files with the bank.",
+    "The purpose code is your decision."
+   ],
+   "approve_label": "Approve and download the pack",
+   "after": [
+    [
+     "09:20",
+     "EDF pack downloaded. You submit it through ICICI Trade Online or your branch.",
+     false
+    ],
+    [
+     "Each morning",
+     "The agent checks for EDF numbers and asks you to mark them received.",
+     false
+    ],
+    [
+     "Once numbers arrive",
+     "Razorpay captures the three payments within 60 minutes, then settles T+1.",
+     true
+    ],
+    [
+     "T+1",
+     "₹10.2 lakh reaches your ICICI account. FIRA within 24 hours of settlement.",
+     true
+    ]
+   ],
+   "download": "edf-pack-sl-1045-1047-1054.csv",
+   "audit": "Prepared EDF data for SL-1045, SL-1047, SL-1054. Downloaded by Priya.",
+   "inr": 1021200,
+   "display": "3 payments"
+  },
+  {
+   "slug": "sl-1047",
+   "approved_at": "09:08",
+   "journey_after": [
+    "done",
+    "done",
+    "done",
+    "wait",
+    "todo",
+    "todo"
+   ],
+   "invoices": [
+    "SL-1047"
+   ],
+   "client": "Larkspur Labs Inc",
+   "country": "US",
+   "ccy": "USD",
+   "amount": 1950.0,
+   "bucket": "prepared",
+   "rank": 4,
+   "kind": "Waiting for an invoice",
+   "title": "$1,950 from LARKSPUR HOLDINGS LLC is waiting for an invoice",
+   "line": "Link it to SL-1047 and record $50 as bank charges.",
+   "why_now": "The money arrived on 9 Oct. Razorpay will not settle it without an invoice and buyer details.",
+   "urgency": "Arrived 3 days ago",
+   "urgency_level": "medium",
+   "journey": [
+    "done",
+    "done",
+    "stuck",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "facts": [
+    [
+     "9 Oct: $1,950 by US bank transfer (ACH) from LARKSPUR HOLDINGS LLC, reference \"INV1047 OCT\". Status: waiting for invoice and buyer details.",
+     "Razorpay MoneySaver"
+    ],
+    [
+     "Open for Larkspur Labs Inc: SL-1047, website build sprint 2, $2,000, dated 5 Oct; SL-1043, $2,400, card declined.",
+     "Zoho Books"
+    ],
+    [
+     "You confirmed on 9 Sep that LARKSPUR HOLDINGS LLC is Larkspur Labs' parent company.",
+     "Agent memory"
+    ]
+   ],
+   "steps": [
+    [
+     "AI",
+     "Match: SL-1047. The reference contains 1047, the payer is Larkspur's known parent, and the $50 gap is a typical intermediary bank charge on a US transfer.",
+     0.94
+    ],
+    [
+     "Rule",
+     "$50 is within the bank-charge limit (at most $50 and 3%), so it is recorded as a charge, not chased.",
+     null
+    ],
+    [
+     "Rule",
+     "The shortfall is under ₹10 lakh, so you can close the invoice by declaration to your bank.",
+     null
+    ],
+    [
+     "Rule",
+     "Dated 5 Oct, so an EDF is needed, and ICICI needs its number before capture. Added to today's export form pack.",
+     null
+    ]
+   ],
+   "baseline": "A fixed rule finds no match: the payer is not the client's name and the amount is $50 short. The money stays stuck.",
+   "prepared": [
+    "Attach invoice SL-1047 and Larkspur's buyer details from Zoho.",
+    "Record $50 as bank charges against SL-1047.",
+    "Add SL-1047 to the export form pack."
+   ],
+   "limits": [
+    "Nothing goes to the client.",
+    "If you pick a different invoice, the agent learns from it."
+   ],
+   "approve_label": "Approve link",
+   "after": [
+    [
+     "09:08",
+     "Invoice SL-1047 and buyer details attached to the payment.",
+     false
+    ],
+    [
+     "09:08",
+     "$50 recorded as bank charges; the declaration is noted for month end.",
+     false
+    ],
+    [
+     "After ICICI's EDF number",
+     "Razorpay captures within 60 minutes and settles T+1.",
+     true
+    ],
+    [
+     "T+1",
+     "₹1,71,600 reaches your ICICI account.",
+     true
+    ]
+   ],
+   "audit": "Linked $1,950 from LARKSPUR HOLDINGS LLC to SL-1047; recorded $50 bank charges. Approved by Priya.",
+   "display": "$1,950",
+   "inr": 171600
+  },
+  {
+   "slug": "sl-1040-1045",
+   "approved_at": "09:09",
+   "journey_after": [
+    "done",
+    "done",
+    "done",
+    "wait",
+    "todo",
+    "todo"
+   ],
+   "invoices": [
+    "SL-1040",
+    "SL-1045"
+   ],
+   "client": "Juniper Ridge Inc",
+   "country": "Canada",
+   "ccy": "USD",
+   "amount": 5400.0,
+   "bucket": "prepared",
+   "rank": 5,
+   "kind": "Waiting for an invoice",
+   "title": "$5,400 from Juniper Ridge pays two invoices",
+   "line": "Split it across SL-1040 and SL-1045.",
+   "why_now": "The money arrived on 7 Oct and is waiting for invoices.",
+   "urgency": "Arrived 5 days ago",
+   "urgency_level": "medium",
+   "journey": [
+    "done",
+    "done",
+    "stuck",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "facts": [
+    [
+     "7 Oct: $5,400 by ACH from JUNIPER RIDGE INC, reference \"SL1040/1045\". Waiting for invoices and buyer details.",
+     "Razorpay MoneySaver"
+    ],
+    [
+     "Open: SL-1040, product design sprint 1, $3,000, dated 30 Sep; SL-1045, product design sprint 2, $2,400, dated 3 Oct.",
+     "Zoho Books"
+    ]
+   ],
+   "steps": [
+    [
+     "AI",
+     "Split: the reference names both invoices and $3,000 plus $2,400 is exactly $5,400.",
+     0.97
+    ],
+    [
+     "Rule",
+     "SL-1040 is dated before 1 Oct, so it needs no EDF; SL-1045 needs one. The whole payment waits for SL-1045's EDF number (ICICI).",
+     null
+    ]
+   ],
+   "baseline": "A fixed rule matches one invoice at a time. One payment for two invoices stays unmatched.",
+   "prepared": [
+    "Attach SL-1040 and SL-1045 and Juniper's buyer details.",
+    "Add SL-1045 to the export form pack."
+   ],
+   "limits": [
+    "Nothing goes to the client."
+   ],
+   "approve_label": "Approve split",
+   "after": [
+    [
+     "09:09",
+     "Both invoices attached to the payment.",
+     false
+    ],
+    [
+     "After ICICI's EDF number for SL-1045",
+     "Razorpay captures within 60 minutes and settles T+1.",
+     true
+    ],
+    [
+     "T+1",
+     "₹4,75,200 reaches your ICICI account.",
+     true
+    ]
+   ],
+   "audit": "Split $5,400 from JUNIPER RIDGE INC across SL-1040 and SL-1045. Approved by Priya.",
+   "display": "$5,400",
+   "inr": 475200
+  },
+  {
+   "slug": "sl-1054",
+   "approved_at": "09:15",
+   "journey_after": [
+    "done",
+    "done",
+    "done",
+    "wait",
+    "wait",
+    "todo"
+   ],
+   "invoices": [
+    "SL-1054"
+   ],
+   "client": "Fernhill Analytics Ltd",
+   "country": "UK",
+   "ccy": "GBP",
+   "amount": 3200.0,
+   "bucket": "prepared",
+   "rank": 6,
+   "kind": "Under review",
+   "title": "Razorpay's review team needs documents for Fernhill's £3,200",
+   "line": "Pack ready: the invoice, the signed scope of work, proof of delivery. No client emails.",
+   "why_now": "A first payment from a new client is under review. Settlement waits until the review clears.",
+   "urgency": "Review open since 9 Oct",
+   "urgency_level": "medium",
+   "journey": [
+    "done",
+    "done",
+    "done",
+    "todo",
+    "stuck",
+    "todo"
+   ],
+   "facts": [
+    [
+     "9 Oct: £3,200 by Faster Payments from FERNHILL ANALYTICS LTD, reference \"SL-1054\". Matched to SL-1054 by rule.",
+     "Razorpay MoneySaver"
+    ],
+    [
+     "Razorpay's request (illustrative): \"Please share the contract or statement of work and proof of service delivery for this payment.\"",
+     "Razorpay review"
+    ],
+    [
+     "Invoice SL-1054, data product design: discovery, £3,200, dated 6 Oct.",
+     "Zoho Books"
+    ]
+   ],
+   "steps": [
+    [
+     "Rule",
+     "Matched exactly to SL-1054 (reference and amount).",
+     null
+    ],
+    [
+     "AI",
+     "Read the request: it needs a contract or scope of work, and proof of delivery.",
+     0.96
+    ],
+    [
+     "AI",
+     "Chose three documents: invoice SL-1054, the signed scope of work (Fernhill_SOW_signed.pdf) and the delivered discovery readout (Discovery_readout_v3.pdf, delivered 5 Oct).",
+     0.9
+    ],
+    [
+     "Rule",
+     "Client emails and chats are never shared unless you add them yourself.",
+     null
+    ],
+    [
+     "Rule",
+     "Dated 6 Oct, so an EDF is needed; added to the export form pack.",
+     null
+    ]
+   ],
+   "baseline": "A fixed rule cannot read the reviewer's request or pick the right documents. You would gather them by hand.",
+   "prepared": [
+    "Share three files with Razorpay's review team: invoice, signed scope of work, delivery readout."
+   ],
+   "limits": [
+    "Only these three files are shared, and only after you approve.",
+    "No client emails or chats."
+   ],
+   "approve_label": "Approve and share these three files",
+   "after": [
+    [
+     "09:15",
+     "Three files shared with Razorpay's review team.",
+     false
+    ],
+    [
+     "Not published",
+     "Razorpay does not publish review times. The agent shows the status here each morning.",
+     false
+    ],
+    [
+     "After review and the EDF number",
+     "Captured within 60 minutes; settles T+1.",
+     true
+    ],
+    [
+     "T+1",
+     "₹3,74,400 reaches your ICICI account.",
+     true
+    ]
+   ],
+   "audit": "Shared 3 documents with Razorpay review for SL-1054. Approved by Priya.",
+   "display": "£3,200",
+   "inr": 374400
+  },
+  {
+   "slug": "sl-1043",
+   "approved_at": "09:06",
+   "journey_after": [
+    "done",
+    "wait",
+    "todo",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "invoices": [
+    "SL-1043"
+   ],
+   "client": "Larkspur Labs Inc",
+   "country": "US",
+   "ccy": "USD",
+   "amount": 2400.0,
+   "bucket": "prepared",
+   "rank": 7,
+   "kind": "Declined",
+   "title": "Larkspur's card payment was declined by their bank",
+   "line": "Offer a US bank transfer, the way they paid in July and August.",
+   "why_now": "The invoice is due on 15 Oct. The client's bank blocked a cross-border card payment on 9 Oct, and nobody has told them another way to pay.",
+   "urgency": "Due in 3 days",
+   "urgency_level": "medium",
+   "journey": [
+    "done",
+    "stuck",
+    "todo",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "facts": [
+    [
+     "9 Oct, 22:14 IST: Dana Whitfield tried to pay SL-1043 ($2,400) by Visa. Her bank declined it: \"Do not honour. Cross-border risk.\"",
+     "Razorpay payment record"
+    ],
+    [
+     "Larkspur paid your July and August invoices by US bank transfer (ACH) into your USD account.",
+     "Razorpay history"
+    ],
+    [
+     "No reply from Dana since the decline.",
+     "Inbox"
+    ]
+   ],
+   "steps": [
+    [
+     "AI",
+     "Read the decline text, \"Do not honour. Cross-border risk\": the client's bank blocked a cross-border payment, not a card or funds problem.",
+     0.93
+    ],
+    [
+     "Rule",
+     "For a bank block, the next way to pay is a local bank transfer to your global account (policy, section 6). Retrying the same card usually fails again.",
+     null
+    ],
+    [
+     "AI",
+     "Drafted the note. Larkspur's accounts team has paid by US bank transfer twice, so that leads; an Apple Pay link is the second choice in case Dana prefers a card.",
+     0.91
+    ],
+    [
+     "Rule",
+     "Limits: reminder 1 of 2; sent at 9:00 in Boston on Tuesday 13 October, because Monday 12 October is a US public holiday.",
+     null
+    ]
+   ],
+   "baseline": "A fixed rule resends the same card link, which her bank is likely to block again.",
+   "prepared": [
+    "A short note from Priya to Dana with a bank transfer link and an Apple Pay link."
+   ],
+   "draft_kind": "Email to Dana Whitfield, Larkspur Labs",
+   "draft_subject": "Invoice SL-1043: an easier way to pay",
+   "draft": [
+    "Hi Dana,",
+    "Your card payment for invoice SL-1043 ($2,400) didn't go through on Friday. Your bank declined it as an international payment, which sometimes happens with cross-border card payments.",
+    "The simplest fix is a US bank transfer, as you did for our July and August invoices. The account details are on this secure page: [Pay by bank transfer]",
+    "If you'd rather use a card, this Apple Pay link usually avoids the problem: [Pay with Apple Pay]",
+    "Thanks,",
+    "Priya"
+   ],
+   "limits": [
+    "Reminder 1 of 2 for this decline.",
+    "Sent only in Dana's working hours, and not on a US public holiday (Monday 12 October is one).",
+    "Stops at once if Dana replies that she has paid, will pay, or disputes it."
+   ],
+   "approve_label": "Approve note",
+   "after": [
+    [
+     "09:06",
+     "Scheduled for Dana's next working day.",
+     false
+    ],
+    [
+     "Tue 13 Oct, 18:30 IST",
+     "Note sent at 9:00 in Boston.",
+     false
+    ],
+    [
+     "Wed 14 Oct",
+     "Dana pays $2,400 by ACH.",
+     true
+    ],
+    [
+     "Wed 14 Oct",
+     "The agent links the payment to SL-1043 by rule and adds SL-1043 to the next EDF pack (ICICI needs the number before capture).",
+     true
+    ],
+    [
+     "After the EDF number",
+     "Captured within 60 minutes; settles T+1; FIRA within 24 hours.",
+     true
+    ]
+   ],
+   "audit": "Sent reminder 1 for SL-1043 with bank transfer and Apple Pay links. Approved by Priya.",
+   "display": "$2,400",
+   "inr": 211200
+  },
+  {
+   "slug": "sl-1039",
+   "approved_at": "09:10",
+   "journey_after": [
+    "done",
+    "done",
+    "done",
+    "na",
+    "wait",
+    "todo"
+   ],
+   "invoices": [
+    "SL-1039"
+   ],
+   "client": "Copperline Studios Pty Ltd",
+   "country": "Australia",
+   "ccy": "USD",
+   "amount": 2725.0,
+   "bucket": "prepared",
+   "rank": 8,
+   "kind": "Waiting for an invoice",
+   "title": "Copperline says they paid SL-1039, and they did: $2,725 is sitting unlinked",
+   "line": "Reminders stopped. Link the wire they sent on 6 Oct.",
+   "why_now": "Ruth replied on 9 Oct that they paid. The agent found the wire waiting for an invoice.",
+   "urgency": "Arrived 6 days ago",
+   "urgency_level": "medium",
+   "journey": [
+    "done",
+    "done",
+    "stuck",
+    "na",
+    "todo",
+    "todo"
+   ],
+   "facts": [
+    [
+     "SL-1039, website redesign milestone 2, $2,750, dated 15 Sep.",
+     "Zoho Books"
+    ],
+    [
+     "25 Sep: card attempt declined, 3-D Secure not completed. 30 Sep: reminder 1 sent, approved by you.",
+     "Razorpay; audit log"
+    ],
+    [
+     "9 Oct, Ruth Ellery: \"We already paid this by wire last Friday, reference COPPERLINE SL1039.\"",
+     "Inbox"
+    ],
+    [
+     "6 Oct: $2,725 by SWIFT from COPPERLINE GROUP PTY LTD, reference \"SL1039\". Waiting for invoice and buyer details.",
+     "Razorpay MoneySaver"
+    ]
+   ],
+   "steps": [
+    [
+     "AI",
+     "Read Ruth's reply: they say they have paid, around Friday 2 Oct, reference SL1039.",
+     0.97
+    ],
+    [
+     "Rule",
+     "Said paid, so all reminders for SL-1039 stopped at once.",
+     null
+    ],
+    [
+     "Rule",
+     "Searched transfers from the last 14 days.",
+     null
+    ],
+    [
+     "AI",
+     "Match: the $2,725 wire. Reference SL1039, COPPERLINE GROUP PTY LTD is plausibly Copperline's group company, and $25 is a typical SWIFT charge.",
+     0.96
+    ],
+    [
+     "Rule",
+     "Dated 15 Sep, before 1 Oct, so no EDF is needed and Razorpay can capture as soon as the invoice is attached.",
+     null
+    ]
+   ],
+   "baseline": "A fixed rule keeps sending reminders to a client who has already paid, and leaves the wire unmatched.",
+   "prepared": [
+    "Attach SL-1039 and buyer details to the $2,725 wire; record $25 as bank charges.",
+    "Remember COPPERLINE GROUP PTY LTD as a Copperline payer name."
+   ],
+   "optional_draft": true,
+   "draft_kind": "Separate, optional: a two-line thank-you to Ruth Ellery, Copperline Studios. It is not part of the approval above.",
+   "draft_subject": "Thanks for paying SL-1039",
+   "draft": [
+    "Hi Ruth,",
+    "Thanks, we've found your payment for SL-1039 and matched it. Sorry for the reminder.",
+    "Priya"
+   ],
+   "limits": [
+    "Approving the link sends nothing to Copperline.",
+    "The thank-you is a separate decision; if you send it, it goes at 9:00 in Melbourne (03:30 IST)."
+   ],
+   "approve_label": "Approve link",
+   "after": [
+    [
+     "09:10",
+     "Invoice SL-1039 and buyer details attached; $25 recorded as charges.",
+     false
+    ],
+    [
+     "10:10",
+     "Captured within 60 minutes (no EDF needed for a September invoice).",
+     true
+    ],
+    [
+     "T+1",
+     "₹2,39,800 reaches your ICICI account. FIRA within 24 hours.",
+     true
+    ],
+    [
+     "Learned",
+     "COPPERLINE GROUP PTY LTD now counts as Copperline.",
+     false
+    ]
+   ],
+   "audit": "Stopped reminders for SL-1039; linked $2,725 from COPPERLINE GROUP PTY LTD. Approved by Priya.",
+   "display": "$2,725",
+   "inr": 239800
+  },
+  {
+   "slug": "sl-1046",
+   "approved_at": "09:07",
+   "journey_after": [
+    "done",
+    "wait",
+    "todo",
+    "na",
+    "todo",
+    "todo"
+   ],
+   "invoices": [
+    "SL-1046"
+   ],
+   "client": "Saltmarsh Media Ltd",
+   "country": "UK",
+   "ccy": "GBP",
+   "amount": 950.0,
+   "bucket": "prepared",
+   "rank": 9,
+   "kind": "Declined",
+   "title": "Saltmarsh said they'd retry this week. One gentle note, with an easier way to pay",
+   "line": "Paused until today. Offer Apple Pay or Google Pay, or a UK bank transfer.",
+   "why_now": "On Friday 2 Oct Tom said he would try again the following week. That week has passed with no payment, so the pause ended this morning.",
+   "urgency": "Pause ended today",
+   "urgency_level": "low",
+   "journey": [
+    "done",
+    "stuck",
+    "todo",
+    "na",
+    "todo",
+    "todo"
+   ],
+   "facts": [
+    [
+     "SL-1046, editorial illustrations, £950, dated 29 Sep.",
+     "Zoho Books"
+    ],
+    [
+     "1 Oct: two card attempts declined, \"3-D Secure authentication not completed\".",
+     "Razorpay payment record"
+    ],
+    [
+     "2 Oct, Tom Hale: \"Your payment page keeps failing on my phone, I'll try again next week.\"",
+     "Inbox"
+    ]
+   ],
+   "steps": [
+    [
+     "AI",
+     "Read Tom's reply: he will retry in the week of 5 Oct, so the agent paused until that week was over (Mon 12 Oct).",
+     0.9
+    ],
+    [
+     "AI",
+     "Read the decline text: 3-D Secure not completed, twice, on a phone.",
+     0.92
+    ],
+    [
+     "Rule",
+     "For a failed card check on a phone, the next way to pay is a wallet (Apple Pay or Google Pay), which skips that step; a UK bank transfer to your GBP account is the fallback (policy, section 6).",
+     null
+    ],
+    [
+     "AI",
+     "Drafted the note in your tone: short, both links, no pressure.",
+     0.88
+    ],
+    [
+     "Rule",
+     "Reminder 1 of 2; sent at 9:00 in London (13:30 IST).",
+     null
+    ]
+   ],
+   "baseline": "A fixed rule sends the same card link again, which has already failed twice on his phone.",
+   "prepared": [
+    "A short note to Tom with a wallet link and a UK bank transfer link."
+   ],
+   "draft_kind": "Email to Tom Hale, Saltmarsh Media",
+   "draft_subject": "Invoice SL-1046: two easier ways to pay",
+   "draft": [
+    "Hi Tom,",
+    "Following up on invoice SL-1046 (£950). The card check seems to fail on your phone, so here are two options that usually work:",
+    "Pay with Apple Pay or Google Pay: [Pay with a wallet]",
+    "Or pay by UK bank transfer to our GBP account: [Pay by bank transfer]",
+    "Thanks,",
+    "Priya"
+   ],
+   "limits": [
+    "Reminder 1 of 2 for this decline.",
+    "Sent only in Tom's working hours."
+   ],
+   "approve_label": "Approve note",
+   "after": [
+    [
+     "09:07",
+     "Scheduled for Tom's working hours.",
+     false
+    ],
+    [
+     "13:30 IST",
+     "Note sent at 9:00 in London.",
+     false
+    ],
+    [
+     "14:05 IST",
+     "Tom pays £950 with Apple Pay.",
+     true
+    ],
+    [
+     "14:06 IST",
+     "The agent uploads SL-1046 by rule and the payment is captured (September invoice, no EDF).",
+     true
+    ],
+    [
+     "Next cycle",
+     "₹1,11,150 settles to ICICI; FIRA follows.",
+     true
+    ]
+   ],
+   "audit": "Sent reminder 1 for SL-1046 with wallet and bank transfer links. Approved by Priya.",
+   "display": "£950",
+   "inr": 111150
+  },
+  {
+   "slug": "sl-1052-1053",
+   "approved_at": "09:12",
+   "journey_after": [
+    "done",
+    "done",
+    "done",
+    "wait",
+    "todo",
+    "todo"
+   ],
+   "invoices": [
+    "SL-1052",
+    "SL-1053"
+   ],
+   "client": "Tidewater Health LLC",
+   "country": "US",
+   "ccy": "USD",
+   "amount": 1500.0,
+   "bucket": "answer",
+   "rank": 10,
+   "kind": "Needs your answer",
+   "title": "$1,500 from Tidewater Health: which invoice is it for?",
+   "line": "Two open invoices are exactly $1,500. The agent won't guess.",
+   "why_now": "The money arrived on 8 Oct and cannot settle until it is linked to an invoice.",
+   "urgency": "Arrived 4 days ago",
+   "urgency_level": "medium",
+   "journey": [
+    "done",
+    "done",
+    "stuck",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "facts": [
+    [
+     "8 Oct: $1,500 by ACH from TIDEWATER HEALTH LLC, no reference.",
+     "Razorpay MoneySaver"
+    ],
+    [
+     "Open: SL-1052, patient app UI phase 1, $1,500, dated 2 Oct; SL-1053, clinic website refresh, $1,500, dated 6 Oct.",
+     "Zoho Books"
+    ]
+   ],
+   "steps": [
+    [
+     "Rule",
+     "Two invoices fit exactly.",
+     null
+    ],
+    [
+     "AI",
+     "A slight lean towards SL-1052, the older one, but 0.58 is below your 0.80 threshold, so the agent asks.",
+     0.58
+    ]
+   ],
+   "baseline": "A fixed rule leaves it unmatched, with no question and no lean.",
+   "prepared": [
+    "Your choice: SL-1052, SL-1053, or a one-line question to Marcus at Tidewater."
+   ],
+   "answers": [
+    "It's SL-1052",
+    "It's SL-1053",
+    "Ask Tidewater"
+   ],
+   "limits": [
+    "Nothing is linked until you answer."
+   ],
+   "approve_label": "It's SL-1052",
+   "after": [
+    [
+     "09:12",
+     "Linked to SL-1052; buyer details attached.",
+     false
+    ],
+    [
+     "09:12",
+     "SL-1052 is dated 2 Oct, so it joins the export form pack (ICICI needs the number before capture).",
+     false
+    ],
+    [
+     "Learned",
+     "Tidewater pays its oldest invoice first. Next time the agent's lean is stronger.",
+     false
+    ],
+    [
+     "Still open",
+     "SL-1053 stays open.",
+     false
+    ]
+   ],
+   "audit": "Priya chose SL-1052 for $1,500 from TIDEWATER HEALTH LLC.",
+   "display": "$1,500",
+   "inr": 132000
+  },
+  {
+   "slug": "quillon",
+   "approved_at": "09:13",
+   "journey_after": [
+    "wait",
+    "done",
+    "wait",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "invoices": [],
+   "client": "QUILLON DESIGNWORKS",
+   "country": "Unknown",
+   "ccy": "USD",
+   "amount": 800.0,
+   "bucket": "answer",
+   "rank": 11,
+   "kind": "Needs your answer",
+   "title": "$800 from QUILLON DESIGNWORKS: the agent doesn't recognise this payer",
+   "line": "No client or open invoice matches. Tell the agent who it's from.",
+   "why_now": "The money arrived on 10 Oct and cannot settle without an invoice.",
+   "urgency": "Arrived 2 days ago",
+   "urgency_level": "low",
+   "journey": [
+    "todo",
+    "done",
+    "stuck",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "facts": [
+    [
+     "10 Oct: $800 by ACH from QUILLON DESIGNWORKS, reference \"logo refresh\".",
+     "Razorpay MoneySaver"
+    ],
+    [
+     "No open invoice for $800; no client with a similar name; \"logo refresh\" appears in no invoice.",
+     "Zoho Books"
+    ]
+   ],
+   "steps": [
+    [
+     "Rule",
+     "No candidate invoice.",
+     null
+    ],
+    [
+     "AI",
+     "Most likely a new client who hasn't been invoiced yet.",
+     null
+    ],
+    [
+     "Rule",
+     "Razorpay cannot refund bank transfers, so if it isn't yours the agent prepares a note to Razorpay support instead.",
+     null
+    ]
+   ],
+   "baseline": "A fixed rule leaves it unmatched with no explanation.",
+   "prepared": [
+    "Three answers to choose from."
+   ],
+   "answers": [
+    "New client: I'll raise the invoice in Zoho",
+    "It's from an existing client",
+    "Not ours: tell Razorpay support"
+   ],
+   "limits": [
+    "Nothing is linked or returned until you answer."
+   ],
+   "approve_label": "New client: I'll raise the invoice in Zoho",
+   "after": [
+    [
+     "09:13",
+     "The agent watches Zoho for the new invoice.",
+     false
+    ],
+    [
+     "When it appears",
+     "The agent links it (exact amount and payer) and adds it to the export form pack if it is dated on or after 1 Oct.",
+     false
+    ]
+   ],
+   "audit": "Priya said QUILLON DESIGNWORKS is a new client; waiting for the invoice in Zoho.",
+   "display": "$800",
+   "inr": 70400
+  },
+  {
+   "slug": "sl-1044",
+   "invoices": [
+    "SL-1044"
+   ],
+   "client": "Halcyon Retail Pte Ltd",
+   "country": "Singapore",
+   "ccy": "USD",
+   "amount": 4100.0,
+   "bucket": "stopped",
+   "rank": 12,
+   "kind": "Stopped",
+   "title": "Halcyon disputes the hours on SL-1044. The agent has stopped",
+   "line": "No more contact on this invoice. Your call.",
+   "why_now": "Wei Ling replied on 8 Oct that they dispute the week 3 hours.",
+   "urgency": "Stopped 8 Oct",
+   "urgency_level": "low",
+   "journey": [
+    "done",
+    "stuck",
+    "todo",
+    "na",
+    "todo",
+    "todo"
+   ],
+   "facts": [
+    [
+     "SL-1044, e-commerce UI design weeks 1 to 4, $4,100, dated 28 Sep.",
+     "Zoho Books"
+    ],
+    [
+     "3 Oct: card declined, card limit. 6 Oct: reminder 1 sent, approved by you.",
+     "Razorpay; audit log"
+    ],
+    [
+     "8 Oct, Wei Ling Tan: \"We're disputing the hours billed for week 3. Please hold off until we've resolved it with Priya.\"",
+     "Inbox"
+    ]
+   ],
+   "steps": [
+    [
+     "AI",
+     "Read the reply: a dispute about the work, not a payment problem.",
+     0.97
+    ],
+    [
+     "Rule",
+     "Dispute: stop all contact on this invoice and hand it to you.",
+     null
+    ],
+    [
+     "Rule",
+     "Nine-month deadline noted: 28 Jun 2027.",
+     null
+    ]
+   ],
+   "baseline": "A fixed rule without reply reading sends reminder 2 to a client who is disputing the work.",
+   "prepared": [
+    "Nothing to approve. Halcyon is on do-not-contact for SL-1044."
+   ],
+   "answers": [
+    "I'll reply myself",
+    "Resolved: resume",
+    "I'll write it off in Zoho"
+   ],
+   "limits": [
+    "No messages to Halcyon about SL-1044 until you say so."
+   ],
+   "approve_label": null,
+   "after": [],
+   "audit": "Stopped all contact on SL-1044 after a dispute; handed to Priya.",
+   "display": "$4,100",
+   "inr": 360800
+  }
+ ],
+ "totals": {
+  "not_home_inr": 2462750,
+  "arrived_inr": 1674000,
+  "not_paid_inr": 788750,
+  "home_14d_inr": 455100,
+  "count": 11,
+  "arrived_count": 7,
+  "not_paid_count": 4
+ },
+ "done": [
+  {
+   "invoice": "SL-1036",
+   "client": "Kestrel Analytics GmbH",
+   "ccy": "EUR",
+   "amount": 3200.0,
+   "home": "3 Oct",
+   "note": "SEPA on 2 Oct, matched by rule, captured, settled 3 Oct, FIRA received. Dated 10 Sep, so no EDF.",
+   "inr": 326400,
+   "display": "€3,200"
+  },
+  {
+   "invoice": "SL-1038",
+   "client": "Bramble & Finch Ltd",
+   "ccy": "GBP",
+   "amount": 1100.0,
+   "home": "1 Oct",
+   "note": "Card captured 30 Sep, settled 1 Oct, FIRA received. Dated 12 Sep, so no EDF.",
+   "inr": 128700,
+   "display": "£1,100"
+  }
+ ],
+ "no_action": [
+  {
+   "what": "Upwork payout",
+   "ccy": "USD",
+   "amount": 640.0,
+   "date": "8 Oct",
+   "note": "Platform payouts need no invoice upload on Razorpay. Nothing to do.",
+   "inr": 56320,
+   "display": "$640"
+  }
+ ],
+ "invoices": [
+  {
+   "invoice": "SL-0981",
+   "client": "Copperline Studios Pty Ltd",
+   "date": "20 Jan 2026",
+   "service": "Pitch deck design",
+   "ccy": "USD",
+   "amount": 1200.0,
+   "display": "$1,200",
+   "inr": 105600,
+   "journey": [
+    "done",
+    "stuck",
+    "todo",
+    "na",
+    "todo",
+    "todo"
+   ],
+   "status": "Unpaid; nine-month limit 20 Oct",
+   "slug": "sl-0981"
+  },
+  {
+   "invoice": "SL-1036",
+   "client": "Kestrel Analytics GmbH",
+   "date": "10 Sep 2026",
+   "service": "Dashboard UX design",
+   "ccy": "EUR",
+   "amount": 3200.0,
+   "display": "€3,200",
+   "inr": 326400,
+   "journey": [
+    "done",
+    "done",
+    "done",
+    "na",
+    "done",
+    "done"
+   ],
+   "status": "Closed",
+   "slug": null
+  },
+  {
+   "invoice": "SL-1038",
+   "client": "Bramble & Finch Ltd",
+   "date": "12 Sep 2026",
+   "service": "Brand refresh, phase 1",
+   "ccy": "GBP",
+   "amount": 1100.0,
+   "display": "£1,100",
+   "inr": 128700,
+   "journey": [
+    "done",
+    "done",
+    "done",
+    "na",
+    "done",
+    "done"
+   ],
+   "status": "Closed",
+   "slug": null
+  },
+  {
+   "invoice": "SL-1039",
+   "client": "Copperline Studios Pty Ltd",
+   "date": "15 Sep 2026",
+   "service": "Website redesign, milestone 2",
+   "ccy": "USD",
+   "amount": 2750.0,
+   "display": "$2,750",
+   "inr": 242000,
+   "journey": [
+    "done",
+    "done",
+    "stuck",
+    "na",
+    "todo",
+    "todo"
+   ],
+   "status": "Paid by wire; waiting to be linked",
+   "slug": "sl-1039"
+  },
+  {
+   "invoice": "SL-1040",
+   "client": "Juniper Ridge Inc",
+   "date": "30 Sep 2026",
+   "service": "Product design sprint 1",
+   "ccy": "USD",
+   "amount": 3000.0,
+   "display": "$3,000",
+   "inr": 264000,
+   "journey": [
+    "done",
+    "done",
+    "stuck",
+    "na",
+    "todo",
+    "todo"
+   ],
+   "status": "Paid with SL-1045; waiting to be linked",
+   "slug": "sl-1040-1045"
+  },
+  {
+   "invoice": "SL-1043",
+   "client": "Larkspur Labs Inc",
+   "date": "1 Oct 2026",
+   "service": "Brand system design",
+   "ccy": "USD",
+   "amount": 2400.0,
+   "display": "$2,400",
+   "inr": 211200,
+   "journey": [
+    "done",
+    "stuck",
+    "todo",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "status": "Card declined",
+   "slug": "sl-1043"
+  },
+  {
+   "invoice": "SL-1044",
+   "client": "Halcyon Retail Pte Ltd",
+   "date": "28 Sep 2026",
+   "service": "E-commerce UI design, weeks 1 to 4",
+   "ccy": "USD",
+   "amount": 4100.0,
+   "display": "$4,100",
+   "inr": 360800,
+   "journey": [
+    "done",
+    "stuck",
+    "todo",
+    "na",
+    "todo",
+    "todo"
+   ],
+   "status": "Disputed; agent stopped",
+   "slug": "sl-1044"
+  },
+  {
+   "invoice": "SL-1045",
+   "client": "Juniper Ridge Inc",
+   "date": "3 Oct 2026",
+   "service": "Product design sprint 2",
+   "ccy": "USD",
+   "amount": 2400.0,
+   "display": "$2,400",
+   "inr": 211200,
+   "journey": [
+    "done",
+    "done",
+    "stuck",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "status": "Paid with SL-1040; needs EDF",
+   "slug": "sl-1040-1045"
+  },
+  {
+   "invoice": "SL-1046",
+   "client": "Saltmarsh Media Ltd",
+   "date": "29 Sep 2026",
+   "service": "Editorial illustrations",
+   "ccy": "GBP",
+   "amount": 950.0,
+   "display": "£950",
+   "inr": 111150,
+   "journey": [
+    "done",
+    "stuck",
+    "todo",
+    "na",
+    "todo",
+    "todo"
+   ],
+   "status": "Card failed twice; client retrying",
+   "slug": "sl-1046"
+  },
+  {
+   "invoice": "SL-1047",
+   "client": "Larkspur Labs Inc",
+   "date": "5 Oct 2026",
+   "service": "Website build, sprint 2",
+   "ccy": "USD",
+   "amount": 2000.0,
+   "display": "$2,000",
+   "inr": 176000,
+   "journey": [
+    "done",
+    "done",
+    "stuck",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "status": "Paid $1,950; waiting to be linked",
+   "slug": "sl-1047"
+  },
+  {
+   "invoice": "SL-1051",
+   "client": "Bramble & Finch Ltd",
+   "date": "7 Oct 2026",
+   "service": "UX research and design",
+   "ccy": "GBP",
+   "amount": 1800.0,
+   "display": "£1,800",
+   "inr": 210600,
+   "journey": [
+    "done",
+    "done",
+    "stuck",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "status": "Card authorised; refunds in 1 day",
+   "slug": "sl-1051"
+  },
+  {
+   "invoice": "SL-1052",
+   "client": "Tidewater Health LLC",
+   "date": "2 Oct 2026",
+   "service": "Patient app UI, phase 1",
+   "ccy": "USD",
+   "amount": 1500.0,
+   "display": "$1,500",
+   "inr": 132000,
+   "journey": [
+    "done",
+    "done",
+    "stuck",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "status": "$1,500 arrived; which invoice?",
+   "slug": "sl-1052-1053"
+  },
+  {
+   "invoice": "SL-1053",
+   "client": "Tidewater Health LLC",
+   "date": "6 Oct 2026",
+   "service": "Clinic website refresh",
+   "ccy": "USD",
+   "amount": 1500.0,
+   "display": "$1,500",
+   "inr": 132000,
+   "journey": [
+    "done",
+    "done",
+    "stuck",
+    "todo",
+    "todo",
+    "todo"
+   ],
+   "status": "$1,500 arrived; which invoice?",
+   "slug": "sl-1052-1053"
+  },
+  {
+   "invoice": "SL-1054",
+   "client": "Fernhill Analytics Ltd",
+   "date": "6 Oct 2026",
+   "service": "Data product design: discovery",
+   "ccy": "GBP",
+   "amount": 3200.0,
+   "display": "£3,200",
+   "inr": 374400,
+   "journey": [
+    "done",
+    "done",
+    "done",
+    "todo",
+    "stuck",
+    "todo"
+   ],
+   "status": "Under review; documents ready",
+   "slug": "sl-1054"
+  }
+ ],
+ "edf_october": [
+  {
+   "invoice": "SL-1043",
+   "client": "Larkspur Labs Inc",
+   "country": "US",
+   "service": "Brand system design",
+   "ccy": "USD",
+   "amount": 2400.0,
+   "display": "$2,400",
+   "inr": 211200,
+   "payment": "Card declined; not paid yet",
+   "when": "Monthly EDF, or the pack once paid",
+   "code": "Design: confirm code"
+  },
+  {
+   "invoice": "SL-1045",
+   "client": "Juniper Ridge Inc",
+   "country": "CA",
+   "service": "Product design sprint 2",
+   "ccy": "USD",
+   "amount": 2400.0,
+   "display": "$2,400",
+   "inr": 211200,
+   "payment": "Paid 7 Oct; waiting for EDF number",
+   "when": "Today's pack",
+   "code": "Design: confirm code"
+  },
+  {
+   "invoice": "SL-1047",
+   "client": "Larkspur Labs Inc",
+   "country": "US",
+   "service": "Website build, sprint 2",
+   "ccy": "USD",
+   "amount": 2000.0,
+   "display": "$2,000",
+   "inr": 176000,
+   "payment": "Paid 9 Oct ($1,950); waiting for EDF number",
+   "when": "Today's pack",
+   "code": "P0802 fits"
+  },
+  {
+   "invoice": "SL-1051",
+   "client": "Bramble & Finch Ltd",
+   "country": "UK",
+   "service": "UX research and design",
+   "ccy": "GBP",
+   "amount": 1800.0,
+   "display": "£1,800",
+   "inr": 210600,
+   "payment": "Card authorised 10 Oct",
+   "when": "Monthly EDF, due 30 Nov",
+   "code": "Design: confirm code"
+  },
+  {
+   "invoice": "SL-1052",
+   "client": "Tidewater Health LLC",
+   "country": "US",
+   "service": "Patient app UI, phase 1",
+   "ccy": "USD",
+   "amount": 1500.0,
+   "display": "$1,500",
+   "inr": 132000,
+   "payment": "Paid 8 Oct, once you confirm the invoice",
+   "when": "Pack, after your answer",
+   "code": "Design: confirm code"
+  },
+  {
+   "invoice": "SL-1053",
+   "client": "Tidewater Health LLC",
+   "country": "US",
+   "service": "Clinic website refresh",
+   "ccy": "USD",
+   "amount": 1500.0,
+   "display": "$1,500",
+   "inr": 132000,
+   "payment": "Not paid yet",
+   "when": "Monthly EDF, due 30 Nov",
+   "code": "P0802 fits"
+  },
+  {
+   "invoice": "SL-1054",
+   "client": "Fernhill Analytics Ltd",
+   "country": "UK",
+   "service": "Data product design: discovery",
+   "ccy": "GBP",
+   "amount": 3200.0,
+   "display": "£3,200",
+   "inr": 374400,
+   "payment": "Paid 9 Oct; under review",
+   "when": "Today's pack",
+   "code": "Design: confirm code"
+  }
+ ],
+ "playbook": [
+  {
+   "group": "The payment never arrived",
+   "situation": "Card declined: the client's bank blocked a cross-border payment",
+   "signal": "Decline reason on the payment record",
+   "decides": "Rule, then AI",
+   "does": "Offers a local bank transfer to your global account, or a wallet if no local account exists for that currency",
+   "never": "Resend the same card link that was just blocked",
+   "slug": "sl-1043"
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "Card declined: 3-D Secure failed or the card is not enrolled",
+   "signal": "Decline reason",
+   "decides": "Rule, then AI",
+   "does": "Offers Apple Pay or Google Pay; offers a bank transfer instead if the client is on a desktop or has paid by transfer before",
+   "never": "Retry the card again and again",
+   "slug": "sl-1046"
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "Card declined: billing address mismatch (US, UK and Canada cards)",
+   "signal": "Decline reason; card country",
+   "decides": "Rule",
+   "does": "Asks the client to retry once with the address their bank holds; then a bank transfer",
+   "never": "Ask for the card number or address by email",
+   "slug": null
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "Card declined: insufficient funds or card limit",
+   "signal": "Decline reason",
+   "decides": "Rule",
+   "does": "Asks when they would like to pay and offers a bank transfer",
+   "never": "Retry rapidly",
+   "slug": null
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "Card blocked by the client's bank after repeated attempts",
+   "signal": "Decline reason; attempt count",
+   "decides": "Rule",
+   "does": "Stops card attempts; bank transfer only",
+   "never": "Trigger more fraud blocks",
+   "slug": null
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "International cards not switched on for your account",
+   "signal": "Decline reason",
+   "decides": "Rule",
+   "does": "Offers the client a bank transfer and shows you how to request activation (Dashboard, International payments)",
+   "never": "Blame the client",
+   "slug": null
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "The client says they will pay on a date",
+   "signal": "Client's reply",
+   "decides": "AI",
+   "does": "Pauses until that date",
+   "never": "Remind before the date",
+   "slug": null
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "The client says they have already paid",
+   "signal": "Client's reply",
+   "decides": "AI, then rule",
+   "does": "Stops reminders; searches transfers from the last 14 days; links or asks for the reference",
+   "never": "Keep chasing",
+   "slug": "sl-1039"
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "The client disputes the invoice or the work",
+   "signal": "Client's reply",
+   "decides": "AI, then rule",
+   "does": "Stops all contact on that invoice and hands it to you",
+   "never": "Argue, discount or remind",
+   "slug": "sl-1044"
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "The client is on your do-not-contact list",
+   "signal": "Your list",
+   "decides": "Rule",
+   "does": "Prepares the note for you to send yourself",
+   "never": "Contact them",
+   "slug": null
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "Automatic out-of-office reply",
+   "signal": "Client's reply",
+   "decides": "AI",
+   "does": "Pauses until the return date; with no return date it keeps waiting within the usual limits",
+   "never": "Send while they are away",
+   "slug": null
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "A decline that fits none of the listed reasons",
+   "signal": "Decline reason",
+   "decides": "Rule",
+   "does": "Offers a bank transfer, the safest route, and shows you the raw decline text",
+   "never": "Invent a reason",
+   "slug": null
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "A client's public holiday",
+   "signal": "Client's country and calendar",
+   "decides": "Rule",
+   "does": "Waits for the next working day in the client's country (Monday 12 October 2026 is a US public holiday)",
+   "never": "Send on a holiday",
+   "slug": "sl-1043"
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "Someone else now handles payments",
+   "signal": "Client's reply",
+   "decides": "AI",
+   "does": "Asks you to update the contact in Zoho",
+   "never": "Change contacts by itself",
+   "slug": null
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "The client asks for bank details",
+   "signal": "Client's reply",
+   "decides": "AI",
+   "does": "Prepares your global account details for approval",
+   "never": "Send account details without approval",
+   "slug": null
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "Two reminders already sent for this decline",
+   "signal": "Reminder count",
+   "decides": "Rule",
+   "does": "Hands it to you",
+   "never": "Send a third",
+   "slug": null
+  },
+  {
+   "group": "The payment never arrived",
+   "situation": "An invoice is unpaid with nothing gone wrong",
+   "signal": "Due date only",
+   "decides": "Not this agent",
+   "does": "Leaves it to the RazorpayX Receivables Agent",
+   "never": "Duplicate reminders",
+   "slug": null
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "A card payment is waiting for its invoice, with the 3-day refund clock running",
+   "signal": "Payment status and authorisation time",
+   "decides": "Rule",
+   "does": "Uploads the matching invoice after approval, most urgent first",
+   "never": "Let it refund",
+   "slug": "sl-1051"
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "A bank transfer is waiting for an invoice and buyer details",
+   "signal": "MoneySaver status",
+   "decides": "Rule, then AI",
+   "does": "Finds the invoice in Zoho and attaches it with buyer details after approval",
+   "never": "Attach an invoice it is unsure about",
+   "slug": "sl-1047"
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "The payer's name differs from the client (parent company, payment service)",
+   "signal": "Payer name, reference, known aliases",
+   "decides": "AI",
+   "does": "Matches on evidence and remembers the alias once you approve",
+   "never": "Link to a different client without strong evidence",
+   "slug": "sl-1047"
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "Short by a bank charge (at most $50, £40 or €45, and 3%)",
+   "signal": "Amount gap",
+   "decides": "Rule",
+   "does": "Links and records the charge; closes it by declaration if under ₹10 lakh",
+   "never": "Chase the client for bank fees",
+   "slug": "sl-1047"
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "Short by more than a bank charge, no part payment stated",
+   "signal": "Amount gap",
+   "decides": "Rule",
+   "does": "Asks you",
+   "never": "Guess",
+   "slug": null
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "A stated part payment",
+   "signal": "Reference or note",
+   "decides": "AI",
+   "does": "Links it as a part payment; the rest stays open",
+   "never": "Mark the invoice paid",
+   "slug": null
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "One transfer pays several invoices",
+   "signal": "Reference; amounts sum exactly",
+   "decides": "AI",
+   "does": "Splits it across the invoices",
+   "never": "Split across different clients",
+   "slug": "sl-1040-1045"
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "Two open invoices fit equally",
+   "signal": "Same client, same amount, no useful reference",
+   "decides": "Rule",
+   "does": "Asks you, with its lean and its confidence",
+   "never": "Pick one silently",
+   "slug": "sl-1052-1053"
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "Unknown payer",
+   "signal": "No client or invoice fits",
+   "decides": "Rule, then AI",
+   "does": "Asks you; if it isn't yours, prepares a note to Razorpay support (bank transfers cannot be refunded)",
+   "never": "Return or keep the money by itself",
+   "slug": "quillon"
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "Possible duplicate: the only matching invoice is already paid",
+   "signal": "Invoice status",
+   "decides": "Rule",
+   "does": "Asks you whether to credit or return it",
+   "never": "Treat it as new money",
+   "slug": null
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "Overpayment, or a payment in a different currency from the invoice",
+   "signal": "Amount or currency gap",
+   "decides": "Rule",
+   "does": "Asks you; never rounds the difference away",
+   "never": "Guess which invoice absorbs the difference",
+   "slug": null
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "You approved a link to the wrong invoice",
+   "signal": "Your correction, before or after capture",
+   "decides": "Rule, then AI",
+   "does": "Before capture: unlinks and asks again. After capture: prepares a correction note to Razorpay support and the bank for your approval, demotes the payer name it learned, and switches auto-approve off until 20 more matches are confirmed",
+   "never": "Hide the mistake or edit the audit log",
+   "slug": null
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "A review team asks for documents",
+   "signal": "Razorpay's request",
+   "decides": "AI",
+   "does": "Prepares a pack from Zoho and Drive for approval",
+   "never": "Share client emails or chats",
+   "slug": "sl-1054"
+  },
+  {
+   "group": "Money arrived but is stuck",
+   "situation": "Platform payouts (Amazon, Upwork, Freelancer)",
+   "signal": "Payer is a platform",
+   "decides": "Rule",
+   "does": "Nothing; no invoice needed",
+   "never": "Create work",
+   "slug": null
+  },
+  {
+   "group": "Declaring and closing",
+   "situation": "Firm with invoices dated on or after 1 Oct 2026: EDF needed",
+   "signal": "Entity type; invoice date",
+   "decides": "Rule",
+   "does": "Prepares the month's EDF data; tracks the 30-day deadline",
+   "never": "File with the bank",
+   "slug": "edf-pack"
+  },
+  {
+   "group": "Declaring and closing",
+   "situation": "Individual on personal-nature contracts",
+   "signal": "Entity type",
+   "decides": "Rule",
+   "does": "Shows that no EDF is needed (RBI, 7 Oct 2026) and updates when RBI's FAQs arrive",
+   "never": "Ask for forms nobody needs",
+   "slug": null
+  },
+  {
+   "group": "Declaring and closing",
+   "situation": "Account settles to ICICI: EDF number needed before capture",
+   "signal": "Settlement bank",
+   "decides": "Rule",
+   "does": "Prepares the EDF early for payments already waiting",
+   "never": "Leave money blocked until month end",
+   "slug": "edf-pack"
+  },
+  {
+   "group": "Declaring and closing",
+   "situation": "Invoice dated before 1 Oct 2026",
+   "signal": "Invoice date",
+   "decides": "Rule",
+   "does": "No EDF; capture can go ahead",
+   "never": "Ask for an EDF",
+   "slug": "sl-1039"
+  },
+  {
+   "group": "Declaring and closing",
+   "situation": "The purpose code may not fit the service",
+   "signal": "Invoice text against the account's code",
+   "decides": "AI",
+   "does": "Flags it and asks you to confirm with your bank or CA",
+   "never": "Guess a code",
+   "slug": "edf-pack"
+  },
+  {
+   "group": "Declaring and closing",
+   "situation": "Invoice up to ₹10 lakh",
+   "signal": "Amount",
+   "decides": "Rule",
+   "does": "Uses the self-declaration route",
+   "never": "Ask for papers that are not needed",
+   "slug": "edf-pack"
+  },
+  {
+   "group": "Declaring and closing",
+   "situation": "Invoice above ₹10 lakh",
+   "signal": "Amount",
+   "decides": "Rule",
+   "does": "Prepares the invoice, FIRA and matching instructions the bank needs",
+   "never": "Skip documents",
+   "slug": null
+  },
+  {
+   "group": "Declaring and closing",
+   "situation": "Nine-month realisation deadline close",
+   "signal": "Invoice date",
+   "decides": "Rule, then AI",
+   "does": "Drafts the extension request to the bank",
+   "never": "Chase the client (that is the Receivables Agent's job)",
+   "slug": "sl-0981"
+  },
+  {
+   "group": "Declaring and closing",
+   "situation": "FIRA missing after settlement",
+   "signal": "Settlement without a FIRA",
+   "decides": "Rule",
+   "does": "Prepares a support request to Razorpay",
+   "never": "Wait silently",
+   "slug": null
+  },
+  {
+   "group": "Keeping the agent safe",
+   "situation": "Confidence below 0.80",
+   "signal": "Model confidence",
+   "decides": "Rule",
+   "does": "Asks you instead of acting",
+   "never": "Guess with money",
+   "slug": "sl-1052-1053"
+  },
+  {
+   "group": "Keeping the agent safe",
+   "situation": "You edit a draft",
+   "signal": "Your edits",
+   "decides": "AI",
+   "does": "Learns your tone for next time",
+   "never": "Send the old version",
+   "slug": null
+  },
+  {
+   "group": "Keeping the agent safe",
+   "situation": "You say no to a suggestion",
+   "signal": "Your answer",
+   "decides": "Rule",
+   "does": "Does not suggest it again for 30 days",
+   "never": "Nag",
+   "slug": null
+  },
+  {
+   "group": "Keeping the agent safe",
+   "situation": "You pause the agent",
+   "signal": "Your setting",
+   "decides": "Rule",
+   "does": "Keeps the list up to date; sends nothing",
+   "never": "Act while paused",
+   "slug": null
+  },
+  {
+   "group": "Keeping the agent safe",
+   "situation": "The AI service is down",
+   "signal": "Health check",
+   "decides": "Rule",
+   "does": "Runs on rules only; drafts nothing",
+   "never": "Fail silently",
+   "slug": null
+  },
+  {
+   "group": "Keeping the agent safe",
+   "situation": "Zoho is disconnected",
+   "signal": "Connection check",
+   "decides": "Rule",
+   "does": "Asks you to upload invoices",
+   "never": "Invent invoice data",
+   "slug": null
+  },
+  {
+   "group": "Keeping the agent safe",
+   "situation": "A message tries to instruct the agent, or asks for documents or details to go somewhere new",
+   "signal": "Message content; sender's domain",
+   "decides": "AI, then rule",
+   "does": "Flags it as suspicious, pauses messages to that client, hands it to you",
+   "never": "Follow instructions inside client messages or click links",
+   "slug": null
+  },
+  {
+   "group": "Keeping the agent safe",
+   "situation": "Every action",
+   "signal": "All of the above",
+   "decides": "Rule",
+   "does": "Writes it to the audit log with who approved it",
+   "never": "Act without a record",
+   "slug": null
+  },
+  {
+   "group": "Keeping the agent safe",
+   "situation": "Stuck with Razorpay or the bank",
+   "signal": "No progress after a set time",
+   "decides": "Rule",
+   "does": "Prepares a case for Razorpay support with the evidence",
+   "never": "Promise dates for others",
+   "slug": null
+  }
+ ],
+ "learning": {
+  "routes": [
+   [
+    "Client's bank blocked a cross-border card payment",
+    "Bank transfer link",
+    "8 of 10"
+   ],
+   [
+    "Client's bank blocked a cross-border card payment",
+    "The same card link again",
+    "2 of 7"
+   ],
+   [
+    "3-D Secure failed on a phone",
+    "Apple Pay or Google Pay",
+    "5 of 6"
+   ],
+   [
+    "3-D Secure failed on a desktop",
+    "Bank transfer link",
+    "4 of 5"
+   ],
+   [
+    "Billing address mismatch",
+    "Retry with the bank's address",
+    "3 of 4"
+   ]
+  ],
+  "aliases": [
+   [
+    "LARKSPUR HOLDINGS LLC",
+    "Larkspur Labs Inc",
+    "Confirmed by you, 9 Sep"
+   ],
+   [
+    "COPPERLINE GROUP PTY LTD",
+    "Copperline Studios Pty Ltd",
+    "Proposed today; saved when you approve SL-1039"
+   ],
+   [
+    "WISE US INC (reference names the client)",
+    "Read from the reference",
+    "General rule"
+   ]
+  ],
+  "tone": [
+   "You shortened two drafts and removed \"Kindly\", so drafts are now shorter and never use it.",
+   "You sign off as \"Priya\", not \"Regards, Priya\"."
+  ],
+  "nos": [
+   [
+    "Offer Apple Pay to Kestrel Analytics (they always pay by SEPA)",
+    "28 Sep",
+    "Not suggested again before 28 Oct"
+   ]
+  ]
+ },
+ "audit": [
+  [
+   "12 Oct, 09:00",
+   "Agent",
+   "Morning run: 12 open invoices and 1 unknown payment need attention; 9 prepared, 2 questions, 1 stopped."
+  ],
+  [
+   "12 Oct, 09:00",
+   "Rule",
+   "Pause on SL-1046 ended (the date Tom gave)."
+  ],
+  [
+   "9 Oct, 18:40",
+   "AI, then rule",
+   "Read Ruth's reply on SL-1039 (says paid); stopped reminders."
+  ],
+  [
+   "8 Oct, 14:22",
+   "AI, then rule",
+   "Read Wei Ling's reply on SL-1044 (dispute); stopped all contact; handed to Priya."
+  ],
+  [
+   "6 Oct, 18:30",
+   "Agent",
+   "Sent reminder 1 for SL-1044. Approved by Priya at 09:12."
+  ],
+  [
+   "3 Oct, 10:15",
+   "Rule",
+   "SL-1036 closed: settled, FIRA received."
+  ],
+  [
+   "2 Oct, 16:40",
+   "Rule",
+   "Linked SEPA €3,200 to SL-1036 (exact match)."
+  ],
+  [
+   "2 Oct, 11:20",
+   "AI",
+   "Read Tom's reply on SL-1046 (will retry next week); paused until 12 Oct."
+  ],
+  [
+   "30 Sep, 18:30",
+   "Agent",
+   "Sent reminder 1 for SL-1039. Approved by Priya at 10:02."
+  ],
+  [
+   "9 Sep, 11:05",
+   "You",
+   "Confirmed LARKSPUR HOLDINGS LLC is Larkspur Labs' parent company."
+  ]
+ ],
+ "settings": [
+  [
+   "Review first",
+   "On",
+   "Every message, upload and share needs your approval."
+  ],
+  [
+   "Auto-approve low-risk steps",
+   "Off",
+   "Available after 20 right matches in a row (the agent is at 31). It would cover only invoice uploads matched at 0.98 or above."
+  ],
+  [
+   "Reminders per declined payment",
+   "2",
+   "Then the agent hands it to you."
+  ],
+  [
+   "Client hours",
+   "Weekdays, 09:00 to 18:00 in the client's time zone, not on their public holidays",
+   "Nothing is sent at night, at weekends or on a public holiday in the client's country."
+  ],
+  [
+   "Confidence needed to suggest",
+   "0.80",
+   "Below this, the agent asks."
+  ],
+  [
+   "Do-not-contact",
+   "Halcyon Retail (SL-1044, dispute)",
+   "Added automatically after the dispute; remove it here."
+  ],
+  [
+   "Zoho Books",
+   "Read-only: invoices and clients",
+   "The agent never edits invoices."
+  ],
+  [
+   "Google Drive \"Contracts\"",
+   "Read-only, only for packs you approve",
+   "Nothing is shared without approval."
+  ],
+  [
+   "Email",
+   "Drafts sent from priya@saffronloop.example after approval",
+   "Replies to these notes are read; nothing else in your inbox."
+  ],
+  [
+   "AI service",
+   "Running. If it is down, rules only",
+   "Drafts pause; deadlines and limits keep working."
+  ]
+ ]
+}

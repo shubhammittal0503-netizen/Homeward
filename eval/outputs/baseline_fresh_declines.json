@@ -1,0 +1,42 @@
+[
+ {
+  "id": "F-D01",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "F-D02",
+  "route": "ask_when_to_pay"
+ },
+ {
+  "id": "F-D03",
+  "route": "retry_card_with_fix"
+ },
+ {
+  "id": "F-D04",
+  "route": "wallet_link"
+ },
+ {
+  "id": "F-D05",
+  "route": "wallet_link"
+ },
+ {
+  "id": "F-D06",
+  "route": "ask_when_to_pay"
+ },
+ {
+  "id": "F-D07",
+  "route": "ask_when_to_pay"
+ },
+ {
+  "id": "F-D08",
+  "route": "bank_transfer"
+ },
+ {
+  "id": "F-D09",
+  "route": "retry_card_with_fix"
+ },
+ {
+  "id": "F-D10",
+  "route": "bank_transfer"
+ }
+]

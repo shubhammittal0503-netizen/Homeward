@@ -1,0 +1,182 @@
+[
+ {
+  "id": "R01",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "We're not paying until the week 3 hours are corrected.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R02",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Our AP team confirms the wire left on 2 October.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R03",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "We have not received the work for milestone 2, so we won't pay this yet.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R04",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Ya realizamos el pago por transferencia el viernes pasado.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R05",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Out of office: back Wednesday 14 October. For urgent matters call reception.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R06",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Tried again with Apple Pay just now, still failing.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R07",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Not disputing anything, we just need a PO number on the invoice before we can pay.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R08",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Payment is approved and will be released on Thursday.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R09",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "The amount is wrong. We agreed USD 2,000, not 2,400.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R10",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Your page keeps throwing an error when I enter my card.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R11",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Remove me from this list.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R12",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "I am out of the office until 19 October with limited access to email.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R13",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "We'll settle it on Monday, sorry for the delay.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R14",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "We dispute nothing. Payment is scheduled for the 15th.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R15",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Haven't paid yet, it's going out Tuesday.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R16",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Company policy: we only pay suppliers by bank transfer to a local US account. Please share one.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R17",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Could you send your bank details? Our finance team only pays by wire.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R18",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "I've moved to a new role. Please send invoices to ap@larkspurlabs.example from now on.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R19",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Ich bin bis zum 16. Oktober nicht im Büro und habe keinen Zugriff auf E-Mails.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R20",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Auto-reply: we have received your email and will respond within 3 business days.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R21",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Please stop emailing me about this.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R22",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Got it, thanks. Passing to finance.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R23",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Card got declined again. Our bank says they blocked it for security.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R24",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "We paid this on Friday by wire, ref SL1061.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R25",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "I'm on parental leave. Please contact Sam Ortiz (sam.ortiz@tidewaterhealth.example) instead.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R26",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Can we pay half now and the rest next month?",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R27",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Already paid, remittance advice attached.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R28",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Paid the other invoice yesterday; this one goes out with our 1 November payment run.",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R29",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Thanks for the reminder!",
+  "reply_date": "2026-10-09 (Friday)"
+ },
+ {
+  "id": "R30",
+  "context": "Reminder 1 sent after a declined card payment for an open invoice",
+  "reply": "Is this a duplicate of SL-1058? We think we've been billed twice for the same sprint.",
+  "reply_date": "2026-10-09 (Friday)"
+ }
+]

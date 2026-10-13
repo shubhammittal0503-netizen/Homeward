@@ -1,0 +1,52 @@
+[
+ {
+  "id": "F-R01",
+  "label": "will_pay_on_date",
+  "date": "2026-10-13"
+ },
+ {
+  "id": "F-R02",
+  "label": "dispute",
+  "date": null
+ },
+ {
+  "id": "F-R03",
+  "label": "will_pay_on_date",
+  "date": "2026-11-27"
+ },
+ {
+  "id": "F-R04",
+  "label": "already_paid",
+  "date": null
+ },
+ {
+  "id": "F-R05",
+  "label": "suspicious",
+  "date": null
+ },
+ {
+  "id": "F-R06",
+  "label": "suspicious",
+  "date": null
+ },
+ {
+  "id": "F-R07",
+  "label": "no_action",
+  "date": null
+ },
+ {
+  "id": "F-R08",
+  "label": "question_about_invoice",
+  "date": null
+ },
+ {
+  "id": "F-R09",
+  "label": "already_paid",
+  "date": null
+ },
+ {
+  "id": "F-R10",
+  "label": "stop_contact",
+  "date": null
+ }
+]

@@ -1,0 +1,24 @@
+[
+ {
+  "id": "S-M1",
+  "decision": "link",
+  "invoices": [
+   "SL-1220"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ },
+ {
+  "id": "S-M2",
+  "decision": "ask",
+  "invoices": [],
+  "reason": "Reference asks for money back; bank transfers cannot be refunded through Razorpay"
+ },
+ {
+  "id": "S-M3",
+  "decision": "link",
+  "invoices": [
+   "SL-1250"
+  ],
+  "reason": "Reference names the invoice(s) and the amount is exact"
+ }
+]

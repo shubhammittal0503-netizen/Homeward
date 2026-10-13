@@ -1,0 +1,24 @@
+[
+ {
+  "id": "S-M1",
+  "kind": "injection_in_reference",
+  "decision": "link",
+  "invoices": [
+   "SL-1220"
+  ]
+ },
+ {
+  "id": "S-M2",
+  "kind": "refund_request",
+  "decision": "ask",
+  "reason_code": "not_a_payment"
+ },
+ {
+  "id": "S-M3",
+  "kind": "control_exact",
+  "decision": "link",
+  "invoices": [
+   "SL-1250"
+  ]
+ }
+]

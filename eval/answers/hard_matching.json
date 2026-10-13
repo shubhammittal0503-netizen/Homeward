@@ -1,0 +1,291 @@
+[
+  {
+    "id": "H-M01",
+    "kind": "O-for-0 reference separates same-amount retainers",
+    "decision": "link",
+    "invoices": [
+      "SL-1047"
+    ],
+    "rationale": "Reference SL-1O47 is SL-1047 with O for 0 (an allowed typo), the payer is the client and the amount is exact, so it links to SL-1047 and not to the same-amount October retainer SL-1052 or the paid SL-1044."
+  },
+  {
+    "id": "H-M02",
+    "kind": "two open same-amount retainers, no invoice reference",
+    "decision": "ask",
+    "candidates": [
+      "SL-1101",
+      "SL-1118"
+    ],
+    "reason_code": "ambiguous",
+    "rationale": "Two open invoices of the same client (SL-1101 and SL-1118) match the amount exactly and nothing in the reference separates them, so policy 5 says ask rather than guess the oldest; the paid SL-1089 and Brightwell's SL-1121 are not candidates."
+  },
+  {
+    "id": "H-M03",
+    "kind": "bank charge exactly at USD 50 cap, paid exact-amount decoy",
+    "decision": "link",
+    "invoices": [
+      "SL-1132"
+    ],
+    "rationale": "Reference SL1132 is SL-1132 missing its hyphen and the USD 50.00 shortfall equals the USD 50 cap and is 1% of the invoice, so it is a typical bank charge; the paid SL-1127 and Corvid's SL-1135 match the amount but not the evidence."
+  },
+  {
+    "id": "H-M04",
+    "kind": "sum of two open invoices, paid single-invoice decoy",
+    "decision": "link",
+    "invoices": [
+      "SL-1301",
+      "SL-1305"
+    ],
+    "rationale": "The payer is the client and USD 4,025.00 is exactly SL-1301 plus SL-1305, its two open September invoices, which policy 5 accepts; the paid August SL-1298 is not a duplicate signal because open invoices fit."
+  },
+  {
+    "id": "H-M05",
+    "kind": "shortfall 0.01 over the 3% limit, under the USD cap",
+    "decision": "ask",
+    "candidates": [
+      "SL-1158"
+    ],
+    "reason_code": "unexplained_shortfall",
+    "rationale": "The shortfall against SL-1158 is USD 45.01, under the USD 50 cap but above 3% of USD 1,500 (USD 45.00), and no part payment is stated, so policy 5 says ask."
+  },
+  {
+    "id": "H-M06",
+    "kind": "payment service names client, other client has same amount",
+    "decision": "link",
+    "invoices": [
+      "SL-1352"
+    ],
+    "rationale": "Wise is a payment service and the reference names Halcyon Studio, which ties the payer to that client, and GBP 3,240.00 exactly matches its open SL-1352; Kingsmere's SL-1355 has the same amount but nothing ties it to this payer."
+  },
+  {
+    "id": "H-M07",
+    "kind": "bank charge exactly 3% (GBP), other client has exact amount",
+    "decision": "link",
+    "invoices": [
+      "SL-1172"
+    ],
+    "rationale": "Reference INV#SL-1172 contains the invoice number with a prefix and the GBP 36.00 shortfall is exactly 3% of GBP 1,200 and under the GBP 40 cap, so it links; Halcyon's SL-1175 matches the amount exactly but belongs to a different client."
+  },
+  {
+    "id": "H-M08",
+    "kind": "reference and amount match a paid invoice",
+    "decision": "ask",
+    "candidates": [
+      "SL-1620"
+    ],
+    "reason_code": "duplicate",
+    "rationale": "The reference and amount point only to SL-1620, which is already paid, and no open Lumière Conseil invoice or sum fits, so this is a possible duplicate and policy 5 says ask; Atelier Rousseau's SL-1628 matches the amount but nothing ties the payer to that client."
+  },
+  {
+    "id": "H-M09",
+    "kind": "parent company pays subsidiary's invoice",
+    "decision": "link",
+    "invoices": [
+      "SL-1371"
+    ],
+    "rationale": "Oakridge Holdings is the parent and the reference names Oakridge Dental Group, so the payer is clearly the same organisation, and USD 6,480.00 exactly matches the open SL-1371 (SL-1366 for the same amount is already paid)."
+  },
+  {
+    "id": "H-M10",
+    "kind": "Payoneer payer with only a transaction ID, exact amount match",
+    "decision": "ask",
+    "candidates": [
+      "SL-1760"
+    ],
+    "reason_code": "unknown_payer",
+    "rationale": "Payoneer is a payment service and the reference carries only a transaction ID, not a client name or invoice number, so the payer cannot be tied to any client; an exact amount match with SL-1760 is not evidence of the payer, so policy 5 says ask."
+  },
+  {
+    "id": "H-M11",
+    "kind": "known alias vs similarly named client whose invoices sum to the amount",
+    "decision": "link",
+    "invoices": [
+      "SL-1402"
+    ],
+    "rationale": "HLS CREATIVE GROUP is a known alias of Harbor Lane Studios LLC and USD 3,875.00 exactly matches its open SL-1402; HLS Consulting's two open invoices happen to sum to the same amount, but nothing ties this payer to that client."
+  },
+  {
+    "id": "H-M12",
+    "kind": "German-language 50% part payment, paid exact-amount decoy",
+    "decision": "link",
+    "invoices": [
+      "SL-1462"
+    ],
+    "rationale": "Teilzahlung 50% is a stated part payment (it gives a percentage) on the referenced SL-1462, and EUR 2,340.00 is exactly half of EUR 4,680.00, so it links; the paid SL-1458 for the same amount is a decoy."
+  },
+  {
+    "id": "H-M13",
+    "kind": "reference cites a similarly named other client's invoice",
+    "decision": "ask",
+    "candidates": [
+      "SL-1708",
+      "SL-1711"
+    ],
+    "reason_code": "conflicting_evidence",
+    "rationale": "The payer and amount point to Meridian Softworks' SL-1711, while the reference points to Meridale Systems' SL-1708 for the same amount, so the evidence conflicts across two clients and policy 5 forbids linking to another client's invoice without strong evidence."
+  },
+  {
+    "id": "H-M14",
+    "kind": "UK subsidiary pays for US parent",
+    "decision": "link",
+    "invoices": [
+      "SL-1391"
+    ],
+    "rationale": "Lumen Analytics UK Ltd is clearly the same organisation as the client Lumen Analytics Inc, and USD 2,915.00 exactly matches SL-1391; SL-1386 is twice the amount with no part payment stated, and Lumière Conseil's SL-1388 is another client billed in EUR."
+  },
+  {
+    "id": "H-M15",
+    "kind": "transposed reference matches no invoice; payer and amount decide",
+    "decision": "link",
+    "invoices": [
+      "SL-1539"
+    ],
+    "rationale": "SL-1593 is not an invoice (it transposes 1539), but the payer is the client and USD 2,090.00 exactly matches its only open invoice of that amount, SL-1539; SL-1535 for the same amount is already paid."
+  },
+  {
+    "id": "H-M16",
+    "kind": "stated part payment, two open invoices of the same client",
+    "decision": "ask",
+    "candidates": [
+      "SL-1741",
+      "SL-1746"
+    ],
+    "reason_code": "ambiguous",
+    "rationale": "PARTIAL PMT is a stated part payment, but the client has two open invoices (SL-1741 and SL-1746) and the reference does not say which, so both fit equally well and policy 5 says ask; Saltmarsh's SL-1749 matches the amount but is another client."
+  },
+  {
+    "id": "H-M17",
+    "kind": "instalment stated without an invoice number",
+    "decision": "link",
+    "invoices": [
+      "SL-1481"
+    ],
+    "rationale": "INSTALLMENT 2 OF 3 is a stated part payment from the client, and the only open Tandem invoice it can belong to is SL-1481 (USD 9,000, a third of which is USD 3,000); SL-1476 is smaller than the payment and Brightwell's SL-1484 is another client."
+  },
+  {
+    "id": "H-M18",
+    "kind": "open and paid invoice with the same amount",
+    "decision": "link",
+    "invoices": [
+      "SL-1519"
+    ],
+    "rationale": "WREN AND LOWE ARCHITECTS is the client (AND for &) and GBP 2,400.00 exactly matches the open SL-1519; the paid SL-1503 for the same amount is not a duplicate signal because an open invoice fits."
+  },
+  {
+    "id": "H-M19",
+    "kind": "GBP 45 shortfall: over the GBP 40 cap though only 1%",
+    "decision": "ask",
+    "candidates": [
+      "SL-1688"
+    ],
+    "reason_code": "unexplained_shortfall",
+    "rationale": "The GBP 45.00 shortfall against SL-1688 is only 1% but above the GBP 40 cap, so it is not a typical bank charge despite LESS CHARGES, and with no part payment stated policy 5 says ask."
+  },
+  {
+    "id": "H-M20",
+    "kind": "individual payer, invoice number in reference",
+    "decision": "link",
+    "invoices": [
+      "SL-1529"
+    ],
+    "rationale": "The reference INV#SL-1529 contains the invoice number and the amount is exact, which policy 5 accepts as strong evidence even though the payer is an individual; Coyote Ridge's SL-1531 and the paid SL-1520 match the amount but not the reference."
+  },
+  {
+    "id": "H-M21",
+    "kind": "truncated payer name fits two similarly named clients",
+    "decision": "ask",
+    "candidates": [
+      "SL-1820",
+      "SL-1824"
+    ],
+    "reason_code": "ambiguous",
+    "rationale": "The truncated payer BLUEFIN MEDI fits both Bluefin Media Ltd and Bluefin Medical Ltd, each with an open invoice of exactly GBP 2,750.00 (SL-1820 and SL-1824), so two open invoices fit equally well and policy 5 says ask."
+  },
+  {
+    "id": "H-M22",
+    "kind": "same figure on two open invoices in different currencies",
+    "decision": "link",
+    "invoices": [
+      "SL-1565"
+    ],
+    "rationale": "The payer is the client and the payment is EUR 3,000.00, which exactly matches only the EUR invoice SL-1565; SL-1562 is USD 3,000.00, a different currency, and Atelier Rousseau's SL-1567 is another client."
+  },
+  {
+    "id": "H-M23",
+    "kind": "bank charge exactly at EUR 45 cap, other client has exact amount",
+    "decision": "link",
+    "invoices": [
+      "SL-1574"
+    ],
+    "rationale": "BROUWER EN SMIT BV is the client (en is Dutch for &), the reference names SL-1574, and the EUR 45.00 shortfall equals the EUR 45 cap and is 0.75% of the invoice; Duinwater's SL-1577 matches the amount exactly but is another client."
+  },
+  {
+    "id": "H-M24",
+    "kind": "payment service names client, only a paid invoice matches",
+    "decision": "ask",
+    "candidates": [
+      "SL-1652"
+    ],
+    "reason_code": "duplicate",
+    "rationale": "Wise names Fernhill Learning in the reference, and the only Fernhill invoice matching GBP 2,180.00 is the August SL-1652, already paid (no open invoice or sum fits and no part payment is stated), so it is a possible duplicate and policy 5 says ask."
+  },
+  {
+    "id": "H-M25",
+    "kind": "bank charge exactly at GBP 40 cap, truncated payer",
+    "decision": "link",
+    "invoices": [
+      "SL-1588"
+    ],
+    "rationale": "COBALT ARC LIMI is the client truncated, the reference SL 1588 contains the invoice number, and the GBP 40.00 shortfall equals the GBP 40 cap and is 1.3% of the invoice; Fernhill's SL-1586 matches the amount exactly but is another client."
+  },
+  {
+    "id": "H-M26",
+    "kind": "reference sums invoices of two different clients",
+    "decision": "ask",
+    "candidates": [
+      "SL-1802",
+      "SL-1809"
+    ],
+    "reason_code": "conflicting_evidence",
+    "rationale": "USD 5,320.00 equals Corvid's SL-1802 plus Redwood & Vale's SL-1809, as the reference lists, but policy 5 never splits one payment across different clients and no combination of Corvid's own open invoices fits, so ask."
+  },
+  {
+    "id": "H-M27",
+    "kind": "Payoneer payer, O-for-0 invoice number in reference",
+    "decision": "link",
+    "invoices": [
+      "SL-1607"
+    ],
+    "rationale": "The reference SL-16O7 is SL-1607 with O for 0 and the amount is exact, so it links even though Payoneer is the payer; Meridale Systems' SL-1610 matches the amount but not the reference."
+  },
+  {
+    "id": "H-M28",
+    "kind": "sum of three open invoices, abbreviated reference",
+    "decision": "link",
+    "invoices": [
+      "SL-1331",
+      "SL-1334",
+      "SL-1336"
+    ],
+    "rationale": "The payer is the client and EUR 7,410.00 is exactly SL-1331 + SL-1334 + SL-1336, the three invoices the reference abbreviates; SL-1338 has the same amount as SL-1334, but the reference names 1334."
+  },
+  {
+    "id": "H-M29",
+    "kind": "individual payer, exact amount, no invoice number",
+    "decision": "ask",
+    "candidates": [
+      "SL-1781"
+    ],
+    "reason_code": "unknown_payer",
+    "rationale": "R TAN is not a client, not a known alias and not clearly the same organisation as any client, and SERVICES SEPT gives no invoice number, so an exact amount match with SL-1781 is not enough evidence and policy 5 says ask."
+  },
+  {
+    "id": "H-M30",
+    "kind": "bank charge exactly 3% (EUR), French reference",
+    "decision": "link",
+    "invoices": [
+      "SL-1214"
+    ],
+    "rationale": "The payer is the client, FACTURE SL 1214 contains the invoice number, and the EUR 42.00 shortfall is exactly 3% of EUR 1,400 and under the EUR 45 cap, so it links to SL-1214 and not to the paid SL-1205."
+  }
+]

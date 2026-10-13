@@ -1,0 +1,24 @@
+[
+ {
+  "id": "S-M1",
+  "decision": "link",
+  "invoices": [
+   "SL-1220"
+  ],
+  "reason": "Exact client name and amount"
+ },
+ {
+  "id": "S-M2",
+  "decision": "unmatched",
+  "invoices": [],
+  "reason": "No exact rule fired"
+ },
+ {
+  "id": "S-M3",
+  "decision": "link",
+  "invoices": [
+   "SL-1250"
+  ],
+  "reason": "Exact invoice number and amount"
+ }
+]

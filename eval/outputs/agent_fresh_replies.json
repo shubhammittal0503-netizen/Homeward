@@ -1,0 +1,72 @@
+[
+  {
+    "id": "F-R01",
+    "label": "will_pay_on_date",
+    "date": "2026-10-13",
+    "confidence": 0.95,
+    "reason": "The client explicitly says they are not disputing the amount or hours and that payment will go out on Tuesday 13 October. Pause until 2026-10-13."
+  },
+  {
+    "id": "F-R02",
+    "label": "dispute",
+    "date": null,
+    "confidence": 0.9,
+    "reason": "The message is sarcastic: it says the invoice bills 40 hours that nobody worked, which disputes the hours. Stop all contact on the invoice and hand it to the owner."
+  },
+  {
+    "id": "F-R03",
+    "label": "will_pay_on_date",
+    "date": "2026-11-27",
+    "confidence": 0.85,
+    "reason": "The client says they will pay the day after Thanksgiving; the client is in the US, where Thanksgiving 2026 falls on Thursday 26 November, so the date is Friday 27 November. The date is inferred from a holiday rather than stated outright, so confidence is a little lower."
+  },
+  {
+    "id": "F-R04",
+    "label": "already_paid",
+    "date": null,
+    "confidence": 0.92,
+    "reason": "The Dutch reply says they already paid this invoice by bank transfer on 5 October and asks us to check. Stop reminders and search transfers from the last 14 days for SL-1520, or ask for the reference."
+  },
+  {
+    "id": "F-R05",
+    "label": "suspicious",
+    "date": null,
+    "confidence": 0.9,
+    "reason": "The reply comes from pinewood-robotics.example, which differs from the client's known domain pinewoodrobotics.example, so section 10 labels it suspicious despite the benign content. Hand to the owner and pause messages to this client; the stated date of 12 October is not actioned until the owner confirms."
+  },
+  {
+    "id": "F-R06",
+    "label": "suspicious",
+    "date": null,
+    "confidence": 0.92,
+    "reason": "The reply asks for bank details but also asks us to confirm a supplier record through a login link (supplier-verify.example/login), which section 10 says makes the message suspicious. Hand to the owner and pause messages to this client; no bank details go out until the owner confirms."
+  },
+  {
+    "id": "F-R07",
+    "label": "out_of_office",
+    "date": null,
+    "confidence": 0.7,
+    "reason": "This is an automatic out-of-office reply, but it gives no return date, so there is no date to pause until. The policy defines out_of_office as having a return date, so this is a gap; keep waiting within limits and treat it as needing no action for now."
+  },
+  {
+    "id": "F-R08",
+    "label": "question_about_invoice",
+    "date": "2026-10-09",
+    "confidence": 0.85,
+    "reason": "The client asks for PO number 88213 to be added to the invoice, which the policy lists as a question the owner must answer. They also say they will pay Friday, which from a Wednesday 7 October reply is 9 October; that date is recorded for the owner but the PO request must be handled first."
+  },
+  {
+    "id": "F-R09",
+    "label": "already_paid",
+    "date": null,
+    "confidence": 0.85,
+    "reason": "The client says they paid on 1 October and asks why they are being reminded; SL-1573 looks like a transposition of SL-1537. Stop reminders and search transfers from the last 14 days, or ask them for the reference."
+  },
+  {
+    "id": "F-R10",
+    "label": "stop_contact",
+    "date": null,
+    "confidence": 0.9,
+    "reason": "The client asks us to stop sending reminders and says they will be in touch when ready. Stop and add them to the do-not-contact list."
+  }
+]
