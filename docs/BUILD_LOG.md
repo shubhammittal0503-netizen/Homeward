@@ -4,7 +4,7 @@ Homeward is a concept agent, imagined inside Razorpay's Agent Studio, for small 
 
 Links: prototype https://homeward-two.vercel.app · repository (code, policy, generators, test sets and stored outputs) https://github.com/shubhammittal0503-netizen/Homeward · agent policy https://github.com/shubhammittal0503-netizen/Homeward/blob/main/agent/policy.md · test results https://homeward-two.vercel.app/results.html · this log https://github.com/shubhammittal0503-netizen/Homeward/blob/main/BUILD_LOG.md
 
-In one line: AI did the research, the code and the tests; I decided what to build, what to leave out, where the limits sit and what to claim.
+In one line: AI did the research, the drafting, the code and the tests; every decision about what to build, what to leave out, where the limits sit, what to claim and what to say was mine.
 
 ## AI tools and models used
 - Claude in Cowork (the Claude desktop app), two sessions between 8 and 12 October 2026. The first was configured as claude-opus-5-5 and did the research, the problem choice, the prototype build and the first blind tests. The second was configured as claude-fable-5-1 and ran an independent second-judge pass: scoring the entry against the rubric, redesigning the site, writing a fresh adversarial test set, and fixing what it found. In both, the model serving a given turn can differ from the configured one, and the session cannot see which.
@@ -27,14 +27,18 @@ In one line: AI did the research, the code and the tests; I decided what to buil
 
 ## what AI did versus what you decided or built yourself
 
-| AI did | I decided or did |
+The split, honestly: AI did the hands-on work and I made every decision that shaped the product. AI searched, read, drafted, coded, tested and reviewed; at each gate it brought me options with trade-offs, and I chose, cut, corrected or sent it back. Nothing below went into the entry without my decision, and the words that carry my name are ones I chose.
+
+| AI did (research, drafting, building, testing) | I decided (direction, scope, limits, claims) |
 |:-|:-|
-| Researched the challenge, Razorpay's AI products, merchant voice, sizing and the regulations, with sources and dates | Chose Track 2; chose the services-exporter problem over the alternatives; locked the scope and the name |
-| Drafted the policy from the regulations and Razorpay's published principles | Set the ask threshold at 0.80, the two-reminder limit, the 30-day no, the never list |
-| Generated the test sets, played the agent blind, scored the results, wrote both baselines | Chose to publish the fair-baseline finding rather than the perfect score |
-| Wrote the generators, the CSS, the pages, the QA script; redesigned the site in the second pass | Chose the design direction from three mockups; chose the demo path; rejected a WhatsApp mock |
-| Proposed menus for the one-page note, the video script and this log | Chose every line that goes out in my name; recorded the video; published the repository and the site |
-| Kept the notes: reading log, scorecard, holes, plan, change log, fact register, handover | Reviewed the numbers against the fact register before submitting |
+| Researched the challenge, Razorpay's AI products, the merchant voice, the sizing and the regulations, and laid out the alternatives with sources and dates | Chose Track 2; weighed the problem options and picked the services-exporter problem; set the four focus conditions (one flow in the video, the form is a step not the product, no general reminders, a visible left-out list); named it Homeward and kept the name when asked to reconsider |
+| Drafted the agent policy from the regulations and Razorpay's published principles | Decided how the agent behaves: rules for anything that must never be wrong, a model only for judgement, ask below 0.80, the owner approves everything, two reminders at most, client hours only, a no is a no for 30 days, the never list; decided the eight things to leave out and why |
+| Generated the test sets, played the agent blind in a separate instance, scored the results and wrote both rule baselines | Did not accept a perfect score; asked for the harder tests and the fair baseline, and decided to publish the finding that fair rules tie on the published sets rather than hide it |
+| Wrote the generators, the design system, the pages and the QA script; produced three design directions as mockups; redesigned the site in a second pass | Rejected the first look; chose direction A from the three; chose the demo path (Copperline first); split the Copperline approval; rejected a WhatsApp mock as not worth the time; decided what judges should see and where, and that nothing more should be added to the site beyond one comparison table |
+| Ran an independent second-judge pass and then commissioned an outside review, which found eight defects | Decided which of the review's findings to act on and which to dispute, in writing, before any change was made |
+| Produced menus of options for the one-page note, the video script and this log, with trade-offs | Chose the positioning line (Razorpay is the only party that can close an overseas invoice end to end), the opening, the three cuts, the metric, the headline number, the correction story told here, and every sentence that goes out under my name; chose to keep the export-form beat in the video against the reviewer's advice |
+| Recorded the screen walkthrough, built the voice track and captions, and re-timed them | Decided the video's shape and length, what is on screen when, and which voice to use |
+| Kept the working notes: reading log, scorecard, holes, plan, change log, fact register, handover | Created the GitHub repository and the Vercel deployment from my own accounts; reviewed the numbers and the final artefacts before submitting |
 
 ## known limitations, risks, or verification steps
 - **Concept, not integration.** No Razorpay API and no live model call in the published site. The demo morning's cases and the AI reasoning shown on them were authored for the demo (`tools/demo_data.py`); the real, stored model outputs are the blind-test files under `eval/outputs/`, scored against the keys. Razorpay has no view of a bank's EDF status today; the design assumes an EDF-number field the partner bank confirms.
